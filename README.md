@@ -14,7 +14,7 @@ Para rodar o nosso jogo, você precisa de 3 coisas essenciais:
 
 Após verificar se você tem esses componentes instalados, basta usar os comandos: 
 ```bash
-make build && make semchance
+make build && make semchance.asm
 ```
 
 Ele deve fazer todas as funções necessárias para rodar o jogo. Para mais informações sobre o que se pode fazer, utilize `make help`.
