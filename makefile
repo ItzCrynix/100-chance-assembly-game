@@ -6,7 +6,8 @@ MON := montador
 SIM_DIR := ./Simulador/simulador_fonte/
 MON_DIR := ./Simulador/montador_fonte/
 
-.PHONY: %.asm run build
+
+.PHONY: run build
 
 help: ## Mostra essa ajuda
 	@awk 'BEGIN {FS = ":.*##"; printf "Usage:\n  make \033[36m\033[0m\n"} /^[a-zA-Z_-]+:.*?##/ { printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2 } /^##@/ { printf "\n\033[1m%s\033[0m\n", substr($$0, 5) } ' $(MAKEFILE_LIST)
@@ -19,6 +20,6 @@ build_montador: ## Gera o arquivo montador
 build_simulador: ## Gera o arquivo simulador
 	cd $(SIM_DIR) && sh compila.sh && cp $(SIM) ../../
 
-%.asm: %.asm ## Roda o programa .asm que você passou
-	./$(MON) $@ main.mif
+run: *.asm ## Roda o programa .asm que está na pasta
+	./$(MON) $^ main.mif
 	./$(SIM) main.mif charmap.mif
