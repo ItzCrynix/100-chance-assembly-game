@@ -2,5 +2,5 @@ montador
 sim
 
 *.mif
-*asm
+*.asm
 !semchance.asm
