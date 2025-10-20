@@ -4,3 +4,6 @@ sim
 *.mif
 *.asm
 !semchance.asm
+
+*/
+!Simulador/
