@@ -42,17 +42,9 @@ Ele deve fazer todas as funções necessárias para rodar o jogo. Para mais info
 </div>
 
 <div style="display:inline-block; padding:1rem;">
-    <img src="https://github.com/ItzCrynix.png" style="height: 40px; border-radius:20px">
+    <img src="https://github.com/4i6caetano.png" style="height: 40px; border-radius:20px">
     <ul style="display:inline-block">
         <li><span>João Pedro Correia Caetano</span>
         <li><span style="font-size:10pt">16987067</span>
-    </ul>
-</div>
-
-<div style="display:inline-block; padding:1rem;">
-    <img src="https://github.com/ItzCrynix.png" style="height: 40px; border-radius:20px">
-    <ul style="display:inline-block">
-        <li><span>N/A</span>
-        <li><span style="font-size:10pt">N/A</span>
     </ul>
 </div>
