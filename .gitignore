@@ -5,5 +5,4 @@ sim
 *.asm
 !semchance.asm
 
-*/
-!Simulador/
+.vscode

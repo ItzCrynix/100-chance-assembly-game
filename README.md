@@ -48,3 +48,11 @@ Ele deve fazer todas as funções necessárias para rodar o jogo. Para mais info
         <li><span style="font-size:10pt">16987067</span>
     </ul>
 </div>
+
+<div style="display:inline-block; padding:1rem;">
+    <img src="https://github.com/fabiosantos077.png" style="height: 40px; border-radius:20px">
+    <ul style="display:inline-block">
+        <li><span>Fábio Alves</span>
+        <li><span style="font-size:10pt"></span>
+    </ul>
+</div>

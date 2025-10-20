@@ -21,7 +21,7 @@ build_simulador: ## Gera o arquivo simulador
 	cd $(SIM_DIR) && sh compila.sh && mv $(SIM) ../../
 
 run: *.asm ## Roda o programa .asm que está na pasta
-	./$(MON) $^ main.mif
+	./$(MON) $^
 	./$(SIM) main.mif charmap.mif
 
 clean: ## Limpa os arquivos gerados durante a build do programa

@@ -70,19 +70,6 @@
 #define CEL_CODE                61
 #define CO_CODE                 62
 #define CNO_CODE                63
-#define SET_CODE                64
-#define SEQ_CODE                65
-#define SNE_CODE                66
-#define SZ_CODE                 67
-#define SNZ_CODE                68
-#define SC_CODE                 69
-#define SNC_CODE                70
-#define SGT_CODE                71
-#define SLT_CODE                72
-#define SEG_CODE                73
-#define SEL_CODE                74
-#define SO_CODE                 75
-#define SNO_CODE                76
 #define RTS_CODE                77
 #define RTI_CODE                78
 #define PUSH_CODE               79
@@ -101,6 +88,10 @@
 #define NOP_CODE                0
 #define INPUT_CODE              96
 #define OUTPUT_CODE             97
+#define SOUND_CODE              98
+#define JSR_CODE                66
+#define SERIALTX_CODE           65
+#define SERIALRX_CODE           64
 
 /* Definicoes dos op codes (binarios em strings) */
 
@@ -120,6 +111,7 @@
 /* I/O Instructions: */
 #define OUTCHAR         "110010"
 #define INCHAR          "110101"
+#define SOUND           "110100"
 
 /* Aritmethic Instructions(All should begin with "10"):	*/
 #define ADD             "100000"
@@ -147,7 +139,6 @@
 #define PUSH            "000101"
 #define POP             "000110"
 /* Adddendum */
-#define SET             "000111"
 #define CALLR           "001001"
 #define JMPR            "001010"
 
@@ -156,6 +147,9 @@
 #define HALT            "001111"
 #define CLEARC          "001000"
 #define BREAKP		"001110"
+
+#define SERIALTX       "111111"
+#define SERIALRX       "111110"
 
 /* Definicoes das condicoes (binarios em strings) */
 #define NO_COND         "0000"
@@ -173,6 +167,7 @@
 #define COND_NO         "1100"
 #define COND_DZ         "1101"
 #define COND_N          "1110"
+#define COND_SR         "1111"
 
 
 /* Definicoes das strings das funcoes */
@@ -193,6 +188,7 @@
 
 #define INPUT_STR               "INPUT"
 #define OUTPUT_STR              "OUTPUT"
+#define SOUND_STR               "SOUND"
 
 /* ADD */
 #define ADD_STR                 "ADD"
@@ -209,6 +205,8 @@
 #define INC_STR                 "INC"
 #define DEC_STR                 "DEC"
 #define LMOD_STR                "MOD"
+#define SERIALTX_STR            "SERIALTX"
+#define SERIALRX_STR            "SERIALRX"
 
 
 #define AND_STR                 "AND"
@@ -257,7 +255,7 @@
 #define JNO_STR                 "JNO"
 #define JDZ_STR                 "JDZ"
 #define JN_STR                  "JN"
-
+#define JSR_STR                "JSR"
 
 /* CALL */
 #define CALL_STR                "CALL"
@@ -276,20 +274,6 @@
 #define CDZ_STR                 "CDZ"
 #define CN_STR                  "CN"
 
-/* SET */
-#define SET_STR                 "SET"
-#define SEQ_STR                 "SEQ"
-#define SNE_STR                 "SNE"
-#define SZ_STR                  "SZ"
-#define SNZ_STR                 "SNZ"
-#define SC_STR                  "SC"
-#define SNC_STR                 "SNC"
-#define SGT_STR                 "SGT"
-#define SLT_STR                 "SLT"
-#define SEG_STR                 "SEG"
-#define SEL_STR                 "SEL"
-#define SO_STR                  "SOV"
-#define SNO_STR                 "SNO"
 
 /* Callr e Jmpr */
 #define CALLR_STR               "CALLR"
@@ -375,39 +359,39 @@
 
 /* Definicoes da memoria */
 /* Final do espaco de programa */
-#define END_PROGRAM_END                 16384
+#define END_PROGRAM_END                 50384
 /* Inicio do espaco de dados estativos (alloc) */
-#define END_STATIC_DATA_START           16385
+#define END_STATIC_DATA_START           50385
 /* Final do espaco de dados estaticos */
-#define END_STATIC_DATA_END             24576
+#define END_STATIC_DATA_END             55576
 /* Inicio do espaco de dados dinamicos */
-#define END_DYN_DATA_START              24577
+#define END_DYN_DATA_START              55577
 /* Final do espaco de dados dinamicos */
-#define END_DYN_DATA_END                30681
+#define END_DYN_DATA_END                58681
 /* Final do especo para programas e dados */
-#define END_PROGRAM_DATA_END            30681
+#define END_PROGRAM_DATA_END            58681
 /* Se escrever neste endereco entao causa interrupcao de sistema */
-#define END_SYSTEM_CALL                 30682
+#define END_SYSTEM_CALL                 58682
 /* Pilha (folga de 8 palavras) */
-#define END_STACK_END                   30690
-#define END_STACK_START                 32738
+#define END_STACK_END                   58690
+#define END_STACK_START                 64738
 /* Mapeamento em memoria dos registradores de serial e timer */
-#define END_SERIAL_RX                   32746
-#define END_SERIAL_TX                   32747
-#define END_TIMER_REG                   32748
+#define END_SERIAL_RX                   64746
+#define END_SERIAL_TX                   64747
+#define END_TIMER_REG                   64748
 /* Enderecos de posicoes para passagem de argumentos (ate 10 argumentos) */
-#define END_ARG(X)                      ((X) + (32749))
+#define END_ARG(X)                      ((X) + (64749))
 /* Endereco de posicao para retorno de funcoes */
-#define END_RET                         32759
+#define END_RET                         64759
 /* Enderecos das interrupcoes */
-#define END_INTP_TIMER                  32760
-#define END_INTP_KEYB                   32761
-#define END_INTP_SYST                   32762
-#define END_INTP_STACK_OVER             32763
-#define END_INTP_STACK_UNDER            32764
-#define END_INTP_DIV_BY_ZERO            32765
-#define END_INTP_SERIAL                 32766
-#define END_INTP_RESET                  32767
+#define END_INTP_TIMER                  64760
+#define END_INTP_KEYB                   64761
+#define END_INTP_SYST                   64762
+#define END_INTP_STACK_OVER             64763
+#define END_INTP_STACK_UNDER            64764
+#define END_INTP_DIV_BY_ZERO            64765
+#define END_INTP_SERIAL                 64766
+#define END_INTP_RESET                  64767
 
 /* Strings para labels fixos */
 /* Inicio da memoria dinamica */
@@ -446,6 +430,7 @@
 #define L_INTP_RESET_STR                "Interrupt_Reset"
 
 /* Tamanho da memoria */
-#define MEM_SIZE 32768
+#define MEM_SIZE 65535   //32768
 
 #endif
+
