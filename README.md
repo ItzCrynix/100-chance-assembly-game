@@ -14,9 +14,23 @@ Para rodar o nosso jogo, você precisa de 3 coisas essenciais:
 - `compilador c`
 - `terminal bash (linux/wsl)`
 
+## Inicialização
+
 Após verificar se você tem esses componentes instalados, basta usar os comandos: 
 ```bash
 make all
+```
+
+Caso o comando falhe, indicando a falta do módulo gtk+-2.0, utilize um desses dois comandos para instalá-lo:
+
+### Ubuntu
+```bash
+sudo apt-get install libgtk2.0-dev
+```
+
+### Fedora
+```bash
+sudo dnf install gtk2-devel
 ```
 
 Ele deve fazer todas as funções necessárias para rodar o jogo. Para mais informações sobre o que se pode fazer, utilize `make help`.
