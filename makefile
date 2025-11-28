@@ -14,7 +14,7 @@ all: clean build run ## Roda todas as rotinas
 
 build: build_montador build_simulador ## Gera os arquivos montador e simulador
 
-build_montador: ## Gera o arquivo montador
+build_montador: ## Gera o arquivo montador 
 	cd $(MON_DIR) && $(CC) *.c -o $(MON) $(CCFLAGS) && mv $(MON) ../../
 
 build_simulador: ## Gera o arquivo simulador

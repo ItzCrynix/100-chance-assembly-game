@@ -1,16 +1,29 @@
+; Ideia do jogo: puzzle de labirinto
+; objetivo: chegar na escadaria do mapa
+; impeditivos: Fog of war, numero limitado de movimentos
+; ajudas: alavancas que abrem passagens novas
+; personagem: mudar de sprite quando anda  
+; score: começa no máximo e desce com o numero de movimentos
+; equipamentos: itens que ajudam com fog of war, apertar algo, etc. 
+; extra: NPC e dialogo
+
 jmp main
 
-win : var #8
-  static win + #0, #'Y'
-  static win + #1, #'o'
-  static win + #2, #'u'
-  static win + #3, #' '
-  static win + #4, #'w'
-  static win + #5, #'i'
-  static win + #6, #'n'
-  static win + #7, #'!'
+; -- Variables --
 
-repeat : string "Press 0 to go again."
+map : var #1200
+
+winStr : string "You win!"
+winPos : var #1
+  static winPos, #576
+
+repeatStr : string "Press 0 to go again."
+repeatPos : var #1
+  static repeatPos, #611
+
+; ---------------
+
+; Maps
 
 labyrinth : var #1200
   ;Linha 0
@@ -1273,16 +1286,19 @@ labyrinth : var #1200
   static labyrinth + #1198, #3967
   static labyrinth + #1199, #3967
 
+; ------------
+
 ; r0 = player (#31), r1 = position (#2 initially), r2 = esc (black char; #3967)
 main:
-	call printlabyrinthScreen
+  loadn r0, #labyrinth
+	call printScreen
 	loadn r0, #31
 	loadn r1, #390
 	loadn r2, #3967
 	outchar r0, r1
 	jmp move
 
-; r3 = move input, r4 = limit/char
+; r3 = move input, r4 = idle/char
 move:
 	inchar r3
 	loadn r4, #255
@@ -1362,17 +1378,25 @@ move:
 		jmp move_checkObj
 
 	move_checkWall:
-		loadi r5, r4
+    push r5
+
+    loadn r5, #map
+		add r5, r5, r4
+    loadi r5, r5
 		loadn r6, #27
 		cmp r5, r6
 		jeq move
 		loadn r6, #2334
 		cmp r5, r6
 		jeq move
-		rts
+		
+    pop r5
+    rts
 
 	move_checkObj:
-		loadi r5, r1
+    loadn r5, #map
+    add r5, r5, r1
+		loadi r5, r5
 		loadn r6, #793
 		cmp r5, r6
 		jeq move_treatButton
@@ -1381,18 +1405,35 @@ move:
 		jeq move_treatFlag
 		jmp move
 	
+  ; r6 = button position
 	move_treatButton:
-		loadn r5, #276
-		loadn r7, #1
-		outchar r2, r5
+    loadn r5, #map
+		loadn r6, #276
+    outchar r2, r6 
+    add r5, r5, r6
 		loadn r7, #3967
 		storei r5, r7
 		jmp move
 		
 	move_treatFlag:
+    push r0
+    push r1
+
     call printClearScreen
-    call printWinString
-    ;call printRepeatString
+    
+    loadn r0, #winStr
+    loadn r1, #winPos
+    loadi r1, r1
+    call printString
+
+    loadn r0, #repeatStr
+    loadn r1, #repeatPos
+    loadi r1, r1
+    call printString
+    
+    pop r1
+    pop r0
+
     jmp move_waitRestart
     
   move_waitRestart:
@@ -1404,107 +1445,83 @@ move:
     loadn r4, #'0'
     cmp r3, r4
     jeq main
-		
-		
+    halt
+
+; r1 = current position in screen from "printScreen"
 makeScreenArray:
-	storei r1, r3
-	rts
+  push r0
 
-printlabyrinthScreen:
-  push R0
-  push R1
-  push R2
-  push R3
+  loadn r0, #map
+  add r0, r0, r1
+	storei r0, r3
+	
+  pop r0
+  rts
 
-  loadn R0, #labyrinth
-  loadn R1, #0
-  loadn R2, #1200
+; params : r0 = screen
+printScreen:
+  push r1
+  push r2
+  push r3
 
-  printlabyrinthScreenLoop:
-    add R3,R0,R1
-    loadi R3, R3
-    outchar R3, R1
+  loadn r1, #0
+  loadn r2, #1200
+
+  printScreenLoop:
+    add r3,r0,r1
+    loadi r3, r3
+    outchar r3, r1
 	  call makeScreenArray
-    inc R1
-    cmp R1, R2
-    jne printlabyrinthScreenLoop
+    inc r1
+    cmp r1, r2
+    jne printScreenLoop
 
-  pop R3
-  pop R2
-  pop R1
-  pop R0
+  pop r3
+  pop r2
+  pop r1
   rts
 
 printClearScreen:
   push R0
   push R1
   push R2
-  push R3
   
   loadn r0, #3967
   loadn r1, #0
   loadn r2, #1200
   
   printClearScreenLoop:
-    mov r3, r0
-    outchar r3, r1
+    outchar r0, r1
     inc r1
     cmp r1, r2
     jne printClearScreenLoop
     
-  pop R3
   pop R2
   pop R1
   pop R0
   rts
-  
-printWinString:
-  push r0
-  push r1
+
+; params : r0 = string, r1 = starting position
+printString:
   push r2
   push r3
+  push r4
 
-  loadn r0, #win
-  loadn r1, #0 ; position
-  loadn r2, #7 ; max position
-  
-  printWinStringLoop:
-    add r3, r0, r1
+  loadn r2, #'\0' ; max position
+  loadn r4, #0
+
+  printStringLoop:
+    add r3, r0, r4
     loadi r3, r3
+    cmp r3, r2
+    jeq printStringLeave
     outchar r3, r1
     inc r1
-    cmp r1, r2
-    jne printWinStringLoop
+    inc r4
+    jmp printStringLoop
   
-  printWinStringLeave:
+  printStringLeave:
+    pop r4
     pop r3
     pop r2
-    pop r1
-    pop r0
-    rts
-
-printRepeatString:
-  push r0
-  push r1
-  push r2
-  push r3
-  
-  loadn r0, #repeat
-  loadn r1, #'\0'
-  loadn r2, #80
-  
-  printRepeatStringLoop:
-    loadi r3, r0
-    cmp r3, r1
-    jeq printRepeatStringLeave
-    outchar r3, r2
-    inc r0
-    inc r2
-    jmp printRepeatStringLoop
-  
-  printRepeatStringLeave:
-    pop r3
-    pop r2
-    pop r1
-    pop r0
     rts

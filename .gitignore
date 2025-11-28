@@ -1,6 +1,7 @@
 montador
 sim
 
+*.exe
 main.mif
 
 */
