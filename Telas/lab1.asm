@@ -85,7 +85,7 @@ lab1 : var #1200
 
   ;Linha 2
   static lab1 + #80, #2562
-  static lab1 + #81, #2687
+  static lab1 + #81, #0
   static lab1 + #82, #30
   static lab1 + #83, #3967
   static lab1 + #84, #2569
@@ -127,7 +127,7 @@ lab1 : var #1200
 
   ;Linha 3
   static lab1 + #120, #2562
-  static lab1 + #121, #2687
+  static lab1 + #121, #0
   static lab1 + #122, #3967
   static lab1 + #123, #3967
   static lab1 + #124, #2562

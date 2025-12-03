@@ -37,6 +37,18 @@ Ele deve fazer todas as funções necessárias para rodar o jogo. Para mais info
 
 ---
 
+## Sobre o código
+
+Adotamos algumas convenções durante o desenvolvimento de código com relação aos registradores:
+
+| Registrador |                 Função                 |
+|:-----------:|:--------------------------------------:|
+|      R0     | Guardar a posição de qualquer coisa    |
+|      R1     | Guarda o valor de um caracter qualquer |
+|   R2 - R7   | Uso Geral                              |
+
+---
+
 ## Criadores
 
 <div style="display:inline-block; padding:1rem;">

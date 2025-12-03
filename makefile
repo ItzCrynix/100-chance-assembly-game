@@ -25,4 +25,4 @@ run: *.asm ## Roda o programa .asm que está na pasta
 	./$(SIM) main.mif charmap.mif
 
 clean: ## Limpa os arquivos gerados durante a build do programa
-	rm -rf montador sim main.mif 
+	rm -rf montador sim main.mif montador.exe
