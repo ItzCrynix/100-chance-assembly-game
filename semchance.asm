@@ -50,8 +50,10 @@ repeatPos: var #1
 ; r1 -> stores any character
 
 main:
-	call move
+	loadn r1, #0
+	call printScreen
 	call printPlayer
+	call move
 	jmp main
 
 ;
@@ -94,7 +96,6 @@ move:
 		jle move_leave
 
 		; New position that the player would have, needs to be checked
-		call printClearPlayer
 		sub r0, r0, r2
 		call move_checkCollision
 
@@ -112,7 +113,6 @@ move:
 		jgr move_leave
 
 		; New position that the player would have, needs to be checked
-		call printClearPlayer
 		loadn r2, #40
 		add r0, r0, r2
 		call move_checkCollision
@@ -133,7 +133,6 @@ move:
 		jeq move_leave
 
 		; New position that the player would have, needs to be checked
-		call printClearPlayer
 		dec r0
 		call move_checkCollision
 
@@ -153,7 +152,6 @@ move:
 		jeq move_leave
 
 		; New position that the player would have, needs to be checked
-		call printClearPlayer
 		inc r0
 		call move_checkCollision
 
@@ -175,28 +173,17 @@ printScreen:
 	loadn r0, #0
 	loadn r2, #1200
 
-	printScreenLoop:
-		add r3,r0,r1
-		loadi r3, r3
-		outchar r3, r0
-		call makeScreenArray
+	printScreen_Loop:
+		;add r3,r0,r1
+		;loadi r3, r3
+		outchar r1, r0 ; changed from r3 to r1 temporarily
 		inc r0
 		cmp r0, r2
-		jne printScreenLoop
+		jne printScreen_Loop
 
 	pop r3
 	pop r2
 	pop r0
-	rts
-
-	makeScreenArray:
-	push r1
-
-	loadn r1, #map
-	add r1, r1, r0
-	storei r1, r3
-
-	pop r1
 	rts
 
 ; printCurrentScreen:
@@ -236,17 +223,17 @@ printString:
 	loadn r2, #'\0' ; max position
 	loadn r4, #0
 
-	printStringLoop:
+	printString_Loop:
 		add r3, r1, r4
 		loadi r3, r3
 		cmp r3, r2
-		jeq printStringLeave
+		jeq printString_Leave
 		outchar r3, r0
 		inc r0
 		inc r4
-		jmp printStringLoop
+		jmp printString_Loop
 
-	printStringLeave:
+	printString_Leave:
 		pop r4
 		pop r3
 		pop r2
@@ -256,19 +243,36 @@ printPlayer:
 	push r0
 	push r1
 
+	call checkSprite
 	load r0, playerChar
 	load r1, playerPos
 	outchar r0, r1
 
 	pop r1
 	pop r0
-	rts
+	rts	
 
-printClearPlayer:
+checkSprite:
+	push r0
 	push r1
 
-	loadn r1, #0
-	outchar r1, r0
+	load r0, playerChar
+	loadn r1, #30 ; first sprite's value is 30, second is 31
+	cmp r0, r1
+	jeq checkSprite_inc
+	jmp checkSprite_dec
 
-	pop r1
-	rts
+	checkSprite_leave:
+		pop r1
+		pop r0
+		rts
+
+	checkSprite_inc:
+		inc r0
+		store playerChar, r0
+		jmp checkSprite_leave
+
+	checkSprite_dec:
+		dec r0
+		store playerChar, r0
+		jmp checkSprite_leave
