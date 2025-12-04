@@ -8,8 +8,8 @@ jmp main
 
 playerPos: var #1
 	static playerPos, #600
-playerChar: var #1
-	static playerChar, #30
+playerSprite: var #1
+	static playerSprite, #30
 
 maxMoves: var #1
 	static maxMoves, #100
@@ -243,8 +243,8 @@ printPlayer:
 	push r0
 	push r1
 
-	call checkSprite
-	load r0, playerChar
+	call checkPlayerSprite	
+	load r0, playerSprite
 	load r1, playerPos
 	outchar r0, r1
 
@@ -252,27 +252,27 @@ printPlayer:
 	pop r0
 	rts	
 
-checkSprite:
+checkPlayerSprite:
 	push r0
 	push r1
 
-	load r0, playerChar
+	load r0, playerSprite
 	loadn r1, #30 ; first sprite's value is 30, second is 31
 	cmp r0, r1
-	jeq checkSprite_inc
-	jmp checkSprite_dec
+	jeq checkPlayerSprite_inc
+	jmp checkPlayerSprite_dec
 
-	checkSprite_leave:
+	checkPlayerSprite_leave:
 		pop r1
 		pop r0
 		rts
 
-	checkSprite_inc:
+	checkPlayerSprite_inc:
 		inc r0
-		store playerChar, r0
-		jmp checkSprite_leave
+		store playerSprite, r0
+		jmp checkPlayerSprite_leave
 
-	checkSprite_dec:
+	checkPlayerSprite_dec:
 		dec r0
-		store playerChar, r0
-		jmp checkSprite_leave
+		store playerSprite, r0
+		jmp checkPlayerSprite_leave
