@@ -8,14 +8,18 @@ jmp main
 
 playerPos: var #1
 	static playerPos, #600
+
 playerSprite: var #1
-	static playerSprite, #30
+	static playerSprite, #30	
 
-maxMoves: var #1
-	static maxMoves, #100
+playerSpawn: var #1
+	static playerSpawn, #600
 
-currentMoves: var #1
-	static currentMoves, #100
+maxSteps: var #1
+	static maxSteps, #100
+
+currentSteps: var #1
+	static currentSteps, #100
 
 ; Map related
 
@@ -37,11 +41,6 @@ winStr: string "You win!"
 winPos: var #1
 	static winPos, #576
 
-repeatStr: string "Press 0 to go again."
-repeatPos: var #1
-	static repeatPos, #611
-
-
 ;
 ; Main function
 ;
@@ -50,10 +49,17 @@ repeatPos: var #1
 ; r1 -> stores any character
 
 main:
+	; print functions
 	loadn r1, #0
 	call printScreen
+	loadn r0, #0
+	load r1, currentSteps
+	call printNumber
 	call printPlayer
+
+	; calculation functions
 	call move
+	call checkSteps
 	jmp main
 
 ;
@@ -84,8 +90,7 @@ move:
 	cmp r1, r2
 	jeq move_right
 
-	move_leave:
-		rts
+	jmp move
 
 	move_up:
 		load r0, playerPos
@@ -93,7 +98,7 @@ move:
 		; Checking if player is at the top (pos < 40)
 		loadn r2, #40
 		cmp r0, r2
-		jle move_leave
+		jle move
 
 		; New position that the player would have, needs to be checked
 		sub r0, r0, r2
@@ -110,7 +115,7 @@ move:
 		; Checking if player is at the bottom (pos > 1159)
 		loadn r2, #1159
 		cmp r0, r2
-		jgr move_leave
+		jgr move
 
 		; New position that the player would have, needs to be checked
 		loadn r2, #40
@@ -130,7 +135,7 @@ move:
 		mod r2, r0, r2
 		loadn r3, #0
 		cmp r2, r3
-		jeq move_leave
+		jeq move
 
 		; New position that the player would have, needs to be checked
 		dec r0
@@ -149,7 +154,7 @@ move:
 		mod r2, r0, r2
 		loadn r3, #39
 		cmp r2, r3
-		jeq move_leave
+		jeq move
 
 		; New position that the player would have, needs to be checked
 		inc r0
@@ -163,6 +168,34 @@ move:
 	move_checkCollision:
 		rts
 
+checkSteps:
+	push r2
+	push r3
+
+	; gets the current steps, checks if it's zero (which means the player goes back to spawn)
+	load r2, currentSteps
+	loadn r3, #0
+	cmp r2, r3
+	jeq checkSteps_reset
+
+	dec r2
+	store currentSteps, r2
+
+	checkSteps_leave:
+		pop r3
+		pop r2
+		rts
+
+	checkSteps_reset:
+		; resets the current steps of the player
+		load r2, maxSteps
+		store currentSteps, r2
+
+		; moves the player back to the spawn point
+		load r2, playerSpawn
+		store playerPos, r2
+		jmp checkSteps_leave
+	
 ; prints a pre-made screen
 ; r1 = address of the first char
 printScreen:
@@ -239,6 +272,55 @@ printString:
 		pop r2
 		rts
 
+; r0 = position, r1 = number
+printNumber:
+	push r2
+	push r3
+	push r4
+	push r5
+
+	mov r4, r1
+	loadn r5, #0
+	
+	getDigits_Loop:
+		; gets the rightmost digit of the number, pushes it into the stack
+		loadn r2, #10
+		mod r3, r4, r2
+		push r3
+		; divides the whole number by 10 to remove the last digit (which was added to the stack)
+		div r4, r4, r2
+		
+		; r5 stores the number of iterations that will be done while printing
+		inc r5
+		
+		; see if the number is equal to 0, leaves if so
+		loadn r2, #0
+		cmp r4, r2
+		jeq printNumber_Loop
+		jmp getDigits_Loop
+
+	printNumber_Loop:
+		; gets leftmost digit of the number and then prints it
+		pop r3
+
+		loadn r4, #48 ; 48 = ascii value of '0'
+		add r3, r3, r4
+
+		outchar r3, r0
+		inc r0
+
+		dec r5
+		cmp r5, r2
+		jeq printNumber_Leave
+		jmp printNumber_Loop
+
+	printNumber_Leave:
+		pop r5
+		pop r4
+		pop r3
+		pop r2
+		rts
+
 printPlayer:
 	push r0
 	push r1
@@ -252,27 +334,27 @@ printPlayer:
 	pop r0
 	rts	
 
-checkPlayerSprite:
-	push r0
-	push r1
+	checkPlayerSprite:
+		push r0
+		push r1
 
-	load r0, playerSprite
-	loadn r1, #30 ; first sprite's value is 30, second is 31
-	cmp r0, r1
-	jeq checkPlayerSprite_inc
-	jmp checkPlayerSprite_dec
+		load r0, playerSprite
+		loadn r1, #30 ; first sprite's value is 30, second is 31
+		cmp r0, r1
+		jeq checkPlayerSprite_inc
+		jmp checkPlayerSprite_dec
 
-	checkPlayerSprite_leave:
-		pop r1
-		pop r0
-		rts
+		checkPlayerSprite_leave:
+			pop r1
+			pop r0
+			rts
 
-	checkPlayerSprite_inc:
-		inc r0
-		store playerSprite, r0
-		jmp checkPlayerSprite_leave
+		checkPlayerSprite_inc:
+			inc r0
+			store playerSprite, r0
+			jmp checkPlayerSprite_leave
 
-	checkPlayerSprite_dec:
-		dec r0
-		store playerSprite, r0
-		jmp checkPlayerSprite_leave
+		checkPlayerSprite_dec:
+			dec r0
+			store playerSprite, r0
+			jmp checkPlayerSprite_leave
