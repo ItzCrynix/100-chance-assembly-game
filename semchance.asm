@@ -92,7 +92,7 @@ lab1 : var #1200
   ;Linha 2
   static lab1 + #80, #2562
   static lab1 + #81, #0
-  static lab1 + #82, #30
+  static lab1 + #82, #0
   static lab1 + #83, #3967
   static lab1 + #84, #2569
   static lab1 + #85, #2561
@@ -230,7 +230,7 @@ lab1 : var #1200
   static lab1 + #211, #2562
   static lab1 + #212, #0
   static lab1 + #213, #2562
-  static lab1 + #214, #2844
+  static lab1 + #214, #2842
   static lab1 + #215, #0
   static lab1 + #216, #0
   static lab1 + #217, #2562
@@ -361,7 +361,7 @@ lab1 : var #1200
   static lab1 + #336, #0
   static lab1 + #337, #1033
   static lab1 + #338, #1025
-  static lab1 + #339, #13
+  static lab1 + #339, #1805
   static lab1 + #340, #1025
   static lab1 + #341, #1035
   static lab1 + #342, #0
@@ -443,7 +443,7 @@ lab1 : var #1200
   static lab1 + #414, #2561
   static lab1 + #415, #2566
   static lab1 + #416, #0
-  static lab1 + #417, #14
+  static lab1 + #417, #1806
   static lab1 + #418, #0
   static lab1 + #419, #3354
   static lab1 + #420, #0
@@ -529,7 +529,7 @@ lab1 : var #1200
   static lab1 + #496, #2561
   static lab1 + #497, #1034
   static lab1 + #498, #1025
-  static lab1 + #499, #13
+  static lab1 + #499, #1805
   static lab1 + #500, #1025
   static lab1 + #501, #1027
   static lab1 + #502, #2561
@@ -672,7 +672,7 @@ lab1 : var #1200
   static lab1 + #633, #0
   static lab1 + #634, #0
   static lab1 + #635, #2562
-  static lab1 + #636, #1820
+  static lab1 + #636, #1818
   static lab1 + #637, #0
   static lab1 + #638, #0
   static lab1 + #639, #2562
@@ -1355,7 +1355,7 @@ lab2 : var #1200
   static lab2 + #81, #0
   static lab2 + #82, #2329
   static lab2 + #83, #0
-  static lab2 + #84, #2327
+  static lab2 + #84, #2318
   static lab2 + #85, #0
   static lab2 + #86, #2049
   static lab2 + #87, #2056
@@ -1431,13 +1431,13 @@ lab2 : var #1200
   static lab2 + #155, #2050
   static lab2 + #156, #0
   static lab2 + #157, #2050
-  static lab2 + #158, #1564
+  static lab2 + #158, #1562
   static lab2 + #159, #2050
 
   ;Linha 4
   static lab2 + #160, #2057
   static lab2 + #161, #2049
-  static lab2 + #162, #2328
+  static lab2 + #162, #2317
   static lab2 + #163, #2049
   static lab2 + #164, #2054
   static lab2 + #165, #0
@@ -1484,7 +1484,7 @@ lab2 : var #1200
   static lab2 + #204, #0
   static lab2 + #205, #0
   static lab2 + #206, #0
-  static lab2 + #207, #2327
+  static lab2 + #207, #2318
   static lab2 + #208, #0
   static lab2 + #209, #0
   static lab2 + #210, #0
@@ -1547,7 +1547,7 @@ lab2 : var #1200
   static lab2 + #265, #2057
   static lab2 + #266, #2049
   static lab2 + #267, #2049
-  static lab2 + #268, #1560
+  static lab2 + #268, #1549
   static lab2 + #269, #2053
   static lab2 + #270, #0
   static lab2 + #271, #2050
@@ -1716,7 +1716,7 @@ lab2 : var #1200
   static lab2 + #426, #2049
   static lab2 + #427, #2054
   static lab2 + #428, #0
-  static lab2 + #429, #1559
+  static lab2 + #429, #1550
   static lab2 + #430, #0
   static lab2 + #431, #2049
   static lab2 + #432, #2049
@@ -1748,7 +1748,7 @@ lab2 : var #1200
   static lab2 + #456, #0
   static lab2 + #457, #0
   static lab2 + #458, #0
-  static lab2 + #459, #2327
+  static lab2 + #459, #2318
   static lab2 + #460, #0
   static lab2 + #461, #0
   static lab2 + #462, #0
@@ -1907,7 +1907,7 @@ lab2 : var #1200
   static lab2 + #607, #0
   static lab2 + #608, #0
   static lab2 + #609, #0
-  static lab2 + #610, #1303
+  static lab2 + #610, #1294
   static lab2 + #611, #0
   static lab2 + #612, #0
   static lab2 + #613, #2050
@@ -1947,7 +1947,7 @@ lab2 : var #1200
   static lab2 + #645, #2058
   static lab2 + #646, #2049
   static lab2 + #647, #2056
-  static lab2 + #648, #1304
+  static lab2 + #648, #1293
   static lab2 + #649, #2049
   static lab2 + #650, #2058
   static lab2 + #651, #2053
@@ -2134,7 +2134,7 @@ lab2 : var #1200
   static lab2 + #824, #2049
   static lab2 + #825, #2049
   static lab2 + #826, #0
-  static lab2 + #827, #2327
+  static lab2 + #827, #2318
   static lab2 + #828, #0
   static lab2 + #829, #2060
   static lab2 + #830, #2049
@@ -2228,7 +2228,7 @@ lab2 : var #1200
   static lab2 + #914, #2049
   static lab2 + #915, #2056
   static lab2 + #916, #2049
-  static lab2 + #917, #24
+  static lab2 + #917, #13
   static lab2 + #918, #2049
   static lab2 + #919, #2059
 
@@ -2312,7 +2312,7 @@ lab2 : var #1200
   static lab2 + #994, #0
   static lab2 + #995, #2050
   static lab2 + #996, #0
-  static lab2 + #997, #30
+  static lab2 + #997, #0
   static lab2 + #998, #0
   static lab2 + #999, #2050
 
@@ -5048,10 +5048,32 @@ baseScreen : var #1200
   static baseScreen + #1198, #0
   static baseScreen + #1199, #2
 
+;
+; Cores
+;
+
+red: var #1
+    static red, #2304
+cyan: var #1
+    static cyan, #1536
+pink: var #1
+    static pink, #3328
+grey: var #1
+    static grey, #1792
+yellow: var #1
+    static yellow, #2816
+purple: var #1
+    static purple, #1280
+
+;
 ; Player related
+;
 
 playerPos: var #1
-	static playerPos, #82
+	static playerPos, #956
+
+tempPlayerPos: var #1
+    static tempPlayerPos, #0
 
 playerSprite: var #1
 	static playerSprite, #30	
@@ -5062,27 +5084,14 @@ maxSteps: var #1
 currentSteps: var #1
 	static currentSteps, #100
 
-gameReset: var #1
-	static gameReset, #0
-
-score: var #1
-    static score, #50000
-scorePos: var #1
-    static scorePos, #1150
-
-money: var #1
-    static money, #0
-moneyPos: var #1
-    static moneyPos, #1190
-
 ;
 ; Map related
 ;
 
 mapSpawn: var #3
     static mapSpawn + #0, #0
-    static mapSpawn + #1, #82
-    static mapSpawn + #2, #30
+    static mapSpawn + #1, #956
+    static mapSpawn + #2, #997
 
 mapList : var #3
     static mapList + #0, #deathScreen
@@ -5101,6 +5110,33 @@ winPos: var #1
 	static winPos, #576
 
 ;
+; Flags
+;
+
+gameReset: var #1
+	static gameReset, #0
+
+leverPulled: var #1
+    static leverPulled, #0
+
+stairClimbed: var #1
+    static stairClimbed, #0
+    
+;
+; Others
+;
+
+score: var #1
+    static score, #50000
+scorePos: var #1
+    static scorePos, #1150
+
+money: var #1
+    static money, #0
+moneyPos: var #1
+    static moneyPos, #1190
+
+;
 ; Main function
 ;
 
@@ -5111,11 +5147,7 @@ main:
     call printCurrentScreen
 
 	main_game_loop:
-		; checking if the game reset
-		load r1, gameReset
-		loadn r2, #0
-		cmp r1, r2
-		jne main_reset
+		call main_game_loop_checkFlags
 
         call printStepCount
         call printScore
@@ -5127,6 +5159,33 @@ main:
 		call checkSteps
 		
 		jmp main_game_loop
+
+        main_game_loop_checkFlags:
+            ; checking if the game reset
+            load r1, gameReset
+            loadn r2, #0
+            cmp r1, r2
+            jne main_reset
+
+            ; checking if a lever was pulled
+            load r1, leverPulled
+            loadn r2, #1
+            cmp r1, r2
+            jeq main_reset_flags
+
+            ; checking if any stairs were climbed
+            load r1, stairClimbed
+            loadn r2, #1
+            cmp r1, r2
+            jeq main_reset_flags
+
+            rts
+
+    main_reset_flags:
+        loadn r1, #0
+        store leverPulled, r1
+        store stairClimbed, r1
+        jmp main
 
     main_reset:
         ; saves the last map index
@@ -5216,7 +5275,7 @@ move:
 
 		; New position that the player would have, needs to be checked
 		call clearPlayer
-        mov r3, r0 ; temporarily saving player position
+        store tempPlayerPos, r0 ; temporarily saving player position
 		sub r0, r0, r2
 		call move_checkCollision
 
@@ -5236,7 +5295,7 @@ move:
 		; New position that the player would have, needs to be checked
 		loadn r2, #40
 		call clearPlayer
-        mov r3, r0 ; temporarily saving player position
+        store tempPlayerPos, r0 ; temporarily saving player position
 		add r0, r0, r2
 		call move_checkCollision
 
@@ -5257,7 +5316,7 @@ move:
 
 		; New position that the player would have, needs to be checked
 		call clearPlayer
-        mov r3, r0 ; temporarily saving player position
+        store tempPlayerPos, r0 ; temporarily saving player position
 		dec r0
 		call move_checkCollision
 
@@ -5278,7 +5337,7 @@ move:
 
 		; New position that the player would have, needs to be checked
 		call clearPlayer
-        mov r3, r0 ; temporarily saving player position
+        store tempPlayerPos, r0 ; temporarily saving player position
 		inc r0
 		call move_checkCollision
 
@@ -5290,6 +5349,7 @@ move:
     move_checkCollision:
         push r1
         push r2
+        push r3
 
         ; getting char at players next position
         load r1, mapListIndex
@@ -5300,50 +5360,70 @@ move:
         add r1, r1, r0
         loadi r1, r1
 
-        ; getting the char's value
+        ; saving the char's value with color in r3 and getting the char's actual value
+        mov r3, r1
         loadn r2, #128
         mod r1, r1, r2
+
+        ; getting the char's color (used in levers)
+        sub r3, r3, r1
         
-        ; checking if it's greater than 1 (walls go from 1 to 12)
+        ; checking if the char's value is greater than 1 (all objects are greater than 1)
         loadn r2, #1
         cmp r1, r2
         ceg move_checkCollision_Condition
         
+        pop r3
         pop r2
         pop r1
         rts
 
         move_checkCollision_Condition:
-            ; checking if it's less than 12
+            ; checking if it's less than 12, which is in the range for walls, or 27, which is a pulled lever
             loadn r2, #14 
             cmp r1, r2
             jel move_checkCollision_Wall
+            loadn r2, #27
+            cmp r1, r2
+            jeq move_checkCollision_Wall
 
+            ; checking if it's 36, which is the value for money
             loadn r2, #36
             cmp r1, r2
             jeq move_checkCollision_Money
+            
+            ; checking if it's 26, which is the value for levers
+            loadn r2, #26
+            cmp r1, r2
+            jeq move_checkCollision_Lever
 
+            ; checking if it's 25, which is the value for stairs
             loadn r2, #25
             cmp r1, r2
-            jeq move_checkCollision_ladder
+            jeq move_checkCollision_Ladder
 
             rts
     
         move_checkCollision_Wall:
-            mov r0, r3
+            ; moves the player position back
+            load r0, tempPlayerPos
             rts
 
-        move_checkCollision_ladder:
+        move_checkCollision_Ladder:
             ; takes the pointer of the current screen and move to the next
             load r2, mapListIndex
             loadn r3, #2
             cmp r2, r3
-            jeq move_checkCollision_ladder_exit
+            jeq move_checkCollision_Ladder_Exit
 
             inc r2
             store mapListIndex, r2
 
-            move_checkCollision_ladder_exit:
+            ; setting flag
+            loadn r2, #1
+            store stairClimbed, r2
+
+            move_checkCollision_Ladder_Exit:
                 rts
 
         move_checkCollision_Money:
@@ -5351,63 +5431,68 @@ move:
             inc r2
             store money, r2
             rts
+
+        ; r0 = lever/player position, r1 = lever char value, r3 = lever color
+        move_checkCollision_Lever:
+            push r2
+            push r4
+
+            ; loads the current map
+            loadn r2, #mapList
+            load r4, mapListIndex
+            add r2, r2, r4
+            loadi r2, r2
             
+            ; changes the lever's sprite and saves it in the array
+            mov r4, r2
+            add r4, r4, r0 ; lever's position in array
+            inc r1 ; changes sprite
+            add r1, r1, r3 ; adds color
+            storei r4, r1
+            
+            ; sets lever flag
+            loadn r4, #1
+            store leverPulled, r4
+            
+            call clear_gates_loop
 
-; event_listener:
-;     push r0 ; posicao do jogador
-;     push r1 ; valor da posicao atual
-;     push r2 ; id da alavanca/botao
-;     push r3 ; endereco da posicao atual 
+            load r0, tempPlayerPos
 
-;     load r0, playerPos
-;     load r1, mapList
-;     add r1, r1, r0 ; posicao definitiva do player endereço
-;     mov r3, r1
-;     loadi r1, r1 ; pega o valor no endereço
+            pop r4
+            pop r2
+            rts
 
-;     loadn r2, #26
-;     cmp r2, r1
-;     jne teste_27
-;     call abrir_porta
-;     jmp fim_listener
+            loadn r4, #0
 
-;    teste_27:
-;     loadn r2, #27
-;     cmp r2, r1
-;     jne teste_28
-;     jeq abrir_porta
-;      jmp fim_listener
+            ; r2 = map's address, r3 = color, r4 = counter
+            clear_gates_loop:
+                add r5, r2, r4
+                mov r6, r5
+                loadi r5, r5
+                
+                sub r1, r5, r3
 
-;    teste_28:
-;     loadn r2, #28
-;     cmp r2, r1
-;     jne teste_29
-;     jeq abrir_porta
-;     jmp fim_listener
+                loadn r5, #13
+                cmp r1, r5 
+                ceq clear_gates_remove
 
-;    teste_29:
-;      loadn r2, #29
-;      cmp, r2, r1
-;      jeq abrir_porta
-;      jmp fim_listener
+                loadn r5, #14
+                cmp r1, r5
+                ceq clear_gates_remove
 
-    
-;fim_listener:
-;     pop r3
-;     pop r2
-;     pop r1
-;     pop r0
-;     rts
+                loadn r5, #1200
+                inc r4
+                cmp r4, r5
+                jne clear_gates_loop
+                rts
 
-; abrir_porta:
-; push r0
+            clear_gates_remove:
+                loadn r1, #0
+                storei r6, r1
+                rts
+                
 
-
-; loadn r0, #0
-; outchar r3, r0
-
-
-; pop r0
+                
 
 checkSteps:
 	push r2
@@ -5434,7 +5519,7 @@ checkSteps:
 
 		jmp checkSteps_leave
 	
-
+    
 ;
 ; Print functions
 ;
