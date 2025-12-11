@@ -4,40 +4,9 @@ jmp main
 ; Variables
 ;
 
-; Player related
-
-playerPos: var #1
-	static playerPos, #600
-
-playerSprite: var #1
-	static playerSprite, #30	
-
-playerSpawn: var #1
-	static playerSpawn, #600
-
-maxSteps: var #1
-	static maxSteps, #100
-
-currentSteps: var #1
-	static currentSteps, #100
-
-gameReset: var #1
-	static gameReset, #0
-
-; Map related
-
-currentScreen: var #1
-	static currentScreen, #0
-
-lab1StartingPos : var #1
-	static lab1StartingPos, #82
-
-lab2StartingPos : var #1
-	static lab2StartingPos, #30
-
 lab1 : var #1200
   ;Linha 0
-  static lab1 + #0, #2564
+  static lab1 + #0, #2572
   static lab1 + #1, #2561
   static lab1 + #2, #2561
   static lab1 + #3, #2561
@@ -144,7 +113,7 @@ lab1 : var #1200
   static lab1 + #100, #2561
   static lab1 + #101, #2566
   static lab1 + #102, #0
-  static lab1 + #103, #2564
+  static lab1 + #103, #2572
   static lab1 + #104, #2561
   static lab1 + #105, #2561
   static lab1 + #106, #2561
@@ -207,7 +176,7 @@ lab1 : var #1200
   ;Linha 4
   static lab1 + #160, #2569
   static lab1 + #161, #2561
-  static lab1 + #162, #2328
+  static lab1 + #162, #2317
   static lab1 + #163, #2561
   static lab1 + #164, #2566
   static lab1 + #165, #0
@@ -218,7 +187,7 @@ lab1 : var #1200
   static lab1 + #170, #0
   static lab1 + #171, #2562
   static lab1 + #172, #0
-  static lab1 + #173, #2564
+  static lab1 + #173, #2572
   static lab1 + #174, #2561
   static lab1 + #175, #2561
   static lab1 + #176, #2561
@@ -230,7 +199,7 @@ lab1 : var #1200
   static lab1 + #182, #2561
   static lab1 + #183, #2571
   static lab1 + #184, #0
-  static lab1 + #185, #2564
+  static lab1 + #185, #2572
   static lab1 + #186, #2561
   static lab1 + #187, #2568
   static lab1 + #188, #2561
@@ -291,7 +260,7 @@ lab1 : var #1200
   ;Linha 6
   static lab1 + #240, #2562
   static lab1 + #241, #0
-  static lab1 + #242, #2564
+  static lab1 + #242, #2572
   static lab1 + #243, #2561
   static lab1 + #244, #2561
   static lab1 + #245, #2561
@@ -310,7 +279,7 @@ lab1 : var #1200
   static lab1 + #258, #0
   static lab1 + #259, #2562
   static lab1 + #260, #0
-  static lab1 + #261, #2564
+  static lab1 + #261, #2572
   static lab1 + #262, #2561
   static lab1 + #263, #2566
   static lab1 + #264, #0
@@ -377,7 +346,7 @@ lab1 : var #1200
   static lab1 + #321, #0
   static lab1 + #322, #2562
   static lab1 + #323, #0
-  static lab1 + #324, #2564
+  static lab1 + #324, #2572
   static lab1 + #325, #2565
   static lab1 + #326, #0
   static lab1 + #327, #2567
@@ -392,11 +361,11 @@ lab1 : var #1200
   static lab1 + #336, #0
   static lab1 + #337, #1033
   static lab1 + #338, #1025
-  static lab1 + #339, #1816
+  static lab1 + #339, #13
   static lab1 + #340, #1025
   static lab1 + #341, #1035
   static lab1 + #342, #0
-  static lab1 + #343, #2564
+  static lab1 + #343, #2572
   static lab1 + #344, #2561
   static lab1 + #345, #2566
   static lab1 + #346, #0
@@ -416,7 +385,7 @@ lab1 : var #1200
 
   ;Linha 9
   static lab1 + #360, #2569
-  static lab1 + #361, #2840
+  static lab1 + #361, #2829
   static lab1 + #362, #2570
   static lab1 + #363, #2561
   static lab1 + #364, #2570
@@ -474,7 +443,7 @@ lab1 : var #1200
   static lab1 + #414, #2561
   static lab1 + #415, #2566
   static lab1 + #416, #0
-  static lab1 + #417, #23
+  static lab1 + #417, #14
   static lab1 + #418, #0
   static lab1 + #419, #3354
   static lab1 + #420, #0
@@ -501,7 +470,7 @@ lab1 : var #1200
   ;Linha 11
   static lab1 + #440, #2562
   static lab1 + #441, #0
-  static lab1 + #442, #2564
+  static lab1 + #442, #2572
   static lab1 + #443, #2565
   static lab1 + #444, #0
   static lab1 + #445, #2562
@@ -548,19 +517,19 @@ lab1 : var #1200
   static lab1 + #484, #0
   static lab1 + #485, #2562
   static lab1 + #486, #0
-  static lab1 + #487, #2564
+  static lab1 + #487, #2572
   static lab1 + #488, #2561
   static lab1 + #489, #2561
   static lab1 + #490, #0
   static lab1 + #491, #2562
   static lab1 + #492, #0
-  static lab1 + #493, #2564
+  static lab1 + #493, #2572
   static lab1 + #494, #2561
   static lab1 + #495, #2561
   static lab1 + #496, #2561
   static lab1 + #497, #1034
   static lab1 + #498, #1025
-  static lab1 + #499, #1816
+  static lab1 + #499, #13
   static lab1 + #500, #1025
   static lab1 + #501, #1027
   static lab1 + #502, #2561
@@ -659,7 +628,7 @@ lab1 : var #1200
   static lab1 + #591, #2570
   static lab1 + #592, #2561
   static lab1 + #593, #2561
-  static lab1 + #594, #3352
+  static lab1 + #594, #3341
   static lab1 + #595, #2568
   static lab1 + #596, #2561
   static lab1 + #597, #2561
@@ -711,10 +680,10 @@ lab1 : var #1200
   ;Linha 16
   static lab1 + #640, #2562
   static lab1 + #641, #0
-  static lab1 + #642, #2564
+  static lab1 + #642, #2572
   static lab1 + #643, #2566
   static lab1 + #644, #0
-  static lab1 + #645, #2564
+  static lab1 + #645, #2572
   static lab1 + #646, #2561
   static lab1 + #647, #2570
   static lab1 + #648, #2561
@@ -800,7 +769,7 @@ lab1 : var #1200
   static lab1 + #724, #2561
   static lab1 + #725, #2566
   static lab1 + #726, #0
-  static lab1 + #727, #2564
+  static lab1 + #727, #2572
   static lab1 + #728, #2561
   static lab1 + #729, #2565
   static lab1 + #730, #0
@@ -858,7 +827,7 @@ lab1 : var #1200
   static lab1 + #780, #0
   static lab1 + #781, #0
   static lab1 + #782, #0
-  static lab1 + #783, #3351
+  static lab1 + #783, #3342
   static lab1 + #784, #0
   static lab1 + #785, #2562
   static lab1 + #786, #0
@@ -896,7 +865,7 @@ lab1 : var #1200
   static lab1 + #816, #2561
   static lab1 + #817, #2571
   static lab1 + #818, #0
-  static lab1 + #819, #2564
+  static lab1 + #819, #2572
   static lab1 + #820, #2561
   static lab1 + #821, #2568
   static lab1 + #822, #2561
@@ -996,9 +965,9 @@ lab1 : var #1200
   static lab1 + #912, #0
   static lab1 + #913, #2562
   static lab1 + #914, #0
-  static lab1 + #915, #2564
+  static lab1 + #915, #2572
   static lab1 + #916, #2561
-  static lab1 + #917, #3352
+  static lab1 + #917, #3341
   static lab1 + #918, #2561
   static lab1 + #919, #2571
 
@@ -1080,7 +1049,7 @@ lab1 : var #1200
   static lab1 + #992, #2561
   static lab1 + #993, #2566
   static lab1 + #994, #0
-  static lab1 + #995, #3351
+  static lab1 + #995, #3342
   static lab1 + #996, #0
   static lab1 + #997, #2073
   static lab1 + #998, #0
@@ -1295,6 +1264,1267 @@ lab1 : var #1200
   static lab1 + #1197, #0
   static lab1 + #1198, #0
   static lab1 + #1199, #0
+
+lab2 : var #1200
+  ;Linha 0
+  static lab2 + #0, #2060
+  static lab2 + #1, #2049
+  static lab2 + #2, #2049
+  static lab2 + #3, #2049
+  static lab2 + #4, #2056
+  static lab2 + #5, #2049
+  static lab2 + #6, #2049
+  static lab2 + #7, #2049
+  static lab2 + #8, #2049
+  static lab2 + #9, #2049
+  static lab2 + #10, #2049
+  static lab2 + #11, #2056
+  static lab2 + #12, #2049
+  static lab2 + #13, #2049
+  static lab2 + #14, #2049
+  static lab2 + #15, #2049
+  static lab2 + #16, #2049
+  static lab2 + #17, #2056
+  static lab2 + #18, #2049
+  static lab2 + #19, #2049
+  static lab2 + #20, #2049
+  static lab2 + #21, #2049
+  static lab2 + #22, #2049
+  static lab2 + #23, #2056
+  static lab2 + #24, #2049
+  static lab2 + #25, #2049
+  static lab2 + #26, #2049
+  static lab2 + #27, #2049
+  static lab2 + #28, #2049
+  static lab2 + #29, #2049
+  static lab2 + #30, #2049
+  static lab2 + #31, #2049
+  static lab2 + #32, #2049
+  static lab2 + #33, #2056
+  static lab2 + #34, #2049
+  static lab2 + #35, #2049
+  static lab2 + #36, #2049
+  static lab2 + #37, #2049
+  static lab2 + #38, #2049
+  static lab2 + #39, #2053
+
+  ;Linha 1
+  static lab2 + #40, #2050
+  static lab2 + #41, #0
+  static lab2 + #42, #0
+  static lab2 + #43, #0
+  static lab2 + #44, #2050
+  static lab2 + #45, #0
+  static lab2 + #46, #0
+  static lab2 + #47, #0
+  static lab2 + #48, #0
+  static lab2 + #49, #0
+  static lab2 + #50, #0
+  static lab2 + #51, #2050
+  static lab2 + #52, #0
+  static lab2 + #53, #0
+  static lab2 + #54, #0
+  static lab2 + #55, #0
+  static lab2 + #56, #0
+  static lab2 + #57, #2050
+  static lab2 + #58, #0
+  static lab2 + #59, #0
+  static lab2 + #60, #0
+  static lab2 + #61, #0
+  static lab2 + #62, #0
+  static lab2 + #63, #2050
+  static lab2 + #64, #0
+  static lab2 + #65, #0
+  static lab2 + #66, #0
+  static lab2 + #67, #0
+  static lab2 + #68, #0
+  static lab2 + #69, #0
+  static lab2 + #70, #0
+  static lab2 + #71, #0
+  static lab2 + #72, #0
+  static lab2 + #73, #2050
+  static lab2 + #74, #0
+  static lab2 + #75, #0
+  static lab2 + #76, #0
+  static lab2 + #77, #0
+  static lab2 + #78, #0
+  static lab2 + #79, #2050
+
+  ;Linha 2
+  static lab2 + #80, #2050
+  static lab2 + #81, #0
+  static lab2 + #82, #2329
+  static lab2 + #83, #0
+  static lab2 + #84, #2327
+  static lab2 + #85, #0
+  static lab2 + #86, #2049
+  static lab2 + #87, #2056
+  static lab2 + #88, #2049
+  static lab2 + #89, #2053
+  static lab2 + #90, #0
+  static lab2 + #91, #2055
+  static lab2 + #92, #2049
+  static lab2 + #93, #2049
+  static lab2 + #94, #0
+  static lab2 + #95, #2050
+  static lab2 + #96, #0
+  static lab2 + #97, #2055
+  static lab2 + #98, #2049
+  static lab2 + #99, #2053
+  static lab2 + #100, #0
+  static lab2 + #101, #2050
+  static lab2 + #102, #0
+  static lab2 + #103, #2050
+  static lab2 + #104, #0
+  static lab2 + #105, #2060
+  static lab2 + #106, #2049
+  static lab2 + #107, #2049
+  static lab2 + #108, #2049
+  static lab2 + #109, #2049
+  static lab2 + #110, #2049
+  static lab2 + #111, #2053
+  static lab2 + #112, #0
+  static lab2 + #113, #2050
+  static lab2 + #114, #0
+  static lab2 + #115, #2050
+  static lab2 + #116, #0
+  static lab2 + #117, #2050
+  static lab2 + #118, #0
+  static lab2 + #119, #2050
+
+  ;Linha 3
+  static lab2 + #120, #2050
+  static lab2 + #121, #0
+  static lab2 + #122, #0
+  static lab2 + #123, #0
+  static lab2 + #124, #2050
+  static lab2 + #125, #0
+  static lab2 + #126, #0
+  static lab2 + #127, #2050
+  static lab2 + #128, #0
+  static lab2 + #129, #2050
+  static lab2 + #130, #0
+  static lab2 + #131, #0
+  static lab2 + #132, #0
+  static lab2 + #133, #0
+  static lab2 + #134, #0
+  static lab2 + #135, #2050
+  static lab2 + #136, #0
+  static lab2 + #137, #0
+  static lab2 + #138, #0
+  static lab2 + #139, #2050
+  static lab2 + #140, #0
+  static lab2 + #141, #2050
+  static lab2 + #142, #2852
+  static lab2 + #143, #2050
+  static lab2 + #144, #0
+  static lab2 + #145, #2050
+  static lab2 + #146, #0
+  static lab2 + #147, #0
+  static lab2 + #148, #0
+  static lab2 + #149, #0
+  static lab2 + #150, #0
+  static lab2 + #151, #2050
+  static lab2 + #152, #0
+  static lab2 + #153, #0
+  static lab2 + #154, #0
+  static lab2 + #155, #2050
+  static lab2 + #156, #0
+  static lab2 + #157, #2050
+  static lab2 + #158, #1564
+  static lab2 + #159, #2050
+
+  ;Linha 4
+  static lab2 + #160, #2057
+  static lab2 + #161, #2049
+  static lab2 + #162, #2328
+  static lab2 + #163, #2049
+  static lab2 + #164, #2054
+  static lab2 + #165, #0
+  static lab2 + #166, #2049
+  static lab2 + #167, #2059
+  static lab2 + #168, #0
+  static lab2 + #169, #2055
+  static lab2 + #170, #2049
+  static lab2 + #171, #2049
+  static lab2 + #172, #2049
+  static lab2 + #173, #2049
+  static lab2 + #174, #2049
+  static lab2 + #175, #2051
+  static lab2 + #176, #2049
+  static lab2 + #177, #2049
+  static lab2 + #178, #0
+  static lab2 + #179, #2050
+  static lab2 + #180, #0
+  static lab2 + #181, #2055
+  static lab2 + #182, #2049
+  static lab2 + #183, #2059
+  static lab2 + #184, #0
+  static lab2 + #185, #2050
+  static lab2 + #186, #0
+  static lab2 + #187, #0
+  static lab2 + #188, #1306
+  static lab2 + #189, #0
+  static lab2 + #190, #0
+  static lab2 + #191, #2057
+  static lab2 + #192, #2049
+  static lab2 + #193, #2049
+  static lab2 + #194, #2049
+  static lab2 + #195, #2059
+  static lab2 + #196, #0
+  static lab2 + #197, #2055
+  static lab2 + #198, #2049
+  static lab2 + #199, #2059
+
+  ;Linha 5
+  static lab2 + #200, #2050
+  static lab2 + #201, #0
+  static lab2 + #202, #0
+  static lab2 + #203, #0
+  static lab2 + #204, #0
+  static lab2 + #205, #0
+  static lab2 + #206, #0
+  static lab2 + #207, #2327
+  static lab2 + #208, #0
+  static lab2 + #209, #0
+  static lab2 + #210, #0
+  static lab2 + #211, #0
+  static lab2 + #212, #0
+  static lab2 + #213, #0
+  static lab2 + #214, #0
+  static lab2 + #215, #2050
+  static lab2 + #216, #0
+  static lab2 + #217, #0
+  static lab2 + #218, #0
+  static lab2 + #219, #2050
+  static lab2 + #220, #0
+  static lab2 + #221, #0
+  static lab2 + #222, #0
+  static lab2 + #223, #2050
+  static lab2 + #224, #0
+  static lab2 + #225, #2050
+  static lab2 + #226, #0
+  static lab2 + #227, #0
+  static lab2 + #228, #0
+  static lab2 + #229, #0
+  static lab2 + #230, #0
+  static lab2 + #231, #2050
+  static lab2 + #232, #0
+  static lab2 + #233, #0
+  static lab2 + #234, #0
+  static lab2 + #235, #2050
+  static lab2 + #236, #0
+  static lab2 + #237, #0
+  static lab2 + #238, #0
+  static lab2 + #239, #2050
+
+  ;Linha 6
+  static lab2 + #240, #2050
+  static lab2 + #241, #0
+  static lab2 + #242, #2050
+  static lab2 + #243, #0
+  static lab2 + #244, #0
+  static lab2 + #245, #2049
+  static lab2 + #246, #2049
+  static lab2 + #247, #2058
+  static lab2 + #248, #2049
+  static lab2 + #249, #2053
+  static lab2 + #250, #0
+  static lab2 + #251, #2049
+  static lab2 + #252, #2049
+  static lab2 + #253, #2053
+  static lab2 + #254, #0
+  static lab2 + #255, #2050
+  static lab2 + #256, #0
+  static lab2 + #257, #2060
+  static lab2 + #258, #2049
+  static lab2 + #259, #2054
+  static lab2 + #260, #0
+  static lab2 + #261, #2050
+  static lab2 + #262, #0
+  static lab2 + #263, #2050
+  static lab2 + #264, #0
+  static lab2 + #265, #2057
+  static lab2 + #266, #2049
+  static lab2 + #267, #2049
+  static lab2 + #268, #1560
+  static lab2 + #269, #2053
+  static lab2 + #270, #0
+  static lab2 + #271, #2050
+  static lab2 + #272, #0
+  static lab2 + #273, #2050
+  static lab2 + #274, #0
+  static lab2 + #275, #2055
+  static lab2 + #276, #2049
+  static lab2 + #277, #2049
+  static lab2 + #278, #0
+  static lab2 + #279, #2050
+
+  ;Linha 7
+  static lab2 + #280, #2050
+  static lab2 + #281, #0
+  static lab2 + #282, #2050
+  static lab2 + #283, #0
+  static lab2 + #284, #0
+  static lab2 + #285, #0
+  static lab2 + #286, #0
+  static lab2 + #287, #0
+  static lab2 + #288, #0
+  static lab2 + #289, #2050
+  static lab2 + #290, #0
+  static lab2 + #291, #0
+  static lab2 + #292, #0
+  static lab2 + #293, #2050
+  static lab2 + #294, #0
+  static lab2 + #295, #2050
+  static lab2 + #296, #0
+  static lab2 + #297, #2050
+  static lab2 + #298, #0
+  static lab2 + #299, #0
+  static lab2 + #300, #0
+  static lab2 + #301, #2050
+  static lab2 + #302, #0
+  static lab2 + #303, #2050
+  static lab2 + #304, #0
+  static lab2 + #305, #2050
+  static lab2 + #306, #0
+  static lab2 + #307, #0
+  static lab2 + #308, #0
+  static lab2 + #309, #2050
+  static lab2 + #310, #0
+  static lab2 + #311, #2050
+  static lab2 + #312, #0
+  static lab2 + #313, #2050
+  static lab2 + #314, #0
+  static lab2 + #315, #0
+  static lab2 + #316, #0
+  static lab2 + #317, #0
+  static lab2 + #318, #0
+  static lab2 + #319, #2050
+
+  ;Linha 8
+  static lab2 + #320, #2050
+  static lab2 + #321, #0
+  static lab2 + #322, #2055
+  static lab2 + #323, #2049
+  static lab2 + #324, #2049
+  static lab2 + #325, #2049
+  static lab2 + #326, #2049
+  static lab2 + #327, #2053
+  static lab2 + #328, #0
+  static lab2 + #329, #2055
+  static lab2 + #330, #2049
+  static lab2 + #331, #2053
+  static lab2 + #332, #0
+  static lab2 + #333, #2050
+  static lab2 + #334, #0
+  static lab2 + #335, #2050
+  static lab2 + #336, #0
+  static lab2 + #337, #2050
+  static lab2 + #338, #0
+  static lab2 + #339, #2060
+  static lab2 + #340, #2049
+  static lab2 + #341, #2054
+  static lab2 + #342, #0
+  static lab2 + #343, #2050
+  static lab2 + #344, #0
+  static lab2 + #345, #2050
+  static lab2 + #346, #0
+  static lab2 + #347, #2050
+  static lab2 + #348, #0
+  static lab2 + #349, #2057
+  static lab2 + #350, #2049
+  static lab2 + #351, #2054
+  static lab2 + #352, #0
+  static lab2 + #353, #2057
+  static lab2 + #354, #2049
+  static lab2 + #355, #2049
+  static lab2 + #356, #2049
+  static lab2 + #357, #2053
+  static lab2 + #358, #0
+  static lab2 + #359, #2050
+
+  ;Linha 9
+  static lab2 + #360, #2050
+  static lab2 + #361, #0
+  static lab2 + #362, #0
+  static lab2 + #363, #0
+  static lab2 + #364, #0
+  static lab2 + #365, #0
+  static lab2 + #366, #0
+  static lab2 + #367, #2050
+  static lab2 + #368, #0
+  static lab2 + #369, #0
+  static lab2 + #370, #0
+  static lab2 + #371, #2050
+  static lab2 + #372, #0
+  static lab2 + #373, #2050
+  static lab2 + #374, #0
+  static lab2 + #375, #0
+  static lab2 + #376, #0
+  static lab2 + #377, #2050
+  static lab2 + #378, #2852
+  static lab2 + #379, #2050
+  static lab2 + #380, #0
+  static lab2 + #381, #0
+  static lab2 + #382, #0
+  static lab2 + #383, #2050
+  static lab2 + #384, #0
+  static lab2 + #385, #0
+  static lab2 + #386, #0
+  static lab2 + #387, #2050
+  static lab2 + #388, #0
+  static lab2 + #389, #2050
+  static lab2 + #390, #0
+  static lab2 + #391, #0
+  static lab2 + #392, #0
+  static lab2 + #393, #2050
+  static lab2 + #394, #2852
+  static lab2 + #395, #0
+  static lab2 + #396, #0
+  static lab2 + #397, #2050
+  static lab2 + #398, #0
+  static lab2 + #399, #2050
+
+  ;Linha 10
+  static lab2 + #400, #2057
+  static lab2 + #401, #2049
+  static lab2 + #402, #2049
+  static lab2 + #403, #2049
+  static lab2 + #404, #2049
+  static lab2 + #405, #2053
+  static lab2 + #406, #0
+  static lab2 + #407, #2055
+  static lab2 + #408, #2049
+  static lab2 + #409, #2049
+  static lab2 + #410, #0
+  static lab2 + #411, #2050
+  static lab2 + #412, #0
+  static lab2 + #413, #2055
+  static lab2 + #414, #2049
+  static lab2 + #415, #2049
+  static lab2 + #416, #2049
+  static lab2 + #417, #2058
+  static lab2 + #418, #2049
+  static lab2 + #419, #2059
+  static lab2 + #420, #0
+  static lab2 + #421, #2049
+  static lab2 + #422, #2049
+  static lab2 + #423, #2051
+  static lab2 + #424, #2049
+  static lab2 + #425, #2049
+  static lab2 + #426, #2049
+  static lab2 + #427, #2054
+  static lab2 + #428, #0
+  static lab2 + #429, #1559
+  static lab2 + #430, #0
+  static lab2 + #431, #2049
+  static lab2 + #432, #2049
+  static lab2 + #433, #2058
+  static lab2 + #434, #2049
+  static lab2 + #435, #2053
+  static lab2 + #436, #0
+  static lab2 + #437, #2050
+  static lab2 + #438, #0
+  static lab2 + #439, #2050
+
+  ;Linha 11
+  static lab2 + #440, #2050
+  static lab2 + #441, #0
+  static lab2 + #442, #0
+  static lab2 + #443, #0
+  static lab2 + #444, #2852
+  static lab2 + #445, #2050
+  static lab2 + #446, #0
+  static lab2 + #447, #0
+  static lab2 + #448, #0
+  static lab2 + #449, #0
+  static lab2 + #450, #0
+  static lab2 + #451, #2050
+  static lab2 + #452, #0
+  static lab2 + #453, #0
+  static lab2 + #454, #0
+  static lab2 + #455, #0
+  static lab2 + #456, #0
+  static lab2 + #457, #0
+  static lab2 + #458, #0
+  static lab2 + #459, #2327
+  static lab2 + #460, #0
+  static lab2 + #461, #0
+  static lab2 + #462, #0
+  static lab2 + #463, #2050
+  static lab2 + #464, #0
+  static lab2 + #465, #0
+  static lab2 + #466, #0
+  static lab2 + #467, #0
+  static lab2 + #468, #0
+  static lab2 + #469, #2050
+  static lab2 + #470, #0
+  static lab2 + #471, #0
+  static lab2 + #472, #0
+  static lab2 + #473, #0
+  static lab2 + #474, #0
+  static lab2 + #475, #2050
+  static lab2 + #476, #0
+  static lab2 + #477, #0
+  static lab2 + #478, #0
+  static lab2 + #479, #2050
+
+  ;Linha 12
+  static lab2 + #480, #2050
+  static lab2 + #481, #0
+  static lab2 + #482, #2049
+  static lab2 + #483, #2049
+  static lab2 + #484, #2049
+  static lab2 + #485, #2051
+  static lab2 + #486, #2049
+  static lab2 + #487, #2049
+  static lab2 + #488, #2049
+  static lab2 + #489, #2049
+  static lab2 + #490, #2049
+  static lab2 + #491, #2058
+  static lab2 + #492, #2049
+  static lab2 + #493, #2049
+  static lab2 + #494, #2049
+  static lab2 + #495, #2056
+  static lab2 + #496, #2049
+  static lab2 + #497, #2049
+  static lab2 + #498, #0
+  static lab2 + #499, #2050
+  static lab2 + #500, #0
+  static lab2 + #501, #2050
+  static lab2 + #502, #0
+  static lab2 + #503, #2050
+  static lab2 + #504, #0
+  static lab2 + #505, #2060
+  static lab2 + #506, #2049
+  static lab2 + #507, #2049
+  static lab2 + #508, #2049
+  static lab2 + #509, #2051
+  static lab2 + #510, #2049
+  static lab2 + #511, #2049
+  static lab2 + #512, #2049
+  static lab2 + #513, #2049
+  static lab2 + #514, #0
+  static lab2 + #515, #2057
+  static lab2 + #516, #2049
+  static lab2 + #517, #2049
+  static lab2 + #518, #2049
+  static lab2 + #519, #2059
+
+  ;Linha 13
+  static lab2 + #520, #2050
+  static lab2 + #521, #0
+  static lab2 + #522, #0
+  static lab2 + #523, #0
+  static lab2 + #524, #0
+  static lab2 + #525, #2050
+  static lab2 + #526, #0
+  static lab2 + #527, #0
+  static lab2 + #528, #0
+  static lab2 + #529, #0
+  static lab2 + #530, #0
+  static lab2 + #531, #0
+  static lab2 + #532, #0
+  static lab2 + #533, #0
+  static lab2 + #534, #0
+  static lab2 + #535, #2050
+  static lab2 + #536, #0
+  static lab2 + #537, #0
+  static lab2 + #538, #0
+  static lab2 + #539, #2050
+  static lab2 + #540, #0
+  static lab2 + #541, #2050
+  static lab2 + #542, #0
+  static lab2 + #543, #0
+  static lab2 + #544, #0
+  static lab2 + #545, #2050
+  static lab2 + #546, #0
+  static lab2 + #547, #0
+  static lab2 + #548, #0
+  static lab2 + #549, #2050
+  static lab2 + #550, #0
+  static lab2 + #551, #0
+  static lab2 + #552, #0
+  static lab2 + #553, #0
+  static lab2 + #554, #0
+  static lab2 + #555, #2050
+  static lab2 + #556, #0
+  static lab2 + #557, #0
+  static lab2 + #558, #0
+  static lab2 + #559, #2050
+
+  ;Linha 14
+  static lab2 + #560, #2057
+  static lab2 + #561, #2049
+  static lab2 + #562, #2049
+  static lab2 + #563, #2049
+  static lab2 + #564, #0
+  static lab2 + #565, #2050
+  static lab2 + #566, #0
+  static lab2 + #567, #2330
+  static lab2 + #568, #0
+  static lab2 + #569, #0
+  static lab2 + #570, #2060
+  static lab2 + #571, #2049
+  static lab2 + #572, #2049
+  static lab2 + #573, #2053
+  static lab2 + #574, #0
+  static lab2 + #575, #2050
+  static lab2 + #576, #0
+  static lab2 + #577, #2049
+  static lab2 + #578, #2049
+  static lab2 + #579, #2059
+  static lab2 + #580, #0
+  static lab2 + #581, #2055
+  static lab2 + #582, #2049
+  static lab2 + #583, #2049
+  static lab2 + #584, #2049
+  static lab2 + #585, #2059
+  static lab2 + #586, #0
+  static lab2 + #587, #2050
+  static lab2 + #588, #0
+  static lab2 + #589, #2050
+  static lab2 + #590, #0
+  static lab2 + #591, #2060
+  static lab2 + #592, #2049
+  static lab2 + #593, #2049
+  static lab2 + #594, #2049
+  static lab2 + #595, #2054
+  static lab2 + #596, #0
+  static lab2 + #597, #2050
+  static lab2 + #598, #0
+  static lab2 + #599, #2050
+
+  ;Linha 15
+  static lab2 + #600, #2050
+  static lab2 + #601, #0
+  static lab2 + #602, #0
+  static lab2 + #603, #0
+  static lab2 + #604, #0
+  static lab2 + #605, #2050
+  static lab2 + #606, #0
+  static lab2 + #607, #0
+  static lab2 + #608, #0
+  static lab2 + #609, #0
+  static lab2 + #610, #1303
+  static lab2 + #611, #0
+  static lab2 + #612, #0
+  static lab2 + #613, #2050
+  static lab2 + #614, #0
+  static lab2 + #615, #2050
+  static lab2 + #616, #0
+  static lab2 + #617, #0
+  static lab2 + #618, #0
+  static lab2 + #619, #2050
+  static lab2 + #620, #0
+  static lab2 + #621, #0
+  static lab2 + #622, #0
+  static lab2 + #623, #0
+  static lab2 + #624, #0
+  static lab2 + #625, #2050
+  static lab2 + #626, #0
+  static lab2 + #627, #2050
+  static lab2 + #628, #0
+  static lab2 + #629, #0
+  static lab2 + #630, #0
+  static lab2 + #631, #2050
+  static lab2 + #632, #0
+  static lab2 + #633, #0
+  static lab2 + #634, #0
+  static lab2 + #635, #0
+  static lab2 + #636, #0
+  static lab2 + #637, #2050
+  static lab2 + #638, #0
+  static lab2 + #639, #2050
+
+  ;Linha 16
+  static lab2 + #640, #2050
+  static lab2 + #641, #0
+  static lab2 + #642, #2049
+  static lab2 + #643, #2049
+  static lab2 + #644, #2049
+  static lab2 + #645, #2058
+  static lab2 + #646, #2049
+  static lab2 + #647, #2056
+  static lab2 + #648, #1304
+  static lab2 + #649, #2049
+  static lab2 + #650, #2058
+  static lab2 + #651, #2053
+  static lab2 + #652, #0
+  static lab2 + #653, #2050
+  static lab2 + #654, #0
+  static lab2 + #655, #2055
+  static lab2 + #656, #2049
+  static lab2 + #657, #2053
+  static lab2 + #658, #0
+  static lab2 + #659, #2057
+  static lab2 + #660, #2049
+  static lab2 + #661, #2049
+  static lab2 + #662, #2049
+  static lab2 + #663, #2049
+  static lab2 + #664, #0
+  static lab2 + #665, #2050
+  static lab2 + #666, #0
+  static lab2 + #667, #2055
+  static lab2 + #668, #2049
+  static lab2 + #669, #2049
+  static lab2 + #670, #2049
+  static lab2 + #671, #2054
+  static lab2 + #672, #0
+  static lab2 + #673, #2060
+  static lab2 + #674, #2049
+  static lab2 + #675, #2049
+  static lab2 + #676, #2049
+  static lab2 + #677, #2059
+  static lab2 + #678, #0
+  static lab2 + #679, #2050
+
+  ;Linha 17
+  static lab2 + #680, #2050
+  static lab2 + #681, #0
+  static lab2 + #682, #0
+  static lab2 + #683, #0
+  static lab2 + #684, #0
+  static lab2 + #685, #0
+  static lab2 + #686, #0
+  static lab2 + #687, #2050
+  static lab2 + #688, #0
+  static lab2 + #689, #0
+  static lab2 + #690, #0
+  static lab2 + #691, #2050
+  static lab2 + #692, #0
+  static lab2 + #693, #2050
+  static lab2 + #694, #0
+  static lab2 + #695, #0
+  static lab2 + #696, #2852
+  static lab2 + #697, #2050
+  static lab2 + #698, #0
+  static lab2 + #699, #2050
+  static lab2 + #700, #0
+  static lab2 + #701, #0
+  static lab2 + #702, #0
+  static lab2 + #703, #0
+  static lab2 + #704, #0
+  static lab2 + #705, #2050
+  static lab2 + #706, #0
+  static lab2 + #707, #0
+  static lab2 + #708, #0
+  static lab2 + #709, #0
+  static lab2 + #710, #0
+  static lab2 + #711, #0
+  static lab2 + #712, #0
+  static lab2 + #713, #2050
+  static lab2 + #714, #0
+  static lab2 + #715, #0
+  static lab2 + #716, #0
+  static lab2 + #717, #2050
+  static lab2 + #718, #0
+  static lab2 + #719, #2050
+
+  ;Linha 18
+  static lab2 + #720, #2050
+  static lab2 + #721, #0
+  static lab2 + #722, #2050
+  static lab2 + #723, #0
+  static lab2 + #724, #2049
+  static lab2 + #725, #2049
+  static lab2 + #726, #2049
+  static lab2 + #727, #2058
+  static lab2 + #728, #2049
+  static lab2 + #729, #2049
+  static lab2 + #730, #0
+  static lab2 + #731, #2050
+  static lab2 + #732, #0
+  static lab2 + #733, #2055
+  static lab2 + #734, #2049
+  static lab2 + #735, #2056
+  static lab2 + #736, #2049
+  static lab2 + #737, #2054
+  static lab2 + #738, #0
+  static lab2 + #739, #2057
+  static lab2 + #740, #2049
+  static lab2 + #741, #2049
+  static lab2 + #742, #2049
+  static lab2 + #743, #2053
+  static lab2 + #744, #0
+  static lab2 + #745, #2055
+  static lab2 + #746, #2049
+  static lab2 + #747, #2056
+  static lab2 + #748, #2049
+  static lab2 + #749, #2049
+  static lab2 + #750, #2049
+  static lab2 + #751, #2049
+  static lab2 + #752, #2049
+  static lab2 + #753, #2059
+  static lab2 + #754, #0
+  static lab2 + #755, #2050
+  static lab2 + #756, #0
+  static lab2 + #757, #2050
+  static lab2 + #758, #0
+  static lab2 + #759, #2050
+
+  ;Linha 19
+  static lab2 + #760, #2050
+  static lab2 + #761, #0
+  static lab2 + #762, #2050
+  static lab2 + #763, #0
+  static lab2 + #764, #0
+  static lab2 + #765, #0
+  static lab2 + #766, #0
+  static lab2 + #767, #0
+  static lab2 + #768, #0
+  static lab2 + #769, #0
+  static lab2 + #770, #0
+  static lab2 + #771, #2050
+  static lab2 + #772, #0
+  static lab2 + #773, #0
+  static lab2 + #774, #0
+  static lab2 + #775, #2050
+  static lab2 + #776, #0
+  static lab2 + #777, #0
+  static lab2 + #778, #0
+  static lab2 + #779, #2050
+  static lab2 + #780, #0
+  static lab2 + #781, #0
+  static lab2 + #782, #0
+  static lab2 + #783, #2050
+  static lab2 + #784, #0
+  static lab2 + #785, #0
+  static lab2 + #786, #0
+  static lab2 + #787, #2050
+  static lab2 + #788, #0
+  static lab2 + #789, #0
+  static lab2 + #790, #0
+  static lab2 + #791, #0
+  static lab2 + #792, #0
+  static lab2 + #793, #2050
+  static lab2 + #794, #0
+  static lab2 + #795, #2050
+  static lab2 + #796, #0
+  static lab2 + #797, #0
+  static lab2 + #798, #0
+  static lab2 + #799, #2050
+
+  ;Linha 20
+  static lab2 + #800, #2050
+  static lab2 + #801, #0
+  static lab2 + #802, #2057
+  static lab2 + #803, #2049
+  static lab2 + #804, #2049
+  static lab2 + #805, #2049
+  static lab2 + #806, #2049
+  static lab2 + #807, #2049
+  static lab2 + #808, #2049
+  static lab2 + #809, #2053
+  static lab2 + #810, #0
+  static lab2 + #811, #2055
+  static lab2 + #812, #2049
+  static lab2 + #813, #2049
+  static lab2 + #814, #0
+  static lab2 + #815, #2050
+  static lab2 + #816, #0
+  static lab2 + #817, #2060
+  static lab2 + #818, #2049
+  static lab2 + #819, #2054
+  static lab2 + #820, #0
+  static lab2 + #821, #2050
+  static lab2 + #822, #0
+  static lab2 + #823, #2057
+  static lab2 + #824, #2049
+  static lab2 + #825, #2049
+  static lab2 + #826, #0
+  static lab2 + #827, #2327
+  static lab2 + #828, #0
+  static lab2 + #829, #2060
+  static lab2 + #830, #2049
+  static lab2 + #831, #2049
+  static lab2 + #832, #0
+  static lab2 + #833, #0
+  static lab2 + #834, #0
+  static lab2 + #835, #2055
+  static lab2 + #836, #2049
+  static lab2 + #837, #2049
+  static lab2 + #838, #2049
+  static lab2 + #839, #2059
+
+  ;Linha 21
+  static lab2 + #840, #2050
+  static lab2 + #841, #0
+  static lab2 + #842, #2050
+  static lab2 + #843, #0
+  static lab2 + #844, #0
+  static lab2 + #845, #0
+  static lab2 + #846, #0
+  static lab2 + #847, #0
+  static lab2 + #848, #2852
+  static lab2 + #849, #2050
+  static lab2 + #850, #0
+  static lab2 + #851, #0
+  static lab2 + #852, #0
+  static lab2 + #853, #0
+  static lab2 + #854, #0
+  static lab2 + #855, #2050
+  static lab2 + #856, #0
+  static lab2 + #857, #2050
+  static lab2 + #858, #0
+  static lab2 + #859, #0
+  static lab2 + #860, #0
+  static lab2 + #861, #2050
+  static lab2 + #862, #0
+  static lab2 + #863, #2050
+  static lab2 + #864, #0
+  static lab2 + #865, #0
+  static lab2 + #866, #0
+  static lab2 + #867, #2050
+  static lab2 + #868, #0
+  static lab2 + #869, #2050
+  static lab2 + #870, #0
+  static lab2 + #871, #0
+  static lab2 + #872, #0
+  static lab2 + #873, #2050
+  static lab2 + #874, #0
+  static lab2 + #875, #0
+  static lab2 + #876, #0
+  static lab2 + #877, #0
+  static lab2 + #878, #0
+  static lab2 + #879, #2050
+
+  ;Linha 22
+  static lab2 + #880, #2050
+  static lab2 + #881, #0
+  static lab2 + #882, #2050
+  static lab2 + #883, #0
+  static lab2 + #884, #2060
+  static lab2 + #885, #2049
+  static lab2 + #886, #2049
+  static lab2 + #887, #2049
+  static lab2 + #888, #2049
+  static lab2 + #889, #2054
+  static lab2 + #890, #0
+  static lab2 + #891, #2060
+  static lab2 + #892, #2049
+  static lab2 + #893, #2049
+  static lab2 + #894, #2049
+  static lab2 + #895, #2054
+  static lab2 + #896, #0
+  static lab2 + #897, #2057
+  static lab2 + #898, #2049
+  static lab2 + #899, #2049
+  static lab2 + #900, #0
+  static lab2 + #901, #2050
+  static lab2 + #902, #0
+  static lab2 + #903, #2055
+  static lab2 + #904, #2049
+  static lab2 + #905, #2049
+  static lab2 + #906, #2049
+  static lab2 + #907, #2054
+  static lab2 + #908, #0
+  static lab2 + #909, #2050
+  static lab2 + #910, #0
+  static lab2 + #911, #2049
+  static lab2 + #912, #2049
+  static lab2 + #913, #2058
+  static lab2 + #914, #2049
+  static lab2 + #915, #2056
+  static lab2 + #916, #2049
+  static lab2 + #917, #24
+  static lab2 + #918, #2049
+  static lab2 + #919, #2059
+
+  ;Linha 23
+  static lab2 + #920, #2050
+  static lab2 + #921, #0
+  static lab2 + #922, #0
+  static lab2 + #923, #0
+  static lab2 + #924, #2050
+  static lab2 + #925, #0
+  static lab2 + #926, #0
+  static lab2 + #927, #0
+  static lab2 + #928, #0
+  static lab2 + #929, #0
+  static lab2 + #930, #0
+  static lab2 + #931, #2050
+  static lab2 + #932, #0
+  static lab2 + #933, #0
+  static lab2 + #934, #0
+  static lab2 + #935, #0
+  static lab2 + #936, #0
+  static lab2 + #937, #2050
+  static lab2 + #938, #0
+  static lab2 + #939, #0
+  static lab2 + #940, #0
+  static lab2 + #941, #2050
+  static lab2 + #942, #0
+  static lab2 + #943, #0
+  static lab2 + #944, #0
+  static lab2 + #945, #0
+  static lab2 + #946, #0
+  static lab2 + #947, #0
+  static lab2 + #948, #0
+  static lab2 + #949, #2050
+  static lab2 + #950, #0
+  static lab2 + #951, #0
+  static lab2 + #952, #0
+  static lab2 + #953, #0
+  static lab2 + #954, #0
+  static lab2 + #955, #2050
+  static lab2 + #956, #0
+  static lab2 + #957, #0
+  static lab2 + #958, #0
+  static lab2 + #959, #2050
+
+  ;Linha 24
+  static lab2 + #960, #2057
+  static lab2 + #961, #2049
+  static lab2 + #962, #2049
+  static lab2 + #963, #0
+  static lab2 + #964, #2050
+  static lab2 + #965, #0
+  static lab2 + #966, #2049
+  static lab2 + #967, #2049
+  static lab2 + #968, #2049
+  static lab2 + #969, #2049
+  static lab2 + #970, #2049
+  static lab2 + #971, #2054
+  static lab2 + #972, #0
+  static lab2 + #973, #2049
+  static lab2 + #974, #2049
+  static lab2 + #975, #2049
+  static lab2 + #976, #2049
+  static lab2 + #977, #2054
+  static lab2 + #978, #0
+  static lab2 + #979, #2060
+  static lab2 + #980, #2049
+  static lab2 + #981, #2058
+  static lab2 + #982, #2049
+  static lab2 + #983, #2049
+  static lab2 + #984, #2049
+  static lab2 + #985, #2049
+  static lab2 + #986, #2049
+  static lab2 + #987, #2049
+  static lab2 + #988, #2049
+  static lab2 + #989, #2058
+  static lab2 + #990, #2049
+  static lab2 + #991, #2049
+  static lab2 + #992, #2049
+  static lab2 + #993, #2049
+  static lab2 + #994, #0
+  static lab2 + #995, #2050
+  static lab2 + #996, #0
+  static lab2 + #997, #30
+  static lab2 + #998, #0
+  static lab2 + #999, #2050
+
+  ;Linha 25
+  static lab2 + #1000, #2050
+  static lab2 + #1001, #0
+  static lab2 + #1002, #0
+  static lab2 + #1003, #0
+  static lab2 + #1004, #2050
+  static lab2 + #1005, #0
+  static lab2 + #1006, #0
+  static lab2 + #1007, #0
+  static lab2 + #1008, #0
+  static lab2 + #1009, #0
+  static lab2 + #1010, #0
+  static lab2 + #1011, #0
+  static lab2 + #1012, #0
+  static lab2 + #1013, #0
+  static lab2 + #1014, #0
+  static lab2 + #1015, #0
+  static lab2 + #1016, #0
+  static lab2 + #1017, #0
+  static lab2 + #1018, #0
+  static lab2 + #1019, #2050
+  static lab2 + #1020, #2852
+  static lab2 + #1021, #0
+  static lab2 + #1022, #0
+  static lab2 + #1023, #0
+  static lab2 + #1024, #0
+  static lab2 + #1025, #0
+  static lab2 + #1026, #0
+  static lab2 + #1027, #0
+  static lab2 + #1028, #0
+  static lab2 + #1029, #0
+  static lab2 + #1030, #0
+  static lab2 + #1031, #0
+  static lab2 + #1032, #0
+  static lab2 + #1033, #0
+  static lab2 + #1034, #0
+  static lab2 + #1035, #2050
+  static lab2 + #1036, #0
+  static lab2 + #1037, #0
+  static lab2 + #1038, #26
+  static lab2 + #1039, #2050
+
+  ;Linha 26
+  static lab2 + #1040, #2057
+  static lab2 + #1041, #2049
+  static lab2 + #1042, #2049
+  static lab2 + #1043, #2049
+  static lab2 + #1044, #2058
+  static lab2 + #1045, #2049
+  static lab2 + #1046, #2049
+  static lab2 + #1047, #2049
+  static lab2 + #1048, #2049
+  static lab2 + #1049, #2049
+  static lab2 + #1050, #2049
+  static lab2 + #1051, #2049
+  static lab2 + #1052, #2049
+  static lab2 + #1053, #2049
+  static lab2 + #1054, #2049
+  static lab2 + #1055, #2049
+  static lab2 + #1056, #2049
+  static lab2 + #1057, #2049
+  static lab2 + #1058, #2049
+  static lab2 + #1059, #2058
+  static lab2 + #1060, #2049
+  static lab2 + #1061, #2049
+  static lab2 + #1062, #2049
+  static lab2 + #1063, #2049
+  static lab2 + #1064, #2049
+  static lab2 + #1065, #2049
+  static lab2 + #1066, #2049
+  static lab2 + #1067, #2049
+  static lab2 + #1068, #2049
+  static lab2 + #1069, #2049
+  static lab2 + #1070, #2049
+  static lab2 + #1071, #2049
+  static lab2 + #1072, #2049
+  static lab2 + #1073, #2049
+  static lab2 + #1074, #2049
+  static lab2 + #1075, #2058
+  static lab2 + #1076, #2049
+  static lab2 + #1077, #2049
+  static lab2 + #1078, #2049
+  static lab2 + #1079, #2059
+
+  ;Linha 27
+  static lab2 + #1080, #0
+  static lab2 + #1081, #0
+  static lab2 + #1082, #0
+  static lab2 + #1083, #0
+  static lab2 + #1084, #0
+  static lab2 + #1085, #0
+  static lab2 + #1086, #0
+  static lab2 + #1087, #0
+  static lab2 + #1088, #0
+  static lab2 + #1089, #0
+  static lab2 + #1090, #0
+  static lab2 + #1091, #0
+  static lab2 + #1092, #0
+  static lab2 + #1093, #0
+  static lab2 + #1094, #0
+  static lab2 + #1095, #0
+  static lab2 + #1096, #0
+  static lab2 + #1097, #0
+  static lab2 + #1098, #0
+  static lab2 + #1099, #0
+  static lab2 + #1100, #0
+  static lab2 + #1101, #0
+  static lab2 + #1102, #0
+  static lab2 + #1103, #0
+  static lab2 + #1104, #0
+  static lab2 + #1105, #0
+  static lab2 + #1106, #0
+  static lab2 + #1107, #0
+  static lab2 + #1108, #0
+  static lab2 + #1109, #0
+  static lab2 + #1110, #0
+  static lab2 + #1111, #0
+  static lab2 + #1112, #0
+  static lab2 + #1113, #0
+  static lab2 + #1114, #0
+  static lab2 + #1115, #0
+  static lab2 + #1116, #0
+  static lab2 + #1117, #0
+  static lab2 + #1118, #0
+  static lab2 + #1119, #0
+
+  ;Linha 28
+  static lab2 + #1120, #0
+  static lab2 + #1121, #0
+  static lab2 + #1122, #0
+  static lab2 + #1123, #0
+  static lab2 + #1124, #0
+  static lab2 + #1125, #0
+  static lab2 + #1126, #0
+  static lab2 + #1127, #0
+  static lab2 + #1128, #0
+  static lab2 + #1129, #0
+  static lab2 + #1130, #0
+  static lab2 + #1131, #0
+  static lab2 + #1132, #0
+  static lab2 + #1133, #0
+  static lab2 + #1134, #0
+  static lab2 + #1135, #0
+  static lab2 + #1136, #0
+  static lab2 + #1137, #0
+  static lab2 + #1138, #0
+  static lab2 + #1139, #0
+  static lab2 + #1140, #0
+  static lab2 + #1141, #0
+  static lab2 + #1142, #0
+  static lab2 + #1143, #0
+  static lab2 + #1144, #0
+  static lab2 + #1145, #0
+  static lab2 + #1146, #0
+  static lab2 + #1147, #0
+  static lab2 + #1148, #0
+  static lab2 + #1149, #0
+  static lab2 + #1150, #0
+  static lab2 + #1151, #0
+  static lab2 + #1152, #0
+  static lab2 + #1153, #0
+  static lab2 + #1154, #0
+  static lab2 + #1155, #0
+  static lab2 + #1156, #0
+  static lab2 + #1157, #0
+  static lab2 + #1158, #0
+  static lab2 + #1159, #0
+
+  ;Linha 29
+  static lab2 + #1160, #0
+  static lab2 + #1161, #0
+  static lab2 + #1162, #0
+  static lab2 + #1163, #0
+  static lab2 + #1164, #0
+  static lab2 + #1165, #0
+  static lab2 + #1166, #0
+  static lab2 + #1167, #0
+  static lab2 + #1168, #0
+  static lab2 + #1169, #0
+  static lab2 + #1170, #0
+  static lab2 + #1171, #0
+  static lab2 + #1172, #0
+  static lab2 + #1173, #0
+  static lab2 + #1174, #0
+  static lab2 + #1175, #0
+  static lab2 + #1176, #0
+  static lab2 + #1177, #0
+  static lab2 + #1178, #0
+  static lab2 + #1179, #0
+  static lab2 + #1180, #0
+  static lab2 + #1181, #0
+  static lab2 + #1182, #0
+  static lab2 + #1183, #0
+  static lab2 + #1184, #0
+  static lab2 + #1185, #0
+  static lab2 + #1186, #0
+  static lab2 + #1187, #0
+  static lab2 + #1188, #0
+  static lab2 + #1189, #0
+  static lab2 + #1190, #0
+  static lab2 + #1191, #0
+  static lab2 + #1192, #0
+  static lab2 + #1193, #0
+  static lab2 + #1194, #0
+  static lab2 + #1195, #0
+  static lab2 + #1196, #0
+  static lab2 + #1197, #0
+  static lab2 + #1198, #0
+  static lab2 + #1199, #0
 
 deathScreen : var #1200
   ;Linha 0
@@ -3818,9 +5048,54 @@ baseScreen : var #1200
   static baseScreen + #1198, #0
   static baseScreen + #1199, #2
 
+; Player related
+
+playerPos: var #1
+	static playerPos, #82
+
+playerSprite: var #1
+	static playerSprite, #30	
+
+maxSteps: var #1
+	static maxSteps, #100
+
+currentSteps: var #1
+	static currentSteps, #100
+
+gameReset: var #1
+	static gameReset, #0
+
+score: var #1
+    static score, #50000
+scorePos: var #1
+    static scorePos, #1150
+
+money: var #1
+    static money, #0
+moneyPos: var #1
+    static moneyPos, #1190
+
+;
+; Map related
+;
+
+mapSpawn: var #3
+    static mapSpawn + #0, #0
+    static mapSpawn + #1, #82
+    static mapSpawn + #2, #30
+
+mapList : var #3
+    static mapList + #0, #deathScreen
+    static mapList + #1, #lab1
+    static mapList + #2, #lab2
+
+mapListIndex: var #1
+	static mapListIndex, #1
+
 ;
 ; Strings
 ;
+
 winStr: string "You win!"
 winPos: var #1
 	static winPos, #576
@@ -3833,48 +5108,76 @@ winPos: var #1
 ; r1 -> stores any character
 
 main:
-	loadn r1, #lab1
-	store currentScreen, r1
+    call printCurrentScreen
 
-	call printCurrentScreen
-	main_game:
+	main_game_loop:
 		; checking if the game reset
 		load r1, gameReset
 		loadn r2, #0
 		cmp r1, r2
 		jne main_reset
 
-		call printStepCount
+        call printStepCount
+        call printScore
+        call printMoney
 		call printPlayer
 
 		; calculation functions
 		call move
 		call checkSteps
 		
-		jmp main_game
+		jmp main_game_loop
 
-	main_reset:
-		call printCurrentScreen
-		; wait for '0' input
-		inchar r1
-		loadn r2, #255
-		
-		cmp r1, r2
-		jeq main_reset
-		
-		loadn r2, #'0'
-		cmp r1, r2
-		jne main_reset
+    main_reset:
+        ; saves the last map index
+        load r2, mapListIndex
+        push r2
+        
+        ; sets the index to the death screen
+        loadn r2, #0
+        store mapListIndex, r2
+        
+        call printCurrentScreen
 
-		; sets the reset flag to 0 (false)
-		loadn r2, #0
-		store gameReset, r2
+        main_reset_loop:
+            ; wait for '0' input
+            inchar r1
+            loadn r2, #255
+            cmp r1, r2
+            jeq main_reset_loop
+            
+            loadn r2, #'0'
+            cmp r1, r2
+            jne main_reset_loop
 
-		jmp main
+            ; sets the reset flag to 0 (false)
+            loadn r2, #0
+            store gameReset, r2
+
+            pop r2
+            store mapListIndex, r2
+
+            call main_reset_player
+
+            jmp main
+
+        main_reset_player:
+            ; resets the current steps of the player
+		    load r2, maxSteps
+		    store currentSteps, r2
+
+		    ; moves the player back to the spawn point
+		    load r2, mapListIndex
+            loadn r3, #mapSpawn
+            add r3, r3, r2
+            loadi r3, r3
+		    store playerPos, r3
+            
+            rts
 		
 
 ;
-; Functions	
+; Player related functions	
 ;
 
 move:
@@ -3913,6 +5216,7 @@ move:
 
 		; New position that the player would have, needs to be checked
 		call clearPlayer
+        mov r3, r0 ; temporarily saving player position
 		sub r0, r0, r2
 		call move_checkCollision
 
@@ -3932,6 +5236,7 @@ move:
 		; New position that the player would have, needs to be checked
 		loadn r2, #40
 		call clearPlayer
+        mov r3, r0 ; temporarily saving player position
 		add r0, r0, r2
 		call move_checkCollision
 
@@ -3952,6 +5257,7 @@ move:
 
 		; New position that the player would have, needs to be checked
 		call clearPlayer
+        mov r3, r0 ; temporarily saving player position
 		dec r0
 		call move_checkCollision
 
@@ -3972,6 +5278,7 @@ move:
 
 		; New position that the player would have, needs to be checked
 		call clearPlayer
+        mov r3, r0 ; temporarily saving player position
 		inc r0
 		call move_checkCollision
 
@@ -3980,8 +5287,127 @@ move:
 
 		rts
 
-	move_checkCollision:
-		rts
+    move_checkCollision:
+        push r1
+        push r2
+
+        ; getting char at players next position
+        load r1, mapListIndex
+        loadn r2, #mapList
+        add r1, r1, r2
+        loadi r1, r1
+
+        add r1, r1, r0
+        loadi r1, r1
+
+        ; getting the char's value
+        loadn r2, #128
+        mod r1, r1, r2
+        
+        ; checking if it's greater than 1 (walls go from 1 to 12)
+        loadn r2, #1
+        cmp r1, r2
+        ceg move_checkCollision_Condition
+        
+        pop r2
+        pop r1
+        rts
+
+        move_checkCollision_Condition:
+            ; checking if it's less than 12
+            loadn r2, #14 
+            cmp r1, r2
+            jel move_checkCollision_Wall
+
+            loadn r2, #36
+            cmp r1, r2
+            jeq move_checkCollision_Money
+
+            loadn r2, #25
+            cmp r1, r2
+            jeq move_checkCollision_ladder
+
+            rts
+    
+        move_checkCollision_Wall:
+            mov r0, r3
+            rts
+
+        move_checkCollision_ladder:
+            ; takes the pointer of the current screen and move to the next
+            load r2, mapListIndex
+            loadn r3, #2
+            cmp r2, r3
+            jeq move_checkCollision_ladder_exit
+
+            inc r2
+            store mapListIndex, r2
+
+            move_checkCollision_ladder_exit:
+                rts
+
+        move_checkCollision_Money:
+            load r2, money
+            inc r2
+            store money, r2
+            rts
+            
+
+; event_listener:
+;     push r0 ; posicao do jogador
+;     push r1 ; valor da posicao atual
+;     push r2 ; id da alavanca/botao
+;     push r3 ; endereco da posicao atual 
+
+;     load r0, playerPos
+;     load r1, mapList
+;     add r1, r1, r0 ; posicao definitiva do player endereço
+;     mov r3, r1
+;     loadi r1, r1 ; pega o valor no endereço
+
+;     loadn r2, #26
+;     cmp r2, r1
+;     jne teste_27
+;     call abrir_porta
+;     jmp fim_listener
+
+;    teste_27:
+;     loadn r2, #27
+;     cmp r2, r1
+;     jne teste_28
+;     jeq abrir_porta
+;      jmp fim_listener
+
+;    teste_28:
+;     loadn r2, #28
+;     cmp r2, r1
+;     jne teste_29
+;     jeq abrir_porta
+;     jmp fim_listener
+
+;    teste_29:
+;      loadn r2, #29
+;      cmp, r2, r1
+;      jeq abrir_porta
+;      jmp fim_listener
+
+    
+;fim_listener:
+;     pop r3
+;     pop r2
+;     pop r1
+;     pop r0
+;     rts
+
+; abrir_porta:
+; push r0
+
+
+; loadn r0, #0
+; outchar r3, r0
+
+
+; pop r0
 
 checkSteps:
 	push r2
@@ -4002,30 +5428,23 @@ checkSteps:
 		rts
 
 	checkSteps_setFlag:
-		; resets the current steps of the player
-		load r2, maxSteps
-		store currentSteps, r2
-
-		; moves the player back to the spawn point
-		load r2, playerSpawn
-		store playerPos, r2
-
 		; sets the reset flag to 1 (true)
 		loadn r2, #1
 		store gameReset, r2
 
-		; sets current map to death map
-		load r2, deathScreen
-		store currentScreen, r2
-
 		jmp checkSteps_leave
 	
+
+;
+; Print functions
+;
+
 ; prints a pre-made screen
 ; r1 = address of the first char
 printScreen:
 	push r0
-	push r2
-	push r3
+    push r2
+    push r3
 
 	loadn r0, #0
 	loadn r2, #1200
@@ -4034,48 +5453,45 @@ printScreen:
 		add r3, r0, r1
 		loadi r3, r3
 		outchar r3, r0 
+        
 		inc r0
 		cmp r0, r2
 		jne printScreen_Loop
 
-	pop r3
-	pop r2
+    pop r3
+    pop r2
 	pop r0
 	rts
 
+; Prints the current screen depending on the state of the game
 printCurrentScreen:
 	push r1
-	push r2
+    push r2
+    push r3
 
-	load r2, gameReset
-	loadn r1, #1
-	cmp r2, r1
-	jeq printDeathScreen 
-	
-	load r1, currentScreen
+    loadn r1, #mapList
+    load r2, mapListIndex
 
-	call printScreen
-	call printBaseScreen
-	
-	pop r2
-	pop r1
-	rts
-
-printDeathScreen:
-	loadn r1, #deathScreen
+    add r1, r1, r2
+    loadi r1, r1
 
 	call printScreen
 
-	pop r2
+    loadn r3, #0
+    cmp r2, r3
+	cne printBaseScreen
+	
+    pop r3
+    pop r2
 	pop r1
 	rts
 
+; Prints basic information about the player, level and current score
 printBaseScreen:
 	push r0
 	push r1
-	push r2
-	push r3
 
+    ; starts at the line 26
 	loadn r0, #1080
 	loadn r1, #baseScreen
 	loadn r3, #1200
@@ -4088,21 +5504,18 @@ printBaseScreen:
 		cmp r0, r3
 		jne printBaseScreenLoop
 
-	pop r3
-	pop r2
 	pop r1
 	pop r0
 	rts
 
+; Prints any given string
+; r0 = position to print, r1 = first character of the string
 printString:
-	push r2
-	push r3
-	push r4
-
-	loadn r2, #'\0' ; max position
+	loadn r2, #'\0' ; stop condition
 	loadn r4, #0
 
 	printString_Loop:
+        ; passes through all the character address and loads to r3
 		add r3, r1, r4
 		loadi r3, r3
 		cmp r3, r2
@@ -4113,12 +5526,11 @@ printString:
 		jmp printString_Loop
 
 	printString_Leave:
-		pop r4
-		pop r3
-		pop r2
 		rts
 
+; prints any given number
 ; r0 = position, r1 = number
+; caution: it only prints numbers up to 16 bits or 65536
 printNumber:
 	push r2
 	push r3
@@ -4170,7 +5582,6 @@ printNumber:
 printStepCount:
 	push r0
 	push r1
-	push r2
 
 	loadn r0, #1128
 	load r1, currentSteps
@@ -4192,7 +5603,6 @@ printStepCount:
 		rts
 	
 	printStepCount_leave:
-		pop r2
 		pop r1
 		pop r0
 		rts
@@ -4206,11 +5616,14 @@ clearPlayer:
 	pop r1
 	rts
 
+; prints the player and changes the current sprite
+; the two sprites of the player are 30 or 31
 printPlayer:
 	push r0
 	push r1
 
-	call checkPlayerSprite	
+	call changePlayerSprite	
+
 	load r0, playerSprite
 	load r1, playerPos
 	outchar r0, r1
@@ -4219,27 +5632,51 @@ printPlayer:
 	pop r0
 	rts	
 
-	checkPlayerSprite:
-		push r0
-		push r1
-
+	changePlayerSprite:
 		load r0, playerSprite
-		loadn r1, #30 ; first sprite's value is 30, second is 31
+
+        ; increases or decreases the player sprite
+		loadn r1, #30
 		cmp r0, r1
-		jeq checkPlayerSprite_inc
-		jmp checkPlayerSprite_dec
+		jeq changePlayerSprite_inc
+		jmp changePlayerSprite_dec
 
-		checkPlayerSprite_leave:
-			pop r1
-			pop r0
-			rts
-
-		checkPlayerSprite_inc:
+		changePlayerSprite_inc:
 			inc r0
 			store playerSprite, r0
-			jmp checkPlayerSprite_leave
+			rts
 
-		checkPlayerSprite_dec:
+		changePlayerSprite_dec:
 			dec r0
 			store playerSprite, r0
-			jmp checkPlayerSprite_leave
+			rts
+
+printScore:
+    push r0
+    push r1
+
+    load r0, scorePos
+    load r1, score
+
+    call printNumber
+
+    loadn r2, #50
+    sub r1, r1, r2
+    store score, r1
+
+    pop r1
+    pop r0
+    rts
+
+printMoney:
+    push r0
+    push r1
+
+    load r0, moneyPos
+    load r1, money
+
+    call printNumber
+
+    pop r1
+    pop r0
+    rts

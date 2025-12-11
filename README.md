@@ -1,8 +1,10 @@
 # 100 Chance 💀
 
-**100 chance**, ou sem chance, é um jogo que consiste em completar vários labirintos, porém você tem apenas 100 movimentos/ações para vencer, pois caso ultrapassado o limite, o jogador morre e recomeça. 
+**100 chance**, ou sem chance, é um jogo que consiste em completar vários labirintos, porém você tem apenas 100 movimentos/ações para vencer.
 
 Além disso, haverá outros "obstáculos" além de paredes para impedir o progesso do jogador.
+
+Ultrapassar esses 100 movimentos mata o jogador e reseta para o inicio do nível atual, mas quaisquer alterações feitas nesse nível se mantém.
 
 ---
 
