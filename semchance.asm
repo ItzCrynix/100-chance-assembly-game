@@ -10237,9 +10237,6 @@ initial_screen:
 
     initial_screen_loop:
         inchar r1
-        cmp r1, r2
-        jeq initial_screen_loop
-        
         loadn r2, #'0'
         cmp r1, r2
         jne initial_screen_loop
