@@ -1,5 +1,7 @@
 # 100 Chance 💀
 
+![100 Chance!](./prints/cem%20chance.png)
+
 **100 chance**, ou sem chance, é um jogo que consiste em completar vários labirintos, porém você tem apenas 100 movimentos/ações para vencer. 
 
 Ultrapassar esses 100 movimentos mata o jogador e reseta para o inicio do nível atual, mas quaisquer alterações feitas nesse nível se mantém.
@@ -42,6 +44,15 @@ Com isso, você deve conseguir fazer todas as funções necessárias para rodar 
 
 ---
 
+## Modificações
+
+Sim, é possível modificar o nosso código para adicionar mais conteúdo. A feature de mapas do nosso jogo permite que você adicione somente a variável nova de mapa que você criou e ele faz todo o trabalho de saber qual alavanca abre qual porta dependendo da cor utilizada, além de onde fica o final do mapa.
+
+Caso você queira criar uma tela customizada para o nosso jogo, utilize esta aplicação: https://github.com/GustavoSelhorstMarconi/Create-Screens-in-Assembly-with-python (Muito obrigado aos criadores dessa aplicação, salvaram demais!)
+
+![Criador de telas assembly](./prints/gerador.png)
+
+---
 
 ## Criadores
 
