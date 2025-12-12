@@ -4369,7 +4369,7 @@ lab3 : var #1200
   static lab3 + #551, #0
   static lab3 + #552, #2
   static lab3 + #553, #0
-  static lab3 + #554, #2852
+  static lab3 + #554, #1050
   static lab3 + #555, #2
   static lab3 + #556, #0
   static lab3 + #557, #0
@@ -4541,7 +4541,7 @@ lab3 : var #1200
   static lab3 + #715, #0
   static lab3 + #716, #0
   static lab3 + #717, #0
-  static lab3 + #718, #0
+  static lab3 + #718, #1024
   static lab3 + #719, #2
 
   ;Linha 18
