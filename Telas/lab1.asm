@@ -232,7 +232,7 @@ lab1 : var #1200
   static lab1 + #219, #2562
   static lab1 + #220, #0
   static lab1 + #221, #0
-  static lab1 + #222, #0
+  static lab1 + #222, #2852
   static lab1 + #223, #2562
   static lab1 + #224, #0
   static lab1 + #225, #2562
@@ -330,7 +330,7 @@ lab1 : var #1200
   static lab1 + #313, #0
   static lab1 + #314, #0
   static lab1 + #315, #2562
-  static lab1 + #316, #0
+  static lab1 + #316, #2852
   static lab1 + #317, #2562
   static lab1 + #318, #0
   static lab1 + #319, #2562
@@ -576,7 +576,7 @@ lab1 : var #1200
   static lab1 + #547, #0
   static lab1 + #548, #0
   static lab1 + #549, #0
-  static lab1 + #550, #0
+  static lab1 + #550, #2852
   static lab1 + #551, #2562
   static lab1 + #552, #0
   static lab1 + #553, #0
@@ -717,7 +717,7 @@ lab1 : var #1200
   static lab1 + #680, #2562
   static lab1 + #681, #0
   static lab1 + #682, #2562
-  static lab1 + #683, #0
+  static lab1 + #683, #2852
   static lab1 + #684, #0
   static lab1 + #685, #2562
   static lab1 + #686, #0
@@ -978,7 +978,7 @@ lab1 : var #1200
   static lab1 + #929, #0
   static lab1 + #930, #0
   static lab1 + #931, #2562
-  static lab1 + #932, #0
+  static lab1 + #932, #2852
   static lab1 + #933, #0
   static lab1 + #934, #0
   static lab1 + #935, #2562

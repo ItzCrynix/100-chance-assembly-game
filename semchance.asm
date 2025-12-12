@@ -242,7 +242,7 @@ lab1 : var #1200
   static lab1 + #219, #2562
   static lab1 + #220, #0
   static lab1 + #221, #0
-  static lab1 + #222, #0
+  static lab1 + #222, #2852
   static lab1 + #223, #2562
   static lab1 + #224, #0
   static lab1 + #225, #2562
@@ -340,7 +340,7 @@ lab1 : var #1200
   static lab1 + #313, #0
   static lab1 + #314, #0
   static lab1 + #315, #2562
-  static lab1 + #316, #0
+  static lab1 + #316, #2852
   static lab1 + #317, #2562
   static lab1 + #318, #0
   static lab1 + #319, #2562
@@ -586,7 +586,7 @@ lab1 : var #1200
   static lab1 + #547, #0
   static lab1 + #548, #0
   static lab1 + #549, #0
-  static lab1 + #550, #0
+  static lab1 + #550, #2852
   static lab1 + #551, #2562
   static lab1 + #552, #0
   static lab1 + #553, #0
@@ -727,7 +727,7 @@ lab1 : var #1200
   static lab1 + #680, #2562
   static lab1 + #681, #0
   static lab1 + #682, #2562
-  static lab1 + #683, #0
+  static lab1 + #683, #2852
   static lab1 + #684, #0
   static lab1 + #685, #2562
   static lab1 + #686, #0
@@ -988,7 +988,7 @@ lab1 : var #1200
   static lab1 + #929, #0
   static lab1 + #930, #0
   static lab1 + #931, #2562
-  static lab1 + #932, #0
+  static lab1 + #932, #2852
   static lab1 + #933, #0
   static lab1 + #934, #0
   static lab1 + #935, #2562
@@ -8551,7 +8551,7 @@ market1 : var #1200
   static market1 + #925, #0
   static market1 + #926, #0
   static market1 + #927, #2852
-  static market1 + #928, #2869
+  static market1 + #928, #2865
   static market1 + #929, #2869
   static market1 + #930, #0
   static market1 + #931, #127
@@ -8575,8 +8575,8 @@ market1 : var #1200
   static market1 + #949, #127
   static market1 + #950, #0
   static market1 + #951, #2852
-  static market1 + #952, #2869
-  static market1 + #953, #2869
+  static market1 + #952, #2866
+  static market1 + #953, #2864
   static market1 + #954, #0
   static market1 + #955, #0
   static market1 + #956, #0
@@ -8836,6 +8836,1266 @@ market1 : var #1200
   static market1 + #1198, #0
   static market1 + #1199, #0
 
+market2 : var #1200
+  ;Linha 0
+  static market2 + #0, #1296
+  static market2 + #1, #1296
+  static market2 + #2, #124
+  static market2 + #3, #1296
+  static market2 + #4, #1296
+  static market2 + #5, #0
+  static market2 + #6, #124
+  static market2 + #7, #1296
+  static market2 + #8, #1296
+  static market2 + #9, #0
+  static market2 + #10, #45
+  static market2 + #11, #45
+  static market2 + #12, #45
+  static market2 + #13, #45
+  static market2 + #14, #45
+  static market2 + #15, #45
+  static market2 + #16, #45
+  static market2 + #17, #45
+  static market2 + #18, #45
+  static market2 + #19, #45
+  static market2 + #20, #45
+  static market2 + #21, #45
+  static market2 + #22, #45
+  static market2 + #23, #45
+  static market2 + #24, #45
+  static market2 + #25, #45
+  static market2 + #26, #45
+  static market2 + #27, #45
+  static market2 + #28, #0
+  static market2 + #29, #1296
+  static market2 + #30, #1296
+  static market2 + #31, #124
+  static market2 + #32, #1296
+  static market2 + #33, #1296
+  static market2 + #34, #1296
+  static market2 + #35, #1296
+  static market2 + #36, #124
+  static market2 + #37, #1296
+  static market2 + #38, #1296
+  static market2 + #39, #1296
+
+  ;Linha 1
+  static market2 + #40, #0
+  static market2 + #41, #0
+  static market2 + #42, #124
+  static market2 + #43, #0
+  static market2 + #44, #0
+  static market2 + #45, #0
+  static market2 + #46, #124
+  static market2 + #47, #2321
+  static market2 + #48, #0
+  static market2 + #49, #124
+  static market2 + #50, #87
+  static market2 + #51, #72
+  static market2 + #52, #65
+  static market2 + #53, #84
+  static market2 + #54, #0
+  static market2 + #55, #65
+  static market2 + #56, #82
+  static market2 + #57, #69
+  static market2 + #58, #0
+  static market2 + #59, #89
+  static market2 + #60, #79
+  static market2 + #61, #85
+  static market2 + #62, #0
+  static market2 + #63, #71
+  static market2 + #64, #79
+  static market2 + #65, #73
+  static market2 + #66, #78
+  static market2 + #67, #71
+  static market2 + #68, #124
+  static market2 + #69, #2321
+  static market2 + #70, #0
+  static market2 + #71, #124
+  static market2 + #72, #0
+  static market2 + #73, #0
+  static market2 + #74, #0
+  static market2 + #75, #0
+  static market2 + #76, #124
+  static market2 + #77, #0
+  static market2 + #78, #0
+  static market2 + #79, #2321
+
+  ;Linha 2
+  static market2 + #80, #2321
+  static market2 + #81, #0
+  static market2 + #82, #124
+  static market2 + #83, #0
+  static market2 + #84, #0
+  static market2 + #85, #0
+  static market2 + #86, #124
+  static market2 + #87, #0
+  static market2 + #88, #0
+  static market2 + #89, #124
+  static market2 + #90, #0
+  static market2 + #91, #0
+  static market2 + #92, #0
+  static market2 + #93, #0
+  static market2 + #94, #0
+  static market2 + #95, #0
+  static market2 + #96, #0
+  static market2 + #97, #0
+  static market2 + #98, #0
+  static market2 + #99, #0
+  static market2 + #100, #0
+  static market2 + #101, #0
+  static market2 + #102, #0
+  static market2 + #103, #0
+  static market2 + #104, #0
+  static market2 + #105, #0
+  static market2 + #106, #0
+  static market2 + #107, #0
+  static market2 + #108, #124
+  static market2 + #109, #0
+  static market2 + #110, #0
+  static market2 + #111, #124
+  static market2 + #112, #0
+  static market2 + #113, #2321
+  static market2 + #114, #0
+  static market2 + #115, #0
+  static market2 + #116, #124
+  static market2 + #117, #2321
+  static market2 + #118, #0
+  static market2 + #119, #0
+
+  ;Linha 3
+  static market2 + #120, #0
+  static market2 + #121, #0
+  static market2 + #122, #124
+  static market2 + #123, #0
+  static market2 + #124, #0
+  static market2 + #125, #0
+  static market2 + #126, #124
+  static market2 + #127, #0
+  static market2 + #128, #0
+  static market2 + #129, #124
+  static market2 + #130, #0
+  static market2 + #131, #84
+  static market2 + #132, #79
+  static market2 + #133, #0
+  static market2 + #134, #66
+  static market2 + #135, #85
+  static market2 + #136, #89
+  static market2 + #137, #44
+  static market2 + #138, #0
+  static market2 + #139, #2387
+  static market2 + #140, #2388
+  static market2 + #141, #2386
+  static market2 + #142, #2369
+  static market2 + #143, #2382
+  static market2 + #144, #2375
+  static market2 + #145, #2373
+  static market2 + #146, #2386
+  static market2 + #147, #2367
+  static market2 + #148, #124
+  static market2 + #149, #0
+  static market2 + #150, #0
+  static market2 + #151, #124
+  static market2 + #152, #0
+  static market2 + #153, #0
+  static market2 + #154, #0
+  static market2 + #155, #0
+  static market2 + #156, #124
+  static market2 + #157, #0
+  static market2 + #158, #0
+  static market2 + #159, #0
+
+  ;Linha 4
+  static market2 + #160, #0
+  static market2 + #161, #0
+  static market2 + #162, #124
+  static market2 + #163, #0
+  static market2 + #164, #0
+  static market2 + #165, #0
+  static market2 + #166, #124
+  static market2 + #167, #0
+  static market2 + #168, #0
+  static market2 + #169, #0
+  static market2 + #170, #95
+  static market2 + #171, #95
+  static market2 + #172, #95
+  static market2 + #173, #95
+  static market2 + #174, #95
+  static market2 + #175, #95
+  static market2 + #176, #95
+  static market2 + #177, #95
+  static market2 + #178, #95
+  static market2 + #179, #95
+  static market2 + #180, #95
+  static market2 + #181, #95
+  static market2 + #182, #95
+  static market2 + #183, #95
+  static market2 + #184, #95
+  static market2 + #185, #95
+  static market2 + #186, #95
+  static market2 + #187, #95
+  static market2 + #188, #0
+  static market2 + #189, #0
+  static market2 + #190, #0
+  static market2 + #191, #124
+  static market2 + #192, #0
+  static market2 + #193, #0
+  static market2 + #194, #0
+  static market2 + #195, #0
+  static market2 + #196, #1283
+  static market2 + #197, #0
+  static market2 + #198, #0
+  static market2 + #199, #0
+
+  ;Linha 5
+  static market2 + #200, #2321
+  static market2 + #201, #0
+  static market2 + #202, #124
+  static market2 + #203, #0
+  static market2 + #204, #2321
+  static market2 + #205, #0
+  static market2 + #206, #124
+  static market2 + #207, #0
+  static market2 + #208, #0
+  static market2 + #209, #0
+  static market2 + #210, #0
+  static market2 + #211, #0
+  static market2 + #212, #0
+  static market2 + #213, #0
+  static market2 + #214, #0
+  static market2 + #215, #1300
+  static market2 + #216, #0
+  static market2 + #217, #0
+  static market2 + #218, #0
+  static market2 + #219, #0
+  static market2 + #220, #0
+  static market2 + #221, #0
+  static market2 + #222, #1300
+  static market2 + #223, #0
+  static market2 + #224, #0
+  static market2 + #225, #0
+  static market2 + #226, #0
+  static market2 + #227, #0
+  static market2 + #228, #0
+  static market2 + #229, #0
+  static market2 + #230, #0
+  static market2 + #231, #124
+  static market2 + #232, #0
+  static market2 + #233, #0
+  static market2 + #234, #0
+  static market2 + #235, #1283
+  static market2 + #236, #2321
+  static market2 + #237, #1283
+  static market2 + #238, #0
+  static market2 + #239, #0
+
+  ;Linha 6
+  static market2 + #240, #0
+  static market2 + #241, #0
+  static market2 + #242, #124
+  static market2 + #243, #0
+  static market2 + #244, #0
+  static market2 + #245, #0
+  static market2 + #246, #1283
+  static market2 + #247, #0
+  static market2 + #248, #0
+  static market2 + #249, #0
+  static market2 + #250, #0
+  static market2 + #251, #0
+  static market2 + #252, #0
+  static market2 + #253, #0
+  static market2 + #254, #1300
+  static market2 + #255, #3455
+  static market2 + #256, #1300
+  static market2 + #257, #0
+  static market2 + #258, #0
+  static market2 + #259, #0
+  static market2 + #260, #0
+  static market2 + #261, #1300
+  static market2 + #262, #3455
+  static market2 + #263, #1300
+  static market2 + #264, #0
+  static market2 + #265, #0
+  static market2 + #266, #0
+  static market2 + #267, #0
+  static market2 + #268, #0
+  static market2 + #269, #0
+  static market2 + #270, #1283
+  static market2 + #271, #1283
+  static market2 + #272, #1283
+  static market2 + #273, #0
+  static market2 + #274, #0
+  static market2 + #275, #3344
+  static market2 + #276, #1283
+  static market2 + #277, #3344
+  static market2 + #278, #0
+  static market2 + #279, #0
+
+  ;Linha 7
+  static market2 + #280, #0
+  static market2 + #281, #0
+  static market2 + #282, #1283
+  static market2 + #283, #0
+  static market2 + #284, #0
+  static market2 + #285, #1283
+  static market2 + #286, #1283
+  static market2 + #287, #1283
+  static market2 + #288, #0
+  static market2 + #289, #0
+  static market2 + #290, #0
+  static market2 + #291, #0
+  static market2 + #292, #0
+  static market2 + #293, #0
+  static market2 + #294, #3455
+  static market2 + #295, #127
+  static market2 + #296, #3455
+  static market2 + #297, #0
+  static market2 + #298, #0
+  static market2 + #299, #0
+  static market2 + #300, #0
+  static market2 + #301, #3455
+  static market2 + #302, #127
+  static market2 + #303, #3455
+  static market2 + #304, #0
+  static market2 + #305, #0
+  static market2 + #306, #0
+  static market2 + #307, #2321
+  static market2 + #308, #0
+  static market2 + #309, #0
+  static market2 + #310, #1283
+  static market2 + #311, #1283
+  static market2 + #312, #1283
+  static market2 + #313, #0
+  static market2 + #314, #0
+  static market2 + #315, #0
+  static market2 + #316, #1283
+  static market2 + #317, #0
+  static market2 + #318, #0
+  static market2 + #319, #0
+
+  ;Linha 8
+  static market2 + #320, #0
+  static market2 + #321, #1283
+  static market2 + #322, #2347
+  static market2 + #323, #1283
+  static market2 + #324, #0
+  static market2 + #325, #1316
+  static market2 + #326, #1283
+  static market2 + #327, #1316
+  static market2 + #328, #0
+  static market2 + #329, #0
+  static market2 + #330, #2321
+  static market2 + #331, #0
+  static market2 + #332, #0
+  static market2 + #333, #0
+  static market2 + #334, #3455
+  static market2 + #335, #127
+  static market2 + #336, #3455
+  static market2 + #337, #0
+  static market2 + #338, #0
+  static market2 + #339, #0
+  static market2 + #340, #0
+  static market2 + #341, #3455
+  static market2 + #342, #127
+  static market2 + #343, #3455
+  static market2 + #344, #0
+  static market2 + #345, #0
+  static market2 + #346, #0
+  static market2 + #347, #0
+  static market2 + #348, #0
+  static market2 + #349, #0
+  static market2 + #350, #1316
+  static market2 + #351, #1283
+  static market2 + #352, #1316
+  static market2 + #353, #2321
+  static market2 + #354, #0
+  static market2 + #355, #0
+  static market2 + #356, #3344
+  static market2 + #357, #0
+  static market2 + #358, #0
+  static market2 + #359, #0
+
+  ;Linha 9
+  static market2 + #360, #0
+  static market2 + #361, #0
+  static market2 + #362, #1283
+  static market2 + #363, #0
+  static market2 + #364, #0
+  static market2 + #365, #0
+  static market2 + #366, #1283
+  static market2 + #367, #0
+  static market2 + #368, #0
+  static market2 + #369, #0
+  static market2 + #370, #0
+  static market2 + #371, #0
+  static market2 + #372, #0
+  static market2 + #373, #0
+  static market2 + #374, #3455
+  static market2 + #375, #127
+  static market2 + #376, #3455
+  static market2 + #377, #0
+  static market2 + #378, #0
+  static market2 + #379, #0
+  static market2 + #380, #0
+  static market2 + #381, #3455
+  static market2 + #382, #127
+  static market2 + #383, #3455
+  static market2 + #384, #0
+  static market2 + #385, #0
+  static market2 + #386, #0
+  static market2 + #387, #0
+  static market2 + #388, #0
+  static market2 + #389, #0
+  static market2 + #390, #0
+  static market2 + #391, #3344
+  static market2 + #392, #0
+  static market2 + #393, #0
+  static market2 + #394, #0
+  static market2 + #395, #2321
+  static market2 + #396, #0
+  static market2 + #397, #0
+  static market2 + #398, #2321
+  static market2 + #399, #0
+
+  ;Linha 10
+  static market2 + #400, #0
+  static market2 + #401, #2321
+  static market2 + #402, #0
+  static market2 + #403, #0
+  static market2 + #404, #0
+  static market2 + #405, #0
+  static market2 + #406, #0
+  static market2 + #407, #0
+  static market2 + #408, #0
+  static market2 + #409, #0
+  static market2 + #410, #0
+  static market2 + #411, #0
+  static market2 + #412, #0
+  static market2 + #413, #0
+  static market2 + #414, #3455
+  static market2 + #415, #127
+  static market2 + #416, #3455
+  static market2 + #417, #1300
+  static market2 + #418, #1300
+  static market2 + #419, #1300
+  static market2 + #420, #1300
+  static market2 + #421, #3455
+  static market2 + #422, #127
+  static market2 + #423, #3455
+  static market2 + #424, #0
+  static market2 + #425, #0
+  static market2 + #426, #0
+  static market2 + #427, #0
+  static market2 + #428, #0
+  static market2 + #429, #0
+  static market2 + #430, #0
+  static market2 + #431, #0
+  static market2 + #432, #2321
+  static market2 + #433, #0
+  static market2 + #434, #0
+  static market2 + #435, #0
+  static market2 + #436, #0
+  static market2 + #437, #0
+  static market2 + #438, #0
+  static market2 + #439, #0
+
+  ;Linha 11
+  static market2 + #440, #0
+  static market2 + #441, #0
+  static market2 + #442, #0
+  static market2 + #443, #0
+  static market2 + #444, #0
+  static market2 + #445, #0
+  static market2 + #446, #0
+  static market2 + #447, #0
+  static market2 + #448, #0
+  static market2 + #449, #0
+  static market2 + #450, #0
+  static market2 + #451, #0
+  static market2 + #452, #0
+  static market2 + #453, #1300
+  static market2 + #454, #3455
+  static market2 + #455, #3455
+  static market2 + #456, #3455
+  static market2 + #457, #3455
+  static market2 + #458, #3455
+  static market2 + #459, #3455
+  static market2 + #460, #3455
+  static market2 + #461, #3455
+  static market2 + #462, #3455
+  static market2 + #463, #3455
+  static market2 + #464, #1300
+  static market2 + #465, #0
+  static market2 + #466, #0
+  static market2 + #467, #0
+  static market2 + #468, #0
+  static market2 + #469, #0
+  static market2 + #470, #0
+  static market2 + #471, #0
+  static market2 + #472, #0
+  static market2 + #473, #0
+  static market2 + #474, #0
+  static market2 + #475, #0
+  static market2 + #476, #0
+  static market2 + #477, #0
+  static market2 + #478, #0
+  static market2 + #479, #0
+
+  ;Linha 12
+  static market2 + #480, #77
+  static market2 + #481, #79
+  static market2 + #482, #78
+  static market2 + #483, #69
+  static market2 + #484, #89
+  static market2 + #485, #58
+  static market2 + #486, #2852
+  static market2 + #487, #0
+  static market2 + #488, #0
+  static market2 + #489, #0
+  static market2 + #490, #0
+  static market2 + #491, #0
+  static market2 + #492, #0
+  static market2 + #493, #3455
+  static market2 + #494, #3455
+  static market2 + #495, #127
+  static market2 + #496, #127
+  static market2 + #497, #127
+  static market2 + #498, #127
+  static market2 + #499, #127
+  static market2 + #500, #127
+  static market2 + #501, #127
+  static market2 + #502, #127
+  static market2 + #503, #3455
+  static market2 + #504, #3455
+  static market2 + #505, #0
+  static market2 + #506, #0
+  static market2 + #507, #0
+  static market2 + #508, #0
+  static market2 + #509, #0
+  static market2 + #510, #0
+  static market2 + #511, #0
+  static market2 + #512, #0
+  static market2 + #513, #0
+  static market2 + #514, #0
+  static market2 + #515, #2347
+  static market2 + #516, #0
+  static market2 + #517, #0
+  static market2 + #518, #0
+  static market2 + #519, #0
+
+  ;Linha 13
+  static market2 + #520, #0
+  static market2 + #521, #0
+  static market2 + #522, #0
+  static market2 + #523, #0
+  static market2 + #524, #0
+  static market2 + #525, #0
+  static market2 + #526, #0
+  static market2 + #527, #0
+  static market2 + #528, #0
+  static market2 + #529, #0
+  static market2 + #530, #0
+  static market2 + #531, #0
+  static market2 + #532, #0
+  static market2 + #533, #3455
+  static market2 + #534, #127
+  static market2 + #535, #2431
+  static market2 + #536, #127
+  static market2 + #537, #127
+  static market2 + #538, #127
+  static market2 + #539, #127
+  static market2 + #540, #127
+  static market2 + #541, #127
+  static market2 + #542, #2431
+  static market2 + #543, #127
+  static market2 + #544, #3455
+  static market2 + #545, #0
+  static market2 + #546, #0
+  static market2 + #547, #0
+  static market2 + #548, #0
+  static market2 + #549, #0
+  static market2 + #550, #0
+  static market2 + #551, #0
+  static market2 + #552, #0
+  static market2 + #553, #0
+  static market2 + #554, #0
+  static market2 + #555, #0
+  static market2 + #556, #0
+  static market2 + #557, #0
+  static market2 + #558, #0
+  static market2 + #559, #0
+
+  ;Linha 14
+  static market2 + #560, #0
+  static market2 + #561, #0
+  static market2 + #562, #0
+  static market2 + #563, #0
+  static market2 + #564, #1860
+  static market2 + #565, #89
+  static market2 + #566, #78
+  static market2 + #567, #65
+  static market2 + #568, #77
+  static market2 + #569, #73
+  static market2 + #570, #84
+  static market2 + #571, #69
+  static market2 + #572, #0
+  static market2 + #573, #3455
+  static market2 + #574, #127
+  static market2 + #575, #2431
+  static market2 + #576, #127
+  static market2 + #577, #127
+  static market2 + #578, #127
+  static market2 + #579, #127
+  static market2 + #580, #127
+  static market2 + #581, #127
+  static market2 + #582, #2431
+  static market2 + #583, #127
+  static market2 + #584, #3455
+  static market2 + #585, #0
+  static market2 + #586, #66
+  static market2 + #587, #79
+  static market2 + #588, #79
+  static market2 + #589, #84
+  static market2 + #590, #83
+  static market2 + #591, #0
+  static market2 + #592, #0
+  static market2 + #593, #0
+  static market2 + #594, #0
+  static market2 + #595, #0
+  static market2 + #596, #0
+  static market2 + #597, #0
+  static market2 + #598, #0
+  static market2 + #599, #0
+
+  ;Linha 15
+  static market2 + #600, #0
+  static market2 + #601, #0
+  static market2 + #602, #0
+  static market2 + #603, #0
+  static market2 + #604, #0
+  static market2 + #605, #2321
+  static market2 + #606, #2852
+  static market2 + #607, #2872
+  static market2 + #608, #2864
+  static market2 + #609, #0
+  static market2 + #610, #0
+  static market2 + #611, #0
+  static market2 + #612, #0
+  static market2 + #613, #3455
+  static market2 + #614, #127
+  static market2 + #615, #127
+  static market2 + #616, #127
+  static market2 + #617, #127
+  static market2 + #618, #127
+  static market2 + #619, #127
+  static market2 + #620, #127
+  static market2 + #621, #127
+  static market2 + #622, #127
+  static market2 + #623, #127
+  static market2 + #624, #3455
+  static market2 + #625, #0
+  static market2 + #626, #0
+  static market2 + #627, #2899
+  static market2 + #628, #2868
+  static market2 + #629, #2864
+  static market2 + #630, #0
+  static market2 + #631, #0
+  static market2 + #632, #0
+  static market2 + #633, #0
+  static market2 + #634, #0
+  static market2 + #635, #0
+  static market2 + #636, #0
+  static market2 + #637, #0
+  static market2 + #638, #0
+  static market2 + #639, #0
+
+  ;Linha 16
+  static market2 + #640, #0
+  static market2 + #641, #0
+  static market2 + #642, #0
+  static market2 + #643, #0
+  static market2 + #644, #0
+  static market2 + #645, #0
+  static market2 + #646, #2344
+  static market2 + #647, #2355
+  static market2 + #648, #2345
+  static market2 + #649, #0
+  static market2 + #650, #0
+  static market2 + #651, #0
+  static market2 + #652, #0
+  static market2 + #653, #3455
+  static market2 + #654, #127
+  static market2 + #655, #127
+  static market2 + #656, #2431
+  static market2 + #657, #2431
+  static market2 + #658, #127
+  static market2 + #659, #127
+  static market2 + #660, #2431
+  static market2 + #661, #2431
+  static market2 + #662, #127
+  static market2 + #663, #127
+  static market2 + #664, #3455
+  static market2 + #665, #0
+  static market2 + #666, #0
+  static market2 + #667, #2344
+  static market2 + #668, #2356
+  static market2 + #669, #2345
+  static market2 + #670, #0
+  static market2 + #671, #0
+  static market2 + #672, #0
+  static market2 + #673, #0
+  static market2 + #674, #0
+  static market2 + #675, #0
+  static market2 + #676, #0
+  static market2 + #677, #0
+  static market2 + #678, #0
+  static market2 + #679, #0
+
+  ;Linha 17
+  static market2 + #680, #0
+  static market2 + #681, #0
+  static market2 + #682, #0
+  static market2 + #683, #0
+  static market2 + #684, #0
+  static market2 + #685, #0
+  static market2 + #686, #0
+  static market2 + #687, #0
+  static market2 + #688, #0
+  static market2 + #689, #0
+  static market2 + #690, #0
+  static market2 + #691, #0
+  static market2 + #692, #0
+  static market2 + #693, #3455
+  static market2 + #694, #127
+  static market2 + #695, #127
+  static market2 + #696, #127
+  static market2 + #697, #127
+  static market2 + #698, #2431
+  static market2 + #699, #2431
+  static market2 + #700, #127
+  static market2 + #701, #127
+  static market2 + #702, #127
+  static market2 + #703, #127
+  static market2 + #704, #3455
+  static market2 + #705, #0
+  static market2 + #706, #0
+  static market2 + #707, #0
+  static market2 + #708, #0
+  static market2 + #709, #0
+  static market2 + #710, #0
+  static market2 + #711, #0
+  static market2 + #712, #0
+  static market2 + #713, #0
+  static market2 + #714, #0
+  static market2 + #715, #0
+  static market2 + #716, #0
+  static market2 + #717, #2347
+  static market2 + #718, #0
+  static market2 + #719, #0
+
+  ;Linha 18
+  static market2 + #720, #0
+  static market2 + #721, #0
+  static market2 + #722, #0
+  static market2 + #723, #0
+  static market2 + #724, #0
+  static market2 + #725, #0
+  static market2 + #726, #0
+  static market2 + #727, #0
+  static market2 + #728, #0
+  static market2 + #729, #0
+  static market2 + #730, #0
+  static market2 + #731, #0
+  static market2 + #732, #1300
+  static market2 + #733, #3455
+  static market2 + #734, #127
+  static market2 + #735, #127
+  static market2 + #736, #127
+  static market2 + #737, #127
+  static market2 + #738, #127
+  static market2 + #739, #127
+  static market2 + #740, #127
+  static market2 + #741, #127
+  static market2 + #742, #127
+  static market2 + #743, #127
+  static market2 + #744, #3455
+  static market2 + #745, #1300
+  static market2 + #746, #0
+  static market2 + #747, #0
+  static market2 + #748, #0
+  static market2 + #749, #0
+  static market2 + #750, #0
+  static market2 + #751, #0
+  static market2 + #752, #0
+  static market2 + #753, #0
+  static market2 + #754, #0
+  static market2 + #755, #0
+  static market2 + #756, #0
+  static market2 + #757, #0
+  static market2 + #758, #0
+  static market2 + #759, #0
+
+  ;Linha 19
+  static market2 + #760, #0
+  static market2 + #761, #0
+  static market2 + #762, #0
+  static market2 + #763, #0
+  static market2 + #764, #0
+  static market2 + #765, #127
+  static market2 + #766, #127
+  static market2 + #767, #127
+  static market2 + #768, #127
+  static market2 + #769, #127
+  static market2 + #770, #127
+  static market2 + #771, #127
+  static market2 + #772, #127
+  static market2 + #773, #127
+  static market2 + #774, #3455
+  static market2 + #775, #3455
+  static market2 + #776, #3455
+  static market2 + #777, #3455
+  static market2 + #778, #3455
+  static market2 + #779, #3455
+  static market2 + #780, #3455
+  static market2 + #781, #3455
+  static market2 + #782, #3455
+  static market2 + #783, #3455
+  static market2 + #784, #127
+  static market2 + #785, #127
+  static market2 + #786, #127
+  static market2 + #787, #127
+  static market2 + #788, #127
+  static market2 + #789, #127
+  static market2 + #790, #127
+  static market2 + #791, #127
+  static market2 + #792, #127
+  static market2 + #793, #127
+  static market2 + #794, #0
+  static market2 + #795, #0
+  static market2 + #796, #0
+  static market2 + #797, #0
+  static market2 + #798, #0
+  static market2 + #799, #0
+
+  ;Linha 20
+  static market2 + #800, #0
+  static market2 + #801, #0
+  static market2 + #802, #0
+  static market2 + #803, #0
+  static market2 + #804, #127
+  static market2 + #805, #127
+  static market2 + #806, #127
+  static market2 + #807, #127
+  static market2 + #808, #127
+  static market2 + #809, #127
+  static market2 + #810, #127
+  static market2 + #811, #127
+  static market2 + #812, #127
+  static market2 + #813, #383
+  static market2 + #814, #383
+  static market2 + #815, #383
+  static market2 + #816, #383
+  static market2 + #817, #383
+  static market2 + #818, #383
+  static market2 + #819, #383
+  static market2 + #820, #383
+  static market2 + #821, #383
+  static market2 + #822, #383
+  static market2 + #823, #383
+  static market2 + #824, #383
+  static market2 + #825, #127
+  static market2 + #826, #127
+  static market2 + #827, #127
+  static market2 + #828, #127
+  static market2 + #829, #127
+  static market2 + #830, #127
+  static market2 + #831, #127
+  static market2 + #832, #127
+  static market2 + #833, #127
+  static market2 + #834, #127
+  static market2 + #835, #0
+  static market2 + #836, #0
+  static market2 + #837, #0
+  static market2 + #838, #0
+  static market2 + #839, #0
+
+  ;Linha 21
+  static market2 + #840, #0
+  static market2 + #841, #0
+  static market2 + #842, #0
+  static market2 + #843, #0
+  static market2 + #844, #0
+  static market2 + #845, #1919
+  static market2 + #846, #1919
+  static market2 + #847, #1919
+  static market2 + #848, #1919
+  static market2 + #849, #1919
+  static market2 + #850, #1919
+  static market2 + #851, #1919
+  static market2 + #852, #1919
+  static market2 + #853, #383
+  static market2 + #854, #383
+  static market2 + #855, #383
+  static market2 + #856, #0
+  static market2 + #857, #383
+  static market2 + #858, #383
+  static market2 + #859, #383
+  static market2 + #860, #383
+  static market2 + #861, #383
+  static market2 + #862, #383
+  static market2 + #863, #383
+  static market2 + #864, #383
+  static market2 + #865, #1919
+  static market2 + #866, #1919
+  static market2 + #867, #1919
+  static market2 + #868, #1919
+  static market2 + #869, #1919
+  static market2 + #870, #1919
+  static market2 + #871, #1919
+  static market2 + #872, #1919
+  static market2 + #873, #1919
+  static market2 + #874, #0
+  static market2 + #875, #0
+  static market2 + #876, #0
+  static market2 + #877, #0
+  static market2 + #878, #0
+  static market2 + #879, #0
+
+  ;Linha 22
+  static market2 + #880, #0
+  static market2 + #881, #0
+  static market2 + #882, #0
+  static market2 + #883, #0
+  static market2 + #884, #0
+  static market2 + #885, #1919
+  static market2 + #886, #1919
+  static market2 + #887, #1919
+  static market2 + #888, #1919
+  static market2 + #889, #1919
+  static market2 + #890, #1919
+  static market2 + #891, #1919
+  static market2 + #892, #1919
+  static market2 + #893, #383
+  static market2 + #894, #2431
+  static market2 + #895, #2431
+  static market2 + #896, #1407
+  static market2 + #897, #2431
+  static market2 + #898, #2431
+  static market2 + #899, #2431
+  static market2 + #900, #2431
+  static market2 + #901, #2431
+  static market2 + #902, #2431
+  static market2 + #903, #2431
+  static market2 + #904, #383
+  static market2 + #905, #1919
+  static market2 + #906, #1919
+  static market2 + #907, #1919
+  static market2 + #908, #1919
+  static market2 + #909, #1919
+  static market2 + #910, #1919
+  static market2 + #911, #1919
+  static market2 + #912, #1919
+  static market2 + #913, #1919
+  static market2 + #914, #0
+  static market2 + #915, #0
+  static market2 + #916, #0
+  static market2 + #917, #0
+  static market2 + #918, #0
+  static market2 + #919, #0
+
+  ;Linha 23
+  static market2 + #920, #0
+  static market2 + #921, #0
+  static market2 + #922, #0
+  static market2 + #923, #0
+  static market2 + #924, #1919
+  static market2 + #925, #1919
+  static market2 + #926, #1919
+  static market2 + #927, #1919
+  static market2 + #928, #1919
+  static market2 + #929, #1919
+  static market2 + #930, #1919
+  static market2 + #931, #1919
+  static market2 + #932, #383
+  static market2 + #933, #383
+  static market2 + #934, #2431
+  static market2 + #935, #0
+  static market2 + #936, #1407
+  static market2 + #937, #1407
+  static market2 + #938, #2431
+  static market2 + #939, #2431
+  static market2 + #940, #2431
+  static market2 + #941, #1663
+  static market2 + #942, #1663
+  static market2 + #943, #2431
+  static market2 + #944, #383
+  static market2 + #945, #383
+  static market2 + #946, #1919
+  static market2 + #947, #1919
+  static market2 + #948, #1919
+  static market2 + #949, #1919
+  static market2 + #950, #1919
+  static market2 + #951, #1919
+  static market2 + #952, #1919
+  static market2 + #953, #1919
+  static market2 + #954, #1919
+  static market2 + #955, #0
+  static market2 + #956, #0
+  static market2 + #957, #0
+  static market2 + #958, #0
+  static market2 + #959, #0
+
+  ;Linha 24
+  static market2 + #960, #0
+  static market2 + #961, #0
+  static market2 + #962, #0
+  static market2 + #963, #2068
+  static market2 + #964, #1919
+  static market2 + #965, #1919
+  static market2 + #966, #1919
+  static market2 + #967, #1919
+  static market2 + #968, #1919
+  static market2 + #969, #1919
+  static market2 + #970, #1919
+  static market2 + #971, #383
+  static market2 + #972, #383
+  static market2 + #973, #2431
+  static market2 + #974, #1407
+  static market2 + #975, #0
+  static market2 + #976, #1407
+  static market2 + #977, #0
+  static market2 + #978, #1407
+  static market2 + #979, #2431
+  static market2 + #980, #2431
+  static market2 + #981, #895
+  static market2 + #982, #895
+  static market2 + #983, #2431
+  static market2 + #984, #2431
+  static market2 + #985, #383
+  static market2 + #986, #383
+  static market2 + #987, #1919
+  static market2 + #988, #1919
+  static market2 + #989, #1919
+  static market2 + #990, #1919
+  static market2 + #991, #1919
+  static market2 + #992, #1919
+  static market2 + #993, #1919
+  static market2 + #994, #1919
+  static market2 + #995, #2068
+  static market2 + #996, #0
+  static market2 + #997, #0
+  static market2 + #998, #0
+  static market2 + #999, #0
+
+  ;Linha 25
+  static market2 + #1000, #0
+  static market2 + #1001, #0
+  static market2 + #1002, #0
+  static market2 + #1003, #1919
+  static market2 + #1004, #1919
+  static market2 + #1005, #1919
+  static market2 + #1006, #1919
+  static market2 + #1007, #1919
+  static market2 + #1008, #1919
+  static market2 + #1009, #1919
+  static market2 + #1010, #1919
+  static market2 + #1011, #383
+  static market2 + #1012, #2431
+  static market2 + #1013, #2431
+  static market2 + #1014, #1407
+  static market2 + #1015, #0
+  static market2 + #1016, #1407
+  static market2 + #1017, #0
+  static market2 + #1018, #1407
+  static market2 + #1019, #2431
+  static market2 + #1020, #2431
+  static market2 + #1021, #895
+  static market2 + #1022, #895
+  static market2 + #1023, #2431
+  static market2 + #1024, #2431
+  static market2 + #1025, #2431
+  static market2 + #1026, #383
+  static market2 + #1027, #1919
+  static market2 + #1028, #1919
+  static market2 + #1029, #1919
+  static market2 + #1030, #1919
+  static market2 + #1031, #1919
+  static market2 + #1032, #1919
+  static market2 + #1033, #1919
+  static market2 + #1034, #1919
+  static market2 + #1035, #1919
+  static market2 + #1036, #0
+  static market2 + #1037, #0
+  static market2 + #1038, #0
+  static market2 + #1039, #0
+
+  ;Linha 26
+  static market2 + #1040, #0
+  static market2 + #1041, #0
+  static market2 + #1042, #0
+  static market2 + #1043, #1919
+  static market2 + #1044, #1919
+  static market2 + #1045, #1919
+  static market2 + #1046, #1919
+  static market2 + #1047, #1919
+  static market2 + #1048, #1919
+  static market2 + #1049, #1919
+  static market2 + #1050, #1919
+  static market2 + #1051, #383
+  static market2 + #1052, #2431
+  static market2 + #1053, #1407
+  static market2 + #1054, #1407
+  static market2 + #1055, #0
+  static market2 + #1056, #1407
+  static market2 + #1057, #0
+  static market2 + #1058, #2431
+  static market2 + #1059, #2431
+  static market2 + #1060, #2431
+  static market2 + #1061, #895
+  static market2 + #1062, #895
+  static market2 + #1063, #895
+  static market2 + #1064, #895
+  static market2 + #1065, #2431
+  static market2 + #1066, #383
+  static market2 + #1067, #1919
+  static market2 + #1068, #1919
+  static market2 + #1069, #1919
+  static market2 + #1070, #1919
+  static market2 + #1071, #1919
+  static market2 + #1072, #1919
+  static market2 + #1073, #1919
+  static market2 + #1074, #1919
+  static market2 + #1075, #1919
+  static market2 + #1076, #0
+  static market2 + #1077, #0
+  static market2 + #1078, #0
+  static market2 + #1079, #0
+
+  ;Linha 27
+  static market2 + #1080, #0
+  static market2 + #1081, #0
+  static market2 + #1082, #0
+  static market2 + #1083, #1919
+  static market2 + #1084, #1919
+  static market2 + #1085, #1919
+  static market2 + #1086, #1919
+  static market2 + #1087, #1919
+  static market2 + #1088, #1919
+  static market2 + #1089, #1919
+  static market2 + #1090, #383
+  static market2 + #1091, #383
+  static market2 + #1092, #2431
+  static market2 + #1093, #1407
+  static market2 + #1094, #0
+  static market2 + #1095, #1407
+  static market2 + #1096, #0
+  static market2 + #1097, #1407
+  static market2 + #1098, #2431
+  static market2 + #1099, #2431
+  static market2 + #1100, #2431
+  static market2 + #1101, #895
+  static market2 + #1102, #895
+  static market2 + #1103, #895
+  static market2 + #1104, #895
+  static market2 + #1105, #2431
+  static market2 + #1106, #383
+  static market2 + #1107, #383
+  static market2 + #1108, #1919
+  static market2 + #1109, #1919
+  static market2 + #1110, #1919
+  static market2 + #1111, #1919
+  static market2 + #1112, #1919
+  static market2 + #1113, #1919
+  static market2 + #1114, #1919
+  static market2 + #1115, #1919
+  static market2 + #1116, #0
+  static market2 + #1117, #0
+  static market2 + #1118, #0
+  static market2 + #1119, #0
+
+  ;Linha 28
+  static market2 + #1120, #0
+  static market2 + #1121, #0
+  static market2 + #1122, #2068
+  static market2 + #1123, #1919
+  static market2 + #1124, #1919
+  static market2 + #1125, #1919
+  static market2 + #1126, #1919
+  static market2 + #1127, #1919
+  static market2 + #1128, #1919
+  static market2 + #1129, #1919
+  static market2 + #1130, #383
+  static market2 + #1131, #2431
+  static market2 + #1132, #2431
+  static market2 + #1133, #2431
+  static market2 + #1134, #2431
+  static market2 + #1135, #1407
+  static market2 + #1136, #0
+  static market2 + #1137, #2431
+  static market2 + #1138, #2431
+  static market2 + #1139, #2431
+  static market2 + #1140, #2431
+  static market2 + #1141, #2431
+  static market2 + #1142, #2431
+  static market2 + #1143, #2431
+  static market2 + #1144, #2431
+  static market2 + #1145, #2431
+  static market2 + #1146, #2431
+  static market2 + #1147, #383
+  static market2 + #1148, #1919
+  static market2 + #1149, #1919
+  static market2 + #1150, #1919
+  static market2 + #1151, #1919
+  static market2 + #1152, #1919
+  static market2 + #1153, #1919
+  static market2 + #1154, #1919
+  static market2 + #1155, #1919
+  static market2 + #1156, #2068
+  static market2 + #1157, #0
+  static market2 + #1158, #0
+  static market2 + #1159, #0
+
+  ;Linha 29
+  static market2 + #1160, #1300
+  static market2 + #1161, #1300
+  static market2 + #1162, #1919
+  static market2 + #1163, #1919
+  static market2 + #1164, #1919
+  static market2 + #1165, #1919
+  static market2 + #1166, #1919
+  static market2 + #1167, #1919
+  static market2 + #1168, #1919
+  static market2 + #1169, #383
+  static market2 + #1170, #383
+  static market2 + #1171, #383
+  static market2 + #1172, #383
+  static market2 + #1173, #383
+  static market2 + #1174, #383
+  static market2 + #1175, #383
+  static market2 + #1176, #383
+  static market2 + #1177, #383
+  static market2 + #1178, #383
+  static market2 + #1179, #383
+  static market2 + #1180, #383
+  static market2 + #1181, #383
+  static market2 + #1182, #383
+  static market2 + #1183, #383
+  static market2 + #1184, #383
+  static market2 + #1185, #383
+  static market2 + #1186, #383
+  static market2 + #1187, #383
+  static market2 + #1188, #383
+  static market2 + #1189, #1919
+  static market2 + #1190, #1919
+  static market2 + #1191, #1919
+  static market2 + #1192, #1919
+  static market2 + #1193, #1919
+  static market2 + #1194, #1919
+  static market2 + #1195, #1919
+  static market2 + #1196, #1919
+  static market2 + #1197, #2344
+  static market2 + #1198, #2352
+  static market2 + #1199, #2345
 
 ;
 ; Start and Ending screens
@@ -11363,6 +12623,1266 @@ end1 : var #1200
   static end1 + #1198, #2094
   static end1 + #1199, #0
 
+end2 : var #1200
+  ;Linha 0
+  static end2 + #0, #0
+  static end2 + #1, #0
+  static end2 + #2, #0
+  static end2 + #3, #0
+  static end2 + #4, #0
+  static end2 + #5, #0
+  static end2 + #6, #0
+  static end2 + #7, #0
+  static end2 + #8, #0
+  static end2 + #9, #0
+  static end2 + #10, #0
+  static end2 + #11, #0
+  static end2 + #12, #0
+  static end2 + #13, #0
+  static end2 + #14, #0
+  static end2 + #15, #0
+  static end2 + #16, #0
+  static end2 + #17, #0
+  static end2 + #18, #0
+  static end2 + #19, #0
+  static end2 + #20, #0
+  static end2 + #21, #0
+  static end2 + #22, #0
+  static end2 + #23, #0
+  static end2 + #24, #0
+  static end2 + #25, #0
+  static end2 + #26, #0
+  static end2 + #27, #0
+  static end2 + #28, #0
+  static end2 + #29, #0
+  static end2 + #30, #0
+  static end2 + #31, #639
+  static end2 + #32, #639
+  static end2 + #33, #639
+  static end2 + #34, #639
+  static end2 + #35, #639
+  static end2 + #36, #639
+  static end2 + #37, #0
+  static end2 + #38, #0
+  static end2 + #39, #0
+
+  ;Linha 1
+  static end2 + #40, #0
+  static end2 + #41, #0
+  static end2 + #42, #0
+  static end2 + #43, #0
+  static end2 + #44, #0
+  static end2 + #45, #0
+  static end2 + #46, #0
+  static end2 + #47, #0
+  static end2 + #48, #0
+  static end2 + #49, #0
+  static end2 + #50, #0
+  static end2 + #51, #0
+  static end2 + #52, #0
+  static end2 + #53, #0
+  static end2 + #54, #0
+  static end2 + #55, #0
+  static end2 + #56, #0
+  static end2 + #57, #0
+  static end2 + #58, #0
+  static end2 + #59, #0
+  static end2 + #60, #0
+  static end2 + #61, #0
+  static end2 + #62, #0
+  static end2 + #63, #0
+  static end2 + #64, #0
+  static end2 + #65, #0
+  static end2 + #66, #0
+  static end2 + #67, #2899
+  static end2 + #68, #2915
+  static end2 + #69, #2927
+  static end2 + #70, #2930
+  static end2 + #71, #2917
+  static end2 + #72, #2874
+  static end2 + #73, #2687
+  static end2 + #74, #2687
+  static end2 + #75, #2687
+  static end2 + #76, #639
+  static end2 + #77, #639
+  static end2 + #78, #639
+  static end2 + #79, #0
+
+  ;Linha 2
+  static end2 + #80, #0
+  static end2 + #81, #0
+  static end2 + #82, #0
+  static end2 + #83, #0
+  static end2 + #84, #0
+  static end2 + #85, #0
+  static end2 + #86, #639
+  static end2 + #87, #639
+  static end2 + #88, #639
+  static end2 + #89, #639
+  static end2 + #90, #0
+  static end2 + #91, #0
+  static end2 + #92, #0
+  static end2 + #93, #0
+  static end2 + #94, #0
+  static end2 + #95, #0
+  static end2 + #96, #0
+  static end2 + #97, #0
+  static end2 + #98, #0
+  static end2 + #99, #0
+  static end2 + #100, #0
+  static end2 + #101, #0
+  static end2 + #102, #0
+  static end2 + #103, #0
+  static end2 + #104, #0
+  static end2 + #105, #0
+  static end2 + #106, #0
+  static end2 + #107, #0
+  static end2 + #108, #0
+  static end2 + #109, #0
+  static end2 + #110, #2687
+  static end2 + #111, #2687
+  static end2 + #112, #2687
+  static end2 + #113, #2687
+  static end2 + #114, #2687
+  static end2 + #115, #2687
+  static end2 + #116, #2687
+  static end2 + #117, #2687
+  static end2 + #118, #639
+  static end2 + #119, #639
+
+  ;Linha 3
+  static end2 + #120, #2687
+  static end2 + #121, #2687
+  static end2 + #122, #2687
+  static end2 + #123, #2687
+  static end2 + #124, #2687
+  static end2 + #125, #2687
+  static end2 + #126, #2687
+  static end2 + #127, #2687
+  static end2 + #128, #2687
+  static end2 + #129, #639
+  static end2 + #130, #639
+  static end2 + #131, #0
+  static end2 + #132, #0
+  static end2 + #133, #2833
+  static end2 + #134, #0
+  static end2 + #135, #0
+  static end2 + #136, #2833
+  static end2 + #137, #0
+  static end2 + #138, #0
+  static end2 + #139, #0
+  static end2 + #140, #0
+  static end2 + #141, #2833
+  static end2 + #142, #0
+  static end2 + #143, #0
+  static end2 + #144, #0
+  static end2 + #145, #0
+  static end2 + #146, #895
+  static end2 + #147, #2687
+  static end2 + #148, #2687
+  static end2 + #149, #2687
+  static end2 + #150, #2687
+  static end2 + #151, #2687
+  static end2 + #152, #2687
+  static end2 + #153, #2687
+  static end2 + #154, #2687
+  static end2 + #155, #2687
+  static end2 + #156, #2687
+  static end2 + #157, #2687
+  static end2 + #158, #2687
+  static end2 + #159, #639
+
+  ;Linha 4
+  static end2 + #160, #2687
+  static end2 + #161, #2687
+  static end2 + #162, #2687
+  static end2 + #163, #2687
+  static end2 + #164, #2687
+  static end2 + #165, #2687
+  static end2 + #166, #2687
+  static end2 + #167, #2687
+  static end2 + #168, #2687
+  static end2 + #169, #2687
+  static end2 + #170, #639
+  static end2 + #171, #0
+  static end2 + #172, #0
+  static end2 + #173, #0
+  static end2 + #174, #0
+  static end2 + #175, #0
+  static end2 + #176, #0
+  static end2 + #177, #0
+  static end2 + #178, #0
+  static end2 + #179, #0
+  static end2 + #180, #0
+  static end2 + #181, #0
+  static end2 + #182, #0
+  static end2 + #183, #0
+  static end2 + #184, #2833
+  static end2 + #185, #0
+  static end2 + #186, #895
+  static end2 + #187, #2687
+  static end2 + #188, #2687
+  static end2 + #189, #2687
+  static end2 + #190, #2687
+  static end2 + #191, #2687
+  static end2 + #192, #2687
+  static end2 + #193, #2687
+  static end2 + #194, #2687
+  static end2 + #195, #2687
+  static end2 + #196, #2687
+  static end2 + #197, #2687
+  static end2 + #198, #2687
+  static end2 + #199, #639
+
+  ;Linha 5
+  static end2 + #200, #2687
+  static end2 + #201, #2687
+  static end2 + #202, #2687
+  static end2 + #203, #2687
+  static end2 + #204, #2687
+  static end2 + #205, #2687
+  static end2 + #206, #2687
+  static end2 + #207, #2687
+  static end2 + #208, #2687
+  static end2 + #209, #2687
+  static end2 + #210, #2687
+  static end2 + #211, #0
+  static end2 + #212, #0
+  static end2 + #213, #0
+  static end2 + #214, #0
+  static end2 + #215, #2833
+  static end2 + #216, #0
+  static end2 + #217, #0
+  static end2 + #218, #0
+  static end2 + #219, #0
+  static end2 + #220, #0
+  static end2 + #221, #2833
+  static end2 + #222, #0
+  static end2 + #223, #0
+  static end2 + #224, #0
+  static end2 + #225, #0
+  static end2 + #226, #895
+  static end2 + #227, #2687
+  static end2 + #228, #2687
+  static end2 + #229, #2687
+  static end2 + #230, #2687
+  static end2 + #231, #2687
+  static end2 + #232, #2687
+  static end2 + #233, #2687
+  static end2 + #234, #2687
+  static end2 + #235, #2687
+  static end2 + #236, #2687
+  static end2 + #237, #2687
+  static end2 + #238, #2687
+  static end2 + #239, #2687
+
+  ;Linha 6
+  static end2 + #240, #2687
+  static end2 + #241, #2687
+  static end2 + #242, #2687
+  static end2 + #243, #2687
+  static end2 + #244, #2687
+  static end2 + #245, #2687
+  static end2 + #246, #2687
+  static end2 + #247, #2687
+  static end2 + #248, #2687
+  static end2 + #249, #2687
+  static end2 + #250, #2687
+  static end2 + #251, #0
+  static end2 + #252, #0
+  static end2 + #253, #0
+  static end2 + #254, #0
+  static end2 + #255, #0
+  static end2 + #256, #0
+  static end2 + #257, #0
+  static end2 + #258, #2833
+  static end2 + #259, #0
+  static end2 + #260, #0
+  static end2 + #261, #0
+  static end2 + #262, #2833
+  static end2 + #263, #0
+  static end2 + #264, #0
+  static end2 + #265, #2833
+  static end2 + #266, #895
+  static end2 + #267, #2687
+  static end2 + #268, #2687
+  static end2 + #269, #2687
+  static end2 + #270, #2687
+  static end2 + #271, #2687
+  static end2 + #272, #2687
+  static end2 + #273, #2687
+  static end2 + #274, #2687
+  static end2 + #275, #2687
+  static end2 + #276, #2687
+  static end2 + #277, #2687
+  static end2 + #278, #2687
+  static end2 + #279, #2687
+
+  ;Linha 7
+  static end2 + #280, #895
+  static end2 + #281, #895
+  static end2 + #282, #2687
+  static end2 + #283, #2687
+  static end2 + #284, #2687
+  static end2 + #285, #2687
+  static end2 + #286, #2687
+  static end2 + #287, #2687
+  static end2 + #288, #2687
+  static end2 + #289, #2687
+  static end2 + #290, #2687
+  static end2 + #291, #0
+  static end2 + #292, #0
+  static end2 + #293, #2833
+  static end2 + #294, #0
+  static end2 + #295, #0
+  static end2 + #296, #0
+  static end2 + #297, #0
+  static end2 + #298, #0
+  static end2 + #299, #0
+  static end2 + #300, #0
+  static end2 + #301, #0
+  static end2 + #302, #0
+  static end2 + #303, #0
+  static end2 + #304, #0
+  static end2 + #305, #0
+  static end2 + #306, #895
+  static end2 + #307, #895
+  static end2 + #308, #2687
+  static end2 + #309, #2687
+  static end2 + #310, #2687
+  static end2 + #311, #2687
+  static end2 + #312, #2687
+  static end2 + #313, #2687
+  static end2 + #314, #2687
+  static end2 + #315, #2687
+  static end2 + #316, #2687
+  static end2 + #317, #2687
+  static end2 + #318, #2687
+  static end2 + #319, #0
+
+  ;Linha 8
+  static end2 + #320, #0
+  static end2 + #321, #895
+  static end2 + #322, #895
+  static end2 + #323, #895
+  static end2 + #324, #895
+  static end2 + #325, #895
+  static end2 + #326, #895
+  static end2 + #327, #895
+  static end2 + #328, #895
+  static end2 + #329, #895
+  static end2 + #330, #0
+  static end2 + #331, #0
+  static end2 + #332, #0
+  static end2 + #333, #0
+  static end2 + #334, #0
+  static end2 + #335, #0
+  static end2 + #336, #127
+  static end2 + #337, #127
+  static end2 + #338, #127
+  static end2 + #339, #127
+  static end2 + #340, #127
+  static end2 + #341, #127
+  static end2 + #342, #0
+  static end2 + #343, #0
+  static end2 + #344, #0
+  static end2 + #345, #2833
+  static end2 + #346, #0
+  static end2 + #347, #895
+  static end2 + #348, #2687
+  static end2 + #349, #2687
+  static end2 + #350, #2687
+  static end2 + #351, #895
+  static end2 + #352, #895
+  static end2 + #353, #895
+  static end2 + #354, #895
+  static end2 + #355, #2687
+  static end2 + #356, #2687
+  static end2 + #357, #2687
+  static end2 + #358, #0
+  static end2 + #359, #0
+
+  ;Linha 9
+  static end2 + #360, #0
+  static end2 + #361, #0
+  static end2 + #362, #383
+  static end2 + #363, #383
+  static end2 + #364, #383
+  static end2 + #365, #383
+  static end2 + #366, #383
+  static end2 + #367, #0
+  static end2 + #368, #0
+  static end2 + #369, #0
+  static end2 + #370, #0
+  static end2 + #371, #0
+  static end2 + #372, #0
+  static end2 + #373, #0
+  static end2 + #374, #0
+  static end2 + #375, #127
+  static end2 + #376, #127
+  static end2 + #377, #2064
+  static end2 + #378, #2064
+  static end2 + #379, #2064
+  static end2 + #380, #2064
+  static end2 + #381, #127
+  static end2 + #382, #127
+  static end2 + #383, #0
+  static end2 + #384, #0
+  static end2 + #385, #0
+  static end2 + #386, #0
+  static end2 + #387, #895
+  static end2 + #388, #895
+  static end2 + #389, #895
+  static end2 + #390, #895
+  static end2 + #391, #895
+  static end2 + #392, #0
+  static end2 + #393, #0
+  static end2 + #394, #383
+  static end2 + #395, #383
+  static end2 + #396, #383
+  static end2 + #397, #0
+  static end2 + #398, #0
+  static end2 + #399, #0
+
+  ;Linha 10
+  static end2 + #400, #0
+  static end2 + #401, #0
+  static end2 + #402, #2320
+  static end2 + #403, #2320
+  static end2 + #404, #383
+  static end2 + #405, #383
+  static end2 + #406, #2320
+  static end2 + #407, #0
+  static end2 + #408, #0
+  static end2 + #409, #0
+  static end2 + #410, #0
+  static end2 + #411, #0
+  static end2 + #412, #2833
+  static end2 + #413, #0
+  static end2 + #414, #0
+  static end2 + #415, #127
+  static end2 + #416, #2064
+  static end2 + #417, #127
+  static end2 + #418, #0
+  static end2 + #419, #0
+  static end2 + #420, #127
+  static end2 + #421, #2064
+  static end2 + #422, #127
+  static end2 + #423, #0
+  static end2 + #424, #0
+  static end2 + #425, #0
+  static end2 + #426, #0
+  static end2 + #427, #0
+  static end2 + #428, #0
+  static end2 + #429, #0
+  static end2 + #430, #0
+  static end2 + #431, #0
+  static end2 + #432, #0
+  static end2 + #433, #0
+  static end2 + #434, #383
+  static end2 + #435, #383
+  static end2 + #436, #383
+  static end2 + #437, #0
+  static end2 + #438, #0
+  static end2 + #439, #0
+
+  ;Linha 11
+  static end2 + #440, #0
+  static end2 + #441, #0
+  static end2 + #442, #0
+  static end2 + #443, #0
+  static end2 + #444, #383
+  static end2 + #445, #383
+  static end2 + #446, #0
+  static end2 + #447, #0
+  static end2 + #448, #0
+  static end2 + #449, #0
+  static end2 + #450, #2833
+  static end2 + #451, #0
+  static end2 + #452, #0
+  static end2 + #453, #0
+  static end2 + #454, #0
+  static end2 + #455, #127
+  static end2 + #456, #0
+  static end2 + #457, #127
+  static end2 + #458, #0
+  static end2 + #459, #0
+  static end2 + #460, #127
+  static end2 + #461, #0
+  static end2 + #462, #127
+  static end2 + #463, #0
+  static end2 + #464, #0
+  static end2 + #465, #2833
+  static end2 + #466, #0
+  static end2 + #467, #0
+  static end2 + #468, #0
+  static end2 + #469, #0
+  static end2 + #470, #0
+  static end2 + #471, #0
+  static end2 + #472, #2833
+  static end2 + #473, #0
+  static end2 + #474, #383
+  static end2 + #475, #383
+  static end2 + #476, #383
+  static end2 + #477, #0
+  static end2 + #478, #0
+  static end2 + #479, #0
+
+  ;Linha 12
+  static end2 + #480, #0
+  static end2 + #481, #0
+  static end2 + #482, #0
+  static end2 + #483, #0
+  static end2 + #484, #383
+  static end2 + #485, #383
+  static end2 + #486, #0
+  static end2 + #487, #0
+  static end2 + #488, #0
+  static end2 + #489, #0
+  static end2 + #490, #0
+  static end2 + #491, #0
+  static end2 + #492, #0
+  static end2 + #493, #0
+  static end2 + #494, #0
+  static end2 + #495, #127
+  static end2 + #496, #0
+  static end2 + #497, #2064
+  static end2 + #498, #0
+  static end2 + #499, #0
+  static end2 + #500, #2064
+  static end2 + #501, #0
+  static end2 + #502, #127
+  static end2 + #503, #0
+  static end2 + #504, #0
+  static end2 + #505, #0
+  static end2 + #506, #0
+  static end2 + #507, #0
+  static end2 + #508, #2833
+  static end2 + #509, #0
+  static end2 + #510, #0
+  static end2 + #511, #0
+  static end2 + #512, #0
+  static end2 + #513, #0
+  static end2 + #514, #383
+  static end2 + #515, #383
+  static end2 + #516, #383
+  static end2 + #517, #0
+  static end2 + #518, #0
+  static end2 + #519, #0
+
+  ;Linha 13
+  static end2 + #520, #0
+  static end2 + #521, #0
+  static end2 + #522, #0
+  static end2 + #523, #0
+  static end2 + #524, #383
+  static end2 + #525, #383
+  static end2 + #526, #0
+  static end2 + #527, #0
+  static end2 + #528, #0
+  static end2 + #529, #0
+  static end2 + #530, #0
+  static end2 + #531, #0
+  static end2 + #532, #2833
+  static end2 + #533, #0
+  static end2 + #534, #0
+  static end2 + #535, #127
+  static end2 + #536, #127
+  static end2 + #537, #127
+  static end2 + #538, #127
+  static end2 + #539, #127
+  static end2 + #540, #127
+  static end2 + #541, #127
+  static end2 + #542, #127
+  static end2 + #543, #0
+  static end2 + #544, #0
+  static end2 + #545, #0
+  static end2 + #546, #0
+  static end2 + #547, #0
+  static end2 + #548, #0
+  static end2 + #549, #0
+  static end2 + #550, #0
+  static end2 + #551, #0
+  static end2 + #552, #0
+  static end2 + #553, #0
+  static end2 + #554, #383
+  static end2 + #555, #383
+  static end2 + #556, #383
+  static end2 + #557, #0
+  static end2 + #558, #0
+  static end2 + #559, #0
+
+  ;Linha 14
+  static end2 + #560, #0
+  static end2 + #561, #0
+  static end2 + #562, #0
+  static end2 + #563, #0
+  static end2 + #564, #383
+  static end2 + #565, #383
+  static end2 + #566, #0
+  static end2 + #567, #0
+  static end2 + #568, #0
+  static end2 + #569, #2833
+  static end2 + #570, #0
+  static end2 + #571, #0
+  static end2 + #572, #0
+  static end2 + #573, #0
+  static end2 + #574, #0
+  static end2 + #575, #2064
+  static end2 + #576, #2064
+  static end2 + #577, #127
+  static end2 + #578, #2064
+  static end2 + #579, #2064
+  static end2 + #580, #127
+  static end2 + #581, #2064
+  static end2 + #582, #2064
+  static end2 + #583, #0
+  static end2 + #584, #0
+  static end2 + #585, #2833
+  static end2 + #586, #0
+  static end2 + #587, #0
+  static end2 + #588, #0
+  static end2 + #589, #2833
+  static end2 + #590, #0
+  static end2 + #591, #0
+  static end2 + #592, #0
+  static end2 + #593, #0
+  static end2 + #594, #383
+  static end2 + #595, #383
+  static end2 + #596, #383
+  static end2 + #597, #0
+  static end2 + #598, #0
+  static end2 + #599, #0
+
+  ;Linha 15
+  static end2 + #600, #0
+  static end2 + #601, #0
+  static end2 + #602, #0
+  static end2 + #603, #0
+  static end2 + #604, #383
+  static end2 + #605, #383
+  static end2 + #606, #383
+  static end2 + #607, #0
+  static end2 + #608, #0
+  static end2 + #609, #0
+  static end2 + #610, #0
+  static end2 + #611, #0
+  static end2 + #612, #0
+  static end2 + #613, #0
+  static end2 + #614, #0
+  static end2 + #615, #0
+  static end2 + #616, #0
+  static end2 + #617, #127
+  static end2 + #618, #0
+  static end2 + #619, #0
+  static end2 + #620, #127
+  static end2 + #621, #0
+  static end2 + #622, #0
+  static end2 + #623, #0
+  static end2 + #624, #0
+  static end2 + #625, #0
+  static end2 + #626, #0
+  static end2 + #627, #0
+  static end2 + #628, #0
+  static end2 + #629, #0
+  static end2 + #630, #0
+  static end2 + #631, #0
+  static end2 + #632, #0
+  static end2 + #633, #0
+  static end2 + #634, #383
+  static end2 + #635, #383
+  static end2 + #636, #383
+  static end2 + #637, #0
+  static end2 + #638, #0
+  static end2 + #639, #0
+
+  ;Linha 16
+  static end2 + #640, #0
+  static end2 + #641, #0
+  static end2 + #642, #0
+  static end2 + #643, #383
+  static end2 + #644, #383
+  static end2 + #645, #383
+  static end2 + #646, #383
+  static end2 + #647, #383
+  static end2 + #648, #0
+  static end2 + #649, #0
+  static end2 + #650, #0
+  static end2 + #651, #0
+  static end2 + #652, #0
+  static end2 + #653, #0
+  static end2 + #654, #0
+  static end2 + #655, #2833
+  static end2 + #656, #0
+  static end2 + #657, #0
+  static end2 + #658, #0
+  static end2 + #659, #0
+  static end2 + #660, #0
+  static end2 + #661, #0
+  static end2 + #662, #2833
+  static end2 + #663, #0
+  static end2 + #664, #0
+  static end2 + #665, #0
+  static end2 + #666, #0
+  static end2 + #667, #0
+  static end2 + #668, #0
+  static end2 + #669, #0
+  static end2 + #670, #0
+  static end2 + #671, #0
+  static end2 + #672, #0
+  static end2 + #673, #0
+  static end2 + #674, #383
+  static end2 + #675, #383
+  static end2 + #676, #383
+  static end2 + #677, #0
+  static end2 + #678, #0
+  static end2 + #679, #0
+
+  ;Linha 17
+  static end2 + #680, #0
+  static end2 + #681, #0
+  static end2 + #682, #383
+  static end2 + #683, #383
+  static end2 + #684, #2320
+  static end2 + #685, #383
+  static end2 + #686, #383
+  static end2 + #687, #383
+  static end2 + #688, #383
+  static end2 + #689, #0
+  static end2 + #690, #0
+  static end2 + #691, #0
+  static end2 + #692, #2833
+  static end2 + #693, #0
+  static end2 + #694, #0
+  static end2 + #695, #0
+  static end2 + #696, #0
+  static end2 + #697, #0
+  static end2 + #698, #0
+  static end2 + #699, #0
+  static end2 + #700, #0
+  static end2 + #701, #0
+  static end2 + #702, #0
+  static end2 + #703, #0
+  static end2 + #704, #0
+  static end2 + #705, #2833
+  static end2 + #706, #0
+  static end2 + #707, #0
+  static end2 + #708, #0
+  static end2 + #709, #0
+  static end2 + #710, #0
+  static end2 + #711, #0
+  static end2 + #712, #0
+  static end2 + #713, #383
+  static end2 + #714, #383
+  static end2 + #715, #383
+  static end2 + #716, #383
+  static end2 + #717, #383
+  static end2 + #718, #0
+  static end2 + #719, #0
+
+  ;Linha 18
+  static end2 + #720, #0
+  static end2 + #721, #0
+  static end2 + #722, #2320
+  static end2 + #723, #2320
+  static end2 + #724, #0
+  static end2 + #725, #2320
+  static end2 + #726, #2320
+  static end2 + #727, #2320
+  static end2 + #728, #2320
+  static end2 + #729, #0
+  static end2 + #730, #0
+  static end2 + #731, #0
+  static end2 + #732, #0
+  static end2 + #733, #0
+  static end2 + #734, #0
+  static end2 + #735, #0
+  static end2 + #736, #0
+  static end2 + #737, #0
+  static end2 + #738, #0
+  static end2 + #739, #0
+  static end2 + #740, #0
+  static end2 + #741, #0
+  static end2 + #742, #0
+  static end2 + #743, #0
+  static end2 + #744, #0
+  static end2 + #745, #0
+  static end2 + #746, #0
+  static end2 + #747, #0
+  static end2 + #748, #0
+  static end2 + #749, #0
+  static end2 + #750, #0
+  static end2 + #751, #383
+  static end2 + #752, #383
+  static end2 + #753, #383
+  static end2 + #754, #2320
+  static end2 + #755, #2320
+  static end2 + #756, #2320
+  static end2 + #757, #383
+  static end2 + #758, #383
+  static end2 + #759, #383
+
+  ;Linha 19
+  static end2 + #760, #0
+  static end2 + #761, #0
+  static end2 + #762, #0
+  static end2 + #763, #0
+  static end2 + #764, #0
+  static end2 + #765, #0
+  static end2 + #766, #0
+  static end2 + #767, #0
+  static end2 + #768, #0
+  static end2 + #769, #0
+  static end2 + #770, #2833
+  static end2 + #771, #0
+  static end2 + #772, #0
+  static end2 + #773, #0
+  static end2 + #774, #2833
+  static end2 + #775, #0
+  static end2 + #776, #0
+  static end2 + #777, #2833
+  static end2 + #778, #0
+  static end2 + #779, #0
+  static end2 + #780, #0
+  static end2 + #781, #2833
+  static end2 + #782, #0
+  static end2 + #783, #0
+  static end2 + #784, #0
+  static end2 + #785, #0
+  static end2 + #786, #0
+  static end2 + #787, #0
+  static end2 + #788, #2833
+  static end2 + #789, #0
+  static end2 + #790, #0
+  static end2 + #791, #2320
+  static end2 + #792, #2320
+  static end2 + #793, #2320
+  static end2 + #794, #0
+  static end2 + #795, #0
+  static end2 + #796, #0
+  static end2 + #797, #2320
+  static end2 + #798, #2320
+  static end2 + #799, #2320
+
+  ;Linha 20
+  static end2 + #800, #0
+  static end2 + #801, #0
+  static end2 + #802, #0
+  static end2 + #803, #0
+  static end2 + #804, #0
+  static end2 + #805, #0
+  static end2 + #806, #0
+  static end2 + #807, #2833
+  static end2 + #808, #0
+  static end2 + #809, #0
+  static end2 + #810, #0
+  static end2 + #811, #0
+  static end2 + #812, #0
+  static end2 + #813, #0
+  static end2 + #814, #0
+  static end2 + #815, #0
+  static end2 + #816, #0
+  static end2 + #817, #0
+  static end2 + #818, #0
+  static end2 + #819, #0
+  static end2 + #820, #0
+  static end2 + #821, #0
+  static end2 + #822, #0
+  static end2 + #823, #0
+  static end2 + #824, #0
+  static end2 + #825, #0
+  static end2 + #826, #0
+  static end2 + #827, #0
+  static end2 + #828, #0
+  static end2 + #829, #0
+  static end2 + #830, #0
+  static end2 + #831, #0
+  static end2 + #832, #0
+  static end2 + #833, #0
+  static end2 + #834, #0
+  static end2 + #835, #0
+  static end2 + #836, #0
+  static end2 + #837, #0
+  static end2 + #838, #0
+  static end2 + #839, #0
+
+  ;Linha 21
+  static end2 + #840, #0
+  static end2 + #841, #0
+  static end2 + #842, #0
+  static end2 + #843, #0
+  static end2 + #844, #0
+  static end2 + #845, #0
+  static end2 + #846, #0
+  static end2 + #847, #0
+  static end2 + #848, #0
+  static end2 + #849, #0
+  static end2 + #850, #0
+  static end2 + #851, #0
+  static end2 + #852, #0
+  static end2 + #853, #0
+  static end2 + #854, #0
+  static end2 + #855, #0
+  static end2 + #856, #0
+  static end2 + #857, #0
+  static end2 + #858, #0
+  static end2 + #859, #0
+  static end2 + #860, #0
+  static end2 + #861, #0
+  static end2 + #862, #0
+  static end2 + #863, #0
+  static end2 + #864, #0
+  static end2 + #865, #0
+  static end2 + #866, #0
+  static end2 + #867, #0
+  static end2 + #868, #0
+  static end2 + #869, #0
+  static end2 + #870, #0
+  static end2 + #871, #0
+  static end2 + #872, #0
+  static end2 + #873, #0
+  static end2 + #874, #0
+  static end2 + #875, #0
+  static end2 + #876, #0
+  static end2 + #877, #0
+  static end2 + #878, #0
+  static end2 + #879, #0
+
+  ;Linha 22
+  static end2 + #880, #0
+  static end2 + #881, #0
+  static end2 + #882, #0
+  static end2 + #883, #0
+  static end2 + #884, #0
+  static end2 + #885, #0
+  static end2 + #886, #0
+  static end2 + #887, #89
+  static end2 + #888, #111
+  static end2 + #889, #117
+  static end2 + #890, #39
+  static end2 + #891, #114
+  static end2 + #892, #101
+  static end2 + #893, #0
+  static end2 + #894, #102
+  static end2 + #895, #105
+  static end2 + #896, #110
+  static end2 + #897, #97
+  static end2 + #898, #108
+  static end2 + #899, #108
+  static end2 + #900, #121
+  static end2 + #901, #0
+  static end2 + #902, #102
+  static end2 + #903, #114
+  static end2 + #904, #101
+  static end2 + #905, #101
+  static end2 + #906, #33
+  static end2 + #907, #33
+  static end2 + #908, #33
+  static end2 + #909, #0
+  static end2 + #910, #0
+  static end2 + #911, #0
+  static end2 + #912, #0
+  static end2 + #913, #0
+  static end2 + #914, #0
+  static end2 + #915, #0
+  static end2 + #916, #0
+  static end2 + #917, #0
+  static end2 + #918, #0
+  static end2 + #919, #0
+
+  ;Linha 23
+  static end2 + #920, #0
+  static end2 + #921, #0
+  static end2 + #922, #0
+  static end2 + #923, #0
+  static end2 + #924, #0
+  static end2 + #925, #0
+  static end2 + #926, #0
+  static end2 + #927, #0
+  static end2 + #928, #0
+  static end2 + #929, #0
+  static end2 + #930, #0
+  static end2 + #931, #0
+  static end2 + #932, #0
+  static end2 + #933, #0
+  static end2 + #934, #0
+  static end2 + #935, #0
+  static end2 + #936, #0
+  static end2 + #937, #0
+  static end2 + #938, #0
+  static end2 + #939, #0
+  static end2 + #940, #0
+  static end2 + #941, #0
+  static end2 + #942, #0
+  static end2 + #943, #0
+  static end2 + #944, #0
+  static end2 + #945, #0
+  static end2 + #946, #0
+  static end2 + #947, #0
+  static end2 + #948, #0
+  static end2 + #949, #0
+  static end2 + #950, #0
+  static end2 + #951, #0
+  static end2 + #952, #0
+  static end2 + #953, #0
+  static end2 + #954, #0
+  static end2 + #955, #0
+  static end2 + #956, #0
+  static end2 + #957, #0
+  static end2 + #958, #0
+  static end2 + #959, #0
+
+  ;Linha 24
+  static end2 + #960, #0
+  static end2 + #961, #0
+  static end2 + #962, #0
+  static end2 + #963, #0
+  static end2 + #964, #0
+  static end2 + #965, #0
+  static end2 + #966, #0
+  static end2 + #967, #0
+  static end2 + #968, #0
+  static end2 + #969, #0
+  static end2 + #970, #0
+  static end2 + #971, #2816
+  static end2 + #972, #2816
+  static end2 + #973, #2816
+  static end2 + #974, #2816
+  static end2 + #975, #2816
+  static end2 + #976, #2816
+  static end2 + #977, #0
+  static end2 + #978, #0
+  static end2 + #979, #0
+  static end2 + #980, #0
+  static end2 + #981, #0
+  static end2 + #982, #0
+  static end2 + #983, #0
+  static end2 + #984, #0
+  static end2 + #985, #0
+  static end2 + #986, #0
+  static end2 + #987, #0
+  static end2 + #988, #0
+  static end2 + #989, #0
+  static end2 + #990, #0
+  static end2 + #991, #0
+  static end2 + #992, #0
+  static end2 + #993, #0
+  static end2 + #994, #0
+  static end2 + #995, #0
+  static end2 + #996, #0
+  static end2 + #997, #0
+  static end2 + #998, #0
+  static end2 + #999, #0
+
+  ;Linha 25
+  static end2 + #1000, #0
+  static end2 + #1001, #0
+  static end2 + #1002, #0
+  static end2 + #1003, #0
+  static end2 + #1004, #0
+  static end2 + #1005, #0
+  static end2 + #1006, #0
+  static end2 + #1007, #0
+  static end2 + #1008, #0
+  static end2 + #1009, #0
+  static end2 + #1010, #0
+  static end2 + #1011, #0
+  static end2 + #1012, #0
+  static end2 + #1013, #0
+  static end2 + #1014, #0
+  static end2 + #1015, #0
+  static end2 + #1016, #0
+  static end2 + #1017, #0
+  static end2 + #1018, #0
+  static end2 + #1019, #0
+  static end2 + #1020, #0
+  static end2 + #1021, #0
+  static end2 + #1022, #0
+  static end2 + #1023, #0
+  static end2 + #1024, #0
+  static end2 + #1025, #0
+  static end2 + #1026, #0
+  static end2 + #1027, #0
+  static end2 + #1028, #0
+  static end2 + #1029, #0
+  static end2 + #1030, #0
+  static end2 + #1031, #0
+  static end2 + #1032, #0
+  static end2 + #1033, #0
+  static end2 + #1034, #0
+  static end2 + #1035, #0
+  static end2 + #1036, #0
+  static end2 + #1037, #0
+  static end2 + #1038, #0
+  static end2 + #1039, #0
+
+  ;Linha 26
+  static end2 + #1040, #0
+  static end2 + #1041, #0
+  static end2 + #1042, #0
+  static end2 + #1043, #0
+  static end2 + #1044, #0
+  static end2 + #1045, #0
+  static end2 + #1046, #0
+  static end2 + #1047, #0
+  static end2 + #1048, #0
+  static end2 + #1049, #0
+  static end2 + #1050, #0
+  static end2 + #1051, #0
+  static end2 + #1052, #0
+  static end2 + #1053, #0
+  static end2 + #1054, #0
+  static end2 + #1055, #0
+  static end2 + #1056, #0
+  static end2 + #1057, #0
+  static end2 + #1058, #0
+  static end2 + #1059, #0
+  static end2 + #1060, #0
+  static end2 + #1061, #0
+  static end2 + #1062, #0
+  static end2 + #1063, #0
+  static end2 + #1064, #0
+  static end2 + #1065, #0
+  static end2 + #1066, #0
+  static end2 + #1067, #0
+  static end2 + #1068, #0
+  static end2 + #1069, #0
+  static end2 + #1070, #0
+  static end2 + #1071, #0
+  static end2 + #1072, #0
+  static end2 + #1073, #0
+  static end2 + #1074, #0
+  static end2 + #1075, #0
+  static end2 + #1076, #0
+  static end2 + #1077, #0
+  static end2 + #1078, #0
+  static end2 + #1079, #0
+
+  ;Linha 27
+  static end2 + #1080, #0
+  static end2 + #1081, #0
+  static end2 + #1082, #0
+  static end2 + #1083, #0
+  static end2 + #1084, #0
+  static end2 + #1085, #0
+  static end2 + #1086, #0
+  static end2 + #1087, #0
+  static end2 + #1088, #0
+  static end2 + #1089, #0
+  static end2 + #1090, #0
+  static end2 + #1091, #0
+  static end2 + #1092, #0
+  static end2 + #1093, #0
+  static end2 + #1094, #0
+  static end2 + #1095, #0
+  static end2 + #1096, #0
+  static end2 + #1097, #0
+  static end2 + #1098, #0
+  static end2 + #1099, #0
+  static end2 + #1100, #0
+  static end2 + #1101, #0
+  static end2 + #1102, #0
+  static end2 + #1103, #0
+  static end2 + #1104, #0
+  static end2 + #1105, #0
+  static end2 + #1106, #0
+  static end2 + #1107, #0
+  static end2 + #1108, #0
+  static end2 + #1109, #0
+  static end2 + #1110, #0
+  static end2 + #1111, #0
+  static end2 + #1112, #0
+  static end2 + #1113, #0
+  static end2 + #1114, #0
+  static end2 + #1115, #0
+  static end2 + #1116, #0
+  static end2 + #1117, #0
+  static end2 + #1118, #0
+  static end2 + #1119, #0
+
+  ;Linha 28
+  static end2 + #1120, #0
+  static end2 + #1121, #0
+  static end2 + #1122, #0
+  static end2 + #1123, #0
+  static end2 + #1124, #0
+  static end2 + #1125, #0
+  static end2 + #1126, #0
+  static end2 + #1127, #0
+  static end2 + #1128, #0
+  static end2 + #1129, #0
+  static end2 + #1130, #0
+  static end2 + #1131, #0
+  static end2 + #1132, #0
+  static end2 + #1133, #0
+  static end2 + #1134, #0
+  static end2 + #1135, #0
+  static end2 + #1136, #0
+  static end2 + #1137, #0
+  static end2 + #1138, #0
+  static end2 + #1139, #0
+  static end2 + #1140, #0
+  static end2 + #1141, #0
+  static end2 + #1142, #0
+  static end2 + #1143, #0
+  static end2 + #1144, #0
+  static end2 + #1145, #0
+  static end2 + #1146, #0
+  static end2 + #1147, #0
+  static end2 + #1148, #0
+  static end2 + #1149, #0
+  static end2 + #1150, #0
+  static end2 + #1151, #0
+  static end2 + #1152, #0
+  static end2 + #1153, #0
+  static end2 + #1154, #0
+  static end2 + #1155, #0
+  static end2 + #1156, #0
+  static end2 + #1157, #0
+  static end2 + #1158, #0
+  static end2 + #1159, #0
+
+  ;Linha 29
+  static end2 + #1160, #0
+  static end2 + #1161, #0
+  static end2 + #1162, #0
+  static end2 + #1163, #0
+  static end2 + #1164, #0
+  static end2 + #1165, #0
+  static end2 + #1166, #0
+  static end2 + #1167, #0
+  static end2 + #1168, #0
+  static end2 + #1169, #0
+  static end2 + #1170, #0
+  static end2 + #1171, #0
+  static end2 + #1172, #0
+  static end2 + #1173, #0
+  static end2 + #1174, #0
+  static end2 + #1175, #0
+  static end2 + #1176, #0
+  static end2 + #1177, #0
+  static end2 + #1178, #2128
+  static end2 + #1179, #2162
+  static end2 + #1180, #2149
+  static end2 + #1181, #2163
+  static end2 + #1182, #2163
+  static end2 + #1183, #0
+  static end2 + #1184, #2096
+  static end2 + #1185, #0
+  static end2 + #1186, #2164
+  static end2 + #1187, #2159
+  static end2 + #1188, #0
+  static end2 + #1189, #2147
+  static end2 + #1190, #2159
+  static end2 + #1191, #2158
+  static end2 + #1192, #2164
+  static end2 + #1193, #2153
+  static end2 + #1194, #2158
+  static end2 + #1195, #2165
+  static end2 + #1196, #2149
+  static end2 + #1197, #2094
+  static end2 + #1198, #2094
+  static end2 + #1199, #2094
 ;
 ; Player related
 ;
@@ -11406,7 +13926,7 @@ mapList : var #5
 ; stores each market
 marketList : var #2
     static marketList + #0, #market1
-    static marketList + #1, #0
+    static marketList + #1, #market2
 
 ; store state for market items (whether player bought it or not)
 marketItems : var #4
@@ -11417,10 +13937,13 @@ marketItems : var #4
 
 ; price for each item in marketItems
 marketItemsPrice : var #4
-  static marketItemsPrice + #0, #15 ; counter
-  static marketItemsPrice + #1, #20  ; gold
-  static marketItemsPrice + #2, #80  ; dynamite
-  static marketItemsPrice + #3, #40 ; boots
+  static marketItemsPrice + #0, #15     ; counter
+  static marketItemsPrice + #1, #20     ; gold
+  static marketItemsPrice + #2, #80     ; dynamite
+  static marketItemsPrice + #3, #40     ; boots
+
+marketMoneyPos : var #1
+    static marketMoneyPos + #0, #487
 
 mapListIndex: var #1
 	static mapListIndex, #1
@@ -11430,12 +13953,6 @@ levelIndexPos: var #1
 
 winScorePos: var #1
     static winScorePos, #73
-
-market1Pos: var #1
-    static market1Pos, #486
-
-market2Pos: var #1
-    static market2Pos, #0
 
 ;
 ; Flags
@@ -11574,6 +14091,7 @@ main:
         loadi r1, r1
 
         call printScreen
+        call main_inMarket_printMoney
 
         main_inMarket_await_command:
             inchar r1
@@ -11595,6 +14113,19 @@ main:
         main_inMarket_Leave:
             jmp main_reset_flags
         
+        main_inMarket_printMoney:
+            push r0
+            push r1
+
+            load r0, marketMoneyPos
+            load r1, money
+
+            call printNumber
+
+            pop r1
+            pop r0
+            rts
+
         activate_item:
             ; transforms into a index
             loadn r2, #'0'
@@ -11607,13 +14138,24 @@ main:
                 ; subtracts the player's balance
                 sub r3, r3, r2
                 store money, r3
+                call main_inMarket_printMoney
                 
                 ; activates the specified item
                 loadn r2, #marketItems
                 add r2, r2, r1
+                mov r3, r1
                 loadn r1, #1
                 storei r2, r1
 
+                loadn r1, #3
+                cmp r3, r1
+                ceq activate_boots
+
+                rts
+
+            activate_boots:
+                loadn r1, #125
+                store maxSteps, r1
                 rts
 
             activate_item_check_price:
@@ -11641,7 +14183,19 @@ main:
                     rts
 
     main_restart:
-        loadn r1, #end1
+        loadn r2, #marketItems
+        loadn r3, #2
+        add r2, r2, r3
+        loadi r2, r2
+
+        loadn r3, #1
+        cmp r2, r3
+        ceq main_restart_end_2
+
+        loadn r3, #0
+        cmp r2, r3
+        ceq main_restart_end_1
+
         call printScreen
         
         load r0, winScorePos
@@ -11658,6 +14212,16 @@ main:
             jne main_restart_loop
 
         jmp initial_screen
+
+        main_restart_end_1:
+            loadn r1, #end1
+            rts
+
+        main_restart_end_2:
+            loadn r1, #end2
+            rts
+
+
 
     main_setMap:
         push r0
@@ -11992,8 +14556,20 @@ move:
             rts
 
         move_checkCollision_Money:
+            loadn r4, #marketItems
+
+            loadn r2, #1
+            add r4, r4, r2
+            loadi r4, r4
+
+            loadn r2, #1
+            cmp r4, r2
+            ceq move_checkCollision_Money_moreMoney
+            loadn r2, #0
+            cmp r4, r2
+            ceq move_checkCollision_Money_lessMoney
+            
             load r2, money
-            loadn r3, #3
             add r2, r2, r3
             store money, r2
 
@@ -12004,6 +14580,14 @@ move:
 
             storei r4, r3
             rts
+
+            move_checkCollision_Money_lessMoney:
+                loadn r3, #3
+                rts
+
+            move_checkCollision_Money_moreMoney:
+                loadn r3, #5
+                rts
 
         ; r0 = lever/player position, r1 = lever char value, r3 = lever color
         move_checkCollision_Lever:

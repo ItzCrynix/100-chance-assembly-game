@@ -5,11 +5,11 @@ market2 : var #1200
   static market2 + #2, #124
   static market2 + #3, #1296
   static market2 + #4, #1296
-  static market2 + #5, #124
-  static market2 + #6, #1296
+  static market2 + #5, #0
+  static market2 + #6, #124
   static market2 + #7, #1296
   static market2 + #8, #1296
-  static market2 + #9, #3967
+  static market2 + #9, #0
   static market2 + #10, #45
   static market2 + #11, #45
   static market2 + #12, #45
@@ -28,7 +28,7 @@ market2 : var #1200
   static market2 + #25, #45
   static market2 + #26, #45
   static market2 + #27, #45
-  static market2 + #28, #3967
+  static market2 + #28, #0
   static market2 + #29, #1296
   static market2 + #30, #1296
   static market2 + #31, #124
@@ -42,29 +42,29 @@ market2 : var #1200
   static market2 + #39, #1296
 
   ;Linha 1
-  static market2 + #40, #3967
-  static market2 + #41, #3967
+  static market2 + #40, #0
+  static market2 + #41, #0
   static market2 + #42, #124
-  static market2 + #43, #3967
-  static market2 + #44, #3967
-  static market2 + #45, #124
-  static market2 + #46, #3967
+  static market2 + #43, #0
+  static market2 + #44, #0
+  static market2 + #45, #0
+  static market2 + #46, #124
   static market2 + #47, #2321
-  static market2 + #48, #3967
+  static market2 + #48, #0
   static market2 + #49, #124
   static market2 + #50, #87
   static market2 + #51, #72
   static market2 + #52, #65
   static market2 + #53, #84
-  static market2 + #54, #3967
+  static market2 + #54, #0
   static market2 + #55, #65
   static market2 + #56, #82
   static market2 + #57, #69
-  static market2 + #58, #3967
+  static market2 + #58, #0
   static market2 + #59, #89
   static market2 + #60, #79
   static market2 + #61, #85
-  static market2 + #62, #3967
+  static market2 + #62, #0
   static market2 + #63, #71
   static market2 + #64, #79
   static market2 + #65, #73
@@ -72,79 +72,79 @@ market2 : var #1200
   static market2 + #67, #71
   static market2 + #68, #124
   static market2 + #69, #2321
-  static market2 + #70, #3967
+  static market2 + #70, #0
   static market2 + #71, #124
-  static market2 + #72, #3967
-  static market2 + #73, #3967
-  static market2 + #74, #3967
-  static market2 + #75, #3967
+  static market2 + #72, #0
+  static market2 + #73, #0
+  static market2 + #74, #0
+  static market2 + #75, #0
   static market2 + #76, #124
-  static market2 + #77, #3967
-  static market2 + #78, #3967
+  static market2 + #77, #0
+  static market2 + #78, #0
   static market2 + #79, #2321
 
   ;Linha 2
   static market2 + #80, #2321
-  static market2 + #81, #3967
+  static market2 + #81, #0
   static market2 + #82, #124
-  static market2 + #83, #3967
-  static market2 + #84, #3967
-  static market2 + #85, #124
-  static market2 + #86, #3967
-  static market2 + #87, #3967
-  static market2 + #88, #3967
+  static market2 + #83, #0
+  static market2 + #84, #0
+  static market2 + #85, #0
+  static market2 + #86, #124
+  static market2 + #87, #0
+  static market2 + #88, #0
   static market2 + #89, #124
-  static market2 + #90, #3967
-  static market2 + #91, #3967
-  static market2 + #92, #3967
-  static market2 + #93, #3967
-  static market2 + #94, #3967
-  static market2 + #95, #3967
-  static market2 + #96, #3967
-  static market2 + #97, #3967
-  static market2 + #98, #3967
-  static market2 + #99, #3967
-  static market2 + #100, #3967
-  static market2 + #101, #3967
-  static market2 + #102, #3967
-  static market2 + #103, #3967
-  static market2 + #104, #3967
-  static market2 + #105, #3967
-  static market2 + #106, #3967
-  static market2 + #107, #3967
+  static market2 + #90, #0
+  static market2 + #91, #0
+  static market2 + #92, #0
+  static market2 + #93, #0
+  static market2 + #94, #0
+  static market2 + #95, #0
+  static market2 + #96, #0
+  static market2 + #97, #0
+  static market2 + #98, #0
+  static market2 + #99, #0
+  static market2 + #100, #0
+  static market2 + #101, #0
+  static market2 + #102, #0
+  static market2 + #103, #0
+  static market2 + #104, #0
+  static market2 + #105, #0
+  static market2 + #106, #0
+  static market2 + #107, #0
   static market2 + #108, #124
-  static market2 + #109, #3967
-  static market2 + #110, #3967
+  static market2 + #109, #0
+  static market2 + #110, #0
   static market2 + #111, #124
-  static market2 + #112, #3967
+  static market2 + #112, #0
   static market2 + #113, #2321
-  static market2 + #114, #3967
-  static market2 + #115, #3967
+  static market2 + #114, #0
+  static market2 + #115, #0
   static market2 + #116, #124
   static market2 + #117, #2321
-  static market2 + #118, #3967
-  static market2 + #119, #3967
+  static market2 + #118, #0
+  static market2 + #119, #0
 
   ;Linha 3
-  static market2 + #120, #3967
-  static market2 + #121, #3967
+  static market2 + #120, #0
+  static market2 + #121, #0
   static market2 + #122, #124
-  static market2 + #123, #3967
-  static market2 + #124, #3967
-  static market2 + #125, #124
-  static market2 + #126, #3967
-  static market2 + #127, #3967
-  static market2 + #128, #3967
+  static market2 + #123, #0
+  static market2 + #124, #0
+  static market2 + #125, #0
+  static market2 + #126, #124
+  static market2 + #127, #0
+  static market2 + #128, #0
   static market2 + #129, #124
-  static market2 + #130, #3967
+  static market2 + #130, #0
   static market2 + #131, #84
   static market2 + #132, #79
-  static market2 + #133, #3967
+  static market2 + #133, #0
   static market2 + #134, #66
   static market2 + #135, #85
   static market2 + #136, #89
   static market2 + #137, #44
-  static market2 + #138, #3967
+  static market2 + #138, #0
   static market2 + #139, #2387
   static market2 + #140, #2388
   static market2 + #141, #2386
@@ -155,29 +155,29 @@ market2 : var #1200
   static market2 + #146, #2386
   static market2 + #147, #2367
   static market2 + #148, #124
-  static market2 + #149, #3967
-  static market2 + #150, #3967
+  static market2 + #149, #0
+  static market2 + #150, #0
   static market2 + #151, #124
-  static market2 + #152, #3967
-  static market2 + #153, #3967
-  static market2 + #154, #3967
-  static market2 + #155, #3967
+  static market2 + #152, #0
+  static market2 + #153, #0
+  static market2 + #154, #0
+  static market2 + #155, #0
   static market2 + #156, #124
-  static market2 + #157, #3967
-  static market2 + #158, #3967
-  static market2 + #159, #3967
+  static market2 + #157, #0
+  static market2 + #158, #0
+  static market2 + #159, #0
 
   ;Linha 4
-  static market2 + #160, #3967
-  static market2 + #161, #3967
+  static market2 + #160, #0
+  static market2 + #161, #0
   static market2 + #162, #124
-  static market2 + #163, #3967
-  static market2 + #164, #3967
-  static market2 + #165, #124
-  static market2 + #166, #2321
-  static market2 + #167, #3967
-  static market2 + #168, #3967
-  static market2 + #169, #3967
+  static market2 + #163, #0
+  static market2 + #164, #0
+  static market2 + #165, #0
+  static market2 + #166, #124
+  static market2 + #167, #0
+  static market2 + #168, #0
+  static market2 + #169, #0
   static market2 + #170, #95
   static market2 + #171, #95
   static market2 + #172, #95
@@ -196,244 +196,244 @@ market2 : var #1200
   static market2 + #185, #95
   static market2 + #186, #95
   static market2 + #187, #95
-  static market2 + #188, #3967
-  static market2 + #189, #3967
-  static market2 + #190, #3967
+  static market2 + #188, #0
+  static market2 + #189, #0
+  static market2 + #190, #0
   static market2 + #191, #124
-  static market2 + #192, #3967
-  static market2 + #193, #3967
-  static market2 + #194, #3967
-  static market2 + #195, #3967
+  static market2 + #192, #0
+  static market2 + #193, #0
+  static market2 + #194, #0
+  static market2 + #195, #0
   static market2 + #196, #1283
-  static market2 + #197, #3967
-  static market2 + #198, #3967
-  static market2 + #199, #3967
+  static market2 + #197, #0
+  static market2 + #198, #0
+  static market2 + #199, #0
 
   ;Linha 5
   static market2 + #200, #2321
-  static market2 + #201, #3967
+  static market2 + #201, #0
   static market2 + #202, #124
-  static market2 + #203, #3967
+  static market2 + #203, #0
   static market2 + #204, #2321
-  static market2 + #205, #124
-  static market2 + #206, #3967
-  static market2 + #207, #3967
-  static market2 + #208, #3967
-  static market2 + #209, #3967
-  static market2 + #210, #3967
-  static market2 + #211, #3967
-  static market2 + #212, #3967
-  static market2 + #213, #3967
-  static market2 + #214, #3967
+  static market2 + #205, #0
+  static market2 + #206, #124
+  static market2 + #207, #0
+  static market2 + #208, #0
+  static market2 + #209, #0
+  static market2 + #210, #0
+  static market2 + #211, #0
+  static market2 + #212, #0
+  static market2 + #213, #0
+  static market2 + #214, #0
   static market2 + #215, #1300
-  static market2 + #216, #3967
-  static market2 + #217, #3967
-  static market2 + #218, #3967
-  static market2 + #219, #3967
-  static market2 + #220, #3967
-  static market2 + #221, #3967
+  static market2 + #216, #0
+  static market2 + #217, #0
+  static market2 + #218, #0
+  static market2 + #219, #0
+  static market2 + #220, #0
+  static market2 + #221, #0
   static market2 + #222, #1300
-  static market2 + #223, #3967
-  static market2 + #224, #3967
-  static market2 + #225, #3967
-  static market2 + #226, #3967
-  static market2 + #227, #3967
-  static market2 + #228, #3967
-  static market2 + #229, #3967
-  static market2 + #230, #3967
+  static market2 + #223, #0
+  static market2 + #224, #0
+  static market2 + #225, #0
+  static market2 + #226, #0
+  static market2 + #227, #0
+  static market2 + #228, #0
+  static market2 + #229, #0
+  static market2 + #230, #0
   static market2 + #231, #124
-  static market2 + #232, #3967
-  static market2 + #233, #3967
-  static market2 + #234, #3967
+  static market2 + #232, #0
+  static market2 + #233, #0
+  static market2 + #234, #0
   static market2 + #235, #1283
   static market2 + #236, #2321
   static market2 + #237, #1283
-  static market2 + #238, #3967
-  static market2 + #239, #3967
+  static market2 + #238, #0
+  static market2 + #239, #0
 
   ;Linha 6
-  static market2 + #240, #3967
-  static market2 + #241, #3967
+  static market2 + #240, #0
+  static market2 + #241, #0
   static market2 + #242, #124
-  static market2 + #243, #3967
-  static market2 + #244, #3967
-  static market2 + #245, #124
-  static market2 + #246, #3967
-  static market2 + #247, #3967
-  static market2 + #248, #3967
-  static market2 + #249, #3967
-  static market2 + #250, #3967
-  static market2 + #251, #3967
-  static market2 + #252, #3967
-  static market2 + #253, #3967
+  static market2 + #243, #0
+  static market2 + #244, #0
+  static market2 + #245, #0
+  static market2 + #246, #1283
+  static market2 + #247, #0
+  static market2 + #248, #0
+  static market2 + #249, #0
+  static market2 + #250, #0
+  static market2 + #251, #0
+  static market2 + #252, #0
+  static market2 + #253, #0
   static market2 + #254, #1300
   static market2 + #255, #3455
   static market2 + #256, #1300
-  static market2 + #257, #3967
-  static market2 + #258, #3967
-  static market2 + #259, #3967
-  static market2 + #260, #3967
+  static market2 + #257, #0
+  static market2 + #258, #0
+  static market2 + #259, #0
+  static market2 + #260, #0
   static market2 + #261, #1300
   static market2 + #262, #3455
   static market2 + #263, #1300
-  static market2 + #264, #3967
-  static market2 + #265, #3967
-  static market2 + #266, #3967
-  static market2 + #267, #3967
-  static market2 + #268, #3967
-  static market2 + #269, #3967
+  static market2 + #264, #0
+  static market2 + #265, #0
+  static market2 + #266, #0
+  static market2 + #267, #0
+  static market2 + #268, #0
+  static market2 + #269, #0
   static market2 + #270, #1283
   static market2 + #271, #1283
   static market2 + #272, #1283
-  static market2 + #273, #3967
-  static market2 + #274, #3967
+  static market2 + #273, #0
+  static market2 + #274, #0
   static market2 + #275, #3344
   static market2 + #276, #1283
   static market2 + #277, #3344
-  static market2 + #278, #3967
-  static market2 + #279, #3967
+  static market2 + #278, #0
+  static market2 + #279, #0
 
   ;Linha 7
-  static market2 + #280, #3967
-  static market2 + #281, #3967
-  static market2 + #282, #124
-  static market2 + #283, #3967
-  static market2 + #284, #3967
+  static market2 + #280, #0
+  static market2 + #281, #0
+  static market2 + #282, #1283
+  static market2 + #283, #0
+  static market2 + #284, #0
   static market2 + #285, #1283
-  static market2 + #286, #3967
-  static market2 + #287, #3967
-  static market2 + #288, #3967
-  static market2 + #289, #3967
-  static market2 + #290, #3967
-  static market2 + #291, #3967
-  static market2 + #292, #3967
-  static market2 + #293, #3967
+  static market2 + #286, #1283
+  static market2 + #287, #1283
+  static market2 + #288, #0
+  static market2 + #289, #0
+  static market2 + #290, #0
+  static market2 + #291, #0
+  static market2 + #292, #0
+  static market2 + #293, #0
   static market2 + #294, #3455
   static market2 + #295, #127
   static market2 + #296, #3455
-  static market2 + #297, #3967
-  static market2 + #298, #3967
-  static market2 + #299, #3967
-  static market2 + #300, #3967
+  static market2 + #297, #0
+  static market2 + #298, #0
+  static market2 + #299, #0
+  static market2 + #300, #0
   static market2 + #301, #3455
   static market2 + #302, #127
   static market2 + #303, #3455
-  static market2 + #304, #3967
-  static market2 + #305, #3967
-  static market2 + #306, #3967
+  static market2 + #304, #0
+  static market2 + #305, #0
+  static market2 + #306, #0
   static market2 + #307, #2321
-  static market2 + #308, #3967
-  static market2 + #309, #3967
+  static market2 + #308, #0
+  static market2 + #309, #0
   static market2 + #310, #1283
   static market2 + #311, #1283
   static market2 + #312, #1283
-  static market2 + #313, #3967
-  static market2 + #314, #3967
-  static market2 + #315, #3967
+  static market2 + #313, #0
+  static market2 + #314, #0
+  static market2 + #315, #0
   static market2 + #316, #1283
-  static market2 + #317, #3967
-  static market2 + #318, #3967
-  static market2 + #319, #3967
+  static market2 + #317, #0
+  static market2 + #318, #0
+  static market2 + #319, #0
 
   ;Linha 8
-  static market2 + #320, #3967
-  static market2 + #321, #3967
-  static market2 + #322, #124
-  static market2 + #323, #3967
-  static market2 + #324, #1283
-  static market2 + #325, #1283
+  static market2 + #320, #0
+  static market2 + #321, #1283
+  static market2 + #322, #2347
+  static market2 + #323, #1283
+  static market2 + #324, #0
+  static market2 + #325, #1316
   static market2 + #326, #1283
-  static market2 + #327, #3967
-  static market2 + #328, #3967
-  static market2 + #329, #3967
+  static market2 + #327, #1316
+  static market2 + #328, #0
+  static market2 + #329, #0
   static market2 + #330, #2321
-  static market2 + #331, #3967
-  static market2 + #332, #3967
-  static market2 + #333, #3967
+  static market2 + #331, #0
+  static market2 + #332, #0
+  static market2 + #333, #0
   static market2 + #334, #3455
   static market2 + #335, #127
   static market2 + #336, #3455
-  static market2 + #337, #3967
-  static market2 + #338, #3967
-  static market2 + #339, #3967
-  static market2 + #340, #3967
+  static market2 + #337, #0
+  static market2 + #338, #0
+  static market2 + #339, #0
+  static market2 + #340, #0
   static market2 + #341, #3455
   static market2 + #342, #127
   static market2 + #343, #3455
-  static market2 + #344, #3967
-  static market2 + #345, #3967
-  static market2 + #346, #3967
-  static market2 + #347, #3967
-  static market2 + #348, #3967
-  static market2 + #349, #3967
-  static market2 + #350, #1283
+  static market2 + #344, #0
+  static market2 + #345, #0
+  static market2 + #346, #0
+  static market2 + #347, #0
+  static market2 + #348, #0
+  static market2 + #349, #0
+  static market2 + #350, #1316
   static market2 + #351, #1283
-  static market2 + #352, #1283
+  static market2 + #352, #1316
   static market2 + #353, #2321
-  static market2 + #354, #3967
-  static market2 + #355, #3967
+  static market2 + #354, #0
+  static market2 + #355, #0
   static market2 + #356, #3344
-  static market2 + #357, #3967
-  static market2 + #358, #3967
-  static market2 + #359, #3967
+  static market2 + #357, #0
+  static market2 + #358, #0
+  static market2 + #359, #0
 
   ;Linha 9
-  static market2 + #360, #3967
-  static market2 + #361, #3967
-  static market2 + #362, #124
-  static market2 + #363, #3967
-  static market2 + #364, #1283
-  static market2 + #365, #1283
+  static market2 + #360, #0
+  static market2 + #361, #0
+  static market2 + #362, #1283
+  static market2 + #363, #0
+  static market2 + #364, #0
+  static market2 + #365, #0
   static market2 + #366, #1283
-  static market2 + #367, #3967
-  static market2 + #368, #3967
-  static market2 + #369, #3967
-  static market2 + #370, #3967
-  static market2 + #371, #3967
-  static market2 + #372, #3967
-  static market2 + #373, #3967
+  static market2 + #367, #0
+  static market2 + #368, #0
+  static market2 + #369, #0
+  static market2 + #370, #0
+  static market2 + #371, #0
+  static market2 + #372, #0
+  static market2 + #373, #0
   static market2 + #374, #3455
   static market2 + #375, #127
   static market2 + #376, #3455
-  static market2 + #377, #3967
-  static market2 + #378, #3967
-  static market2 + #379, #3967
-  static market2 + #380, #3967
+  static market2 + #377, #0
+  static market2 + #378, #0
+  static market2 + #379, #0
+  static market2 + #380, #0
   static market2 + #381, #3455
   static market2 + #382, #127
   static market2 + #383, #3455
-  static market2 + #384, #3967
-  static market2 + #385, #3967
-  static market2 + #386, #3967
-  static market2 + #387, #3967
-  static market2 + #388, #3967
-  static market2 + #389, #3967
-  static market2 + #390, #3967
+  static market2 + #384, #0
+  static market2 + #385, #0
+  static market2 + #386, #0
+  static market2 + #387, #0
+  static market2 + #388, #0
+  static market2 + #389, #0
+  static market2 + #390, #0
   static market2 + #391, #3344
-  static market2 + #392, #3967
-  static market2 + #393, #3967
-  static market2 + #394, #3967
+  static market2 + #392, #0
+  static market2 + #393, #0
+  static market2 + #394, #0
   static market2 + #395, #2321
-  static market2 + #396, #3967
-  static market2 + #397, #3967
+  static market2 + #396, #0
+  static market2 + #397, #0
   static market2 + #398, #2321
-  static market2 + #399, #3967
+  static market2 + #399, #0
 
   ;Linha 10
-  static market2 + #400, #3967
+  static market2 + #400, #0
   static market2 + #401, #2321
-  static market2 + #402, #124
-  static market2 + #403, #3967
-  static market2 + #404, #3967
-  static market2 + #405, #3344
-  static market2 + #406, #3967
-  static market2 + #407, #3967
-  static market2 + #408, #3967
-  static market2 + #409, #3967
-  static market2 + #410, #3967
-  static market2 + #411, #3967
-  static market2 + #412, #3967
-  static market2 + #413, #3967
+  static market2 + #402, #0
+  static market2 + #403, #0
+  static market2 + #404, #0
+  static market2 + #405, #0
+  static market2 + #406, #0
+  static market2 + #407, #0
+  static market2 + #408, #0
+  static market2 + #409, #0
+  static market2 + #410, #0
+  static market2 + #411, #0
+  static market2 + #412, #0
+  static market2 + #413, #0
   static market2 + #414, #3455
   static market2 + #415, #127
   static market2 + #416, #3455
@@ -444,37 +444,37 @@ market2 : var #1200
   static market2 + #421, #3455
   static market2 + #422, #127
   static market2 + #423, #3455
-  static market2 + #424, #3967
-  static market2 + #425, #3967
-  static market2 + #426, #3967
-  static market2 + #427, #3967
-  static market2 + #428, #3967
-  static market2 + #429, #3967
-  static market2 + #430, #3967
-  static market2 + #431, #3967
+  static market2 + #424, #0
+  static market2 + #425, #0
+  static market2 + #426, #0
+  static market2 + #427, #0
+  static market2 + #428, #0
+  static market2 + #429, #0
+  static market2 + #430, #0
+  static market2 + #431, #0
   static market2 + #432, #2321
-  static market2 + #433, #3967
-  static market2 + #434, #3967
-  static market2 + #435, #3967
-  static market2 + #436, #3967
-  static market2 + #437, #3967
-  static market2 + #438, #3967
-  static market2 + #439, #3967
+  static market2 + #433, #0
+  static market2 + #434, #0
+  static market2 + #435, #0
+  static market2 + #436, #0
+  static market2 + #437, #0
+  static market2 + #438, #0
+  static market2 + #439, #0
 
   ;Linha 11
-  static market2 + #440, #3967
-  static market2 + #441, #3967
-  static market2 + #442, #1283
-  static market2 + #443, #3967
-  static market2 + #444, #3967
-  static market2 + #445, #3967
-  static market2 + #446, #3967
-  static market2 + #447, #3967
-  static market2 + #448, #3967
-  static market2 + #449, #3967
-  static market2 + #450, #3967
-  static market2 + #451, #3967
-  static market2 + #452, #3967
+  static market2 + #440, #0
+  static market2 + #441, #0
+  static market2 + #442, #0
+  static market2 + #443, #0
+  static market2 + #444, #0
+  static market2 + #445, #0
+  static market2 + #446, #0
+  static market2 + #447, #0
+  static market2 + #448, #0
+  static market2 + #449, #0
+  static market2 + #450, #0
+  static market2 + #451, #0
+  static market2 + #452, #0
   static market2 + #453, #1300
   static market2 + #454, #3455
   static market2 + #455, #3455
@@ -487,36 +487,36 @@ market2 : var #1200
   static market2 + #462, #3455
   static market2 + #463, #3455
   static market2 + #464, #1300
-  static market2 + #465, #3967
-  static market2 + #466, #3967
-  static market2 + #467, #3967
-  static market2 + #468, #3967
-  static market2 + #469, #3967
-  static market2 + #470, #3967
-  static market2 + #471, #3967
-  static market2 + #472, #3967
-  static market2 + #473, #3967
-  static market2 + #474, #3967
-  static market2 + #475, #3967
-  static market2 + #476, #3967
-  static market2 + #477, #3967
-  static market2 + #478, #3967
-  static market2 + #479, #3967
+  static market2 + #465, #0
+  static market2 + #466, #0
+  static market2 + #467, #0
+  static market2 + #468, #0
+  static market2 + #469, #0
+  static market2 + #470, #0
+  static market2 + #471, #0
+  static market2 + #472, #0
+  static market2 + #473, #0
+  static market2 + #474, #0
+  static market2 + #475, #0
+  static market2 + #476, #0
+  static market2 + #477, #0
+  static market2 + #478, #0
+  static market2 + #479, #0
 
   ;Linha 12
-  static market2 + #480, #3967
-  static market2 + #481, #1283
-  static market2 + #482, #2319
-  static market2 + #483, #1283
-  static market2 + #484, #3967
-  static market2 + #485, #3967
-  static market2 + #486, #3967
-  static market2 + #487, #3967
-  static market2 + #488, #3967
-  static market2 + #489, #3967
-  static market2 + #490, #3967
-  static market2 + #491, #3967
-  static market2 + #492, #3967
+  static market2 + #480, #77
+  static market2 + #481, #79
+  static market2 + #482, #78
+  static market2 + #483, #69
+  static market2 + #484, #89
+  static market2 + #485, #58
+  static market2 + #486, #2852
+  static market2 + #487, #0
+  static market2 + #488, #0
+  static market2 + #489, #0
+  static market2 + #490, #0
+  static market2 + #491, #0
+  static market2 + #492, #0
   static market2 + #493, #3455
   static market2 + #494, #3455
   static market2 + #495, #127
@@ -529,36 +529,36 @@ market2 : var #1200
   static market2 + #502, #127
   static market2 + #503, #3455
   static market2 + #504, #3455
-  static market2 + #505, #3967
-  static market2 + #506, #3967
-  static market2 + #507, #3967
-  static market2 + #508, #3967
-  static market2 + #509, #3967
-  static market2 + #510, #3967
-  static market2 + #511, #3967
-  static market2 + #512, #3967
-  static market2 + #513, #3967
-  static market2 + #514, #3967
+  static market2 + #505, #0
+  static market2 + #506, #0
+  static market2 + #507, #0
+  static market2 + #508, #0
+  static market2 + #509, #0
+  static market2 + #510, #0
+  static market2 + #511, #0
+  static market2 + #512, #0
+  static market2 + #513, #0
+  static market2 + #514, #0
   static market2 + #515, #2347
-  static market2 + #516, #3967
-  static market2 + #517, #3967
-  static market2 + #518, #3967
-  static market2 + #519, #3967
+  static market2 + #516, #0
+  static market2 + #517, #0
+  static market2 + #518, #0
+  static market2 + #519, #0
 
   ;Linha 13
-  static market2 + #520, #3967
-  static market2 + #521, #3344
-  static market2 + #522, #1283
-  static market2 + #523, #3344
-  static market2 + #524, #3967
-  static market2 + #525, #3967
-  static market2 + #526, #3967
-  static market2 + #527, #3967
-  static market2 + #528, #3967
-  static market2 + #529, #3967
-  static market2 + #530, #3967
-  static market2 + #531, #3967
-  static market2 + #532, #3967
+  static market2 + #520, #0
+  static market2 + #521, #0
+  static market2 + #522, #0
+  static market2 + #523, #0
+  static market2 + #524, #0
+  static market2 + #525, #0
+  static market2 + #526, #0
+  static market2 + #527, #0
+  static market2 + #528, #0
+  static market2 + #529, #0
+  static market2 + #530, #0
+  static market2 + #531, #0
+  static market2 + #532, #0
   static market2 + #533, #3455
   static market2 + #534, #127
   static market2 + #535, #2431
@@ -571,27 +571,27 @@ market2 : var #1200
   static market2 + #542, #2431
   static market2 + #543, #127
   static market2 + #544, #3455
-  static market2 + #545, #3967
-  static market2 + #546, #3967
-  static market2 + #547, #3967
-  static market2 + #548, #3967
-  static market2 + #549, #3967
-  static market2 + #550, #3967
-  static market2 + #551, #3967
-  static market2 + #552, #3967
-  static market2 + #553, #3967
-  static market2 + #554, #3967
-  static market2 + #555, #3967
-  static market2 + #556, #3967
-  static market2 + #557, #3967
-  static market2 + #558, #3967
-  static market2 + #559, #3967
+  static market2 + #545, #0
+  static market2 + #546, #0
+  static market2 + #547, #0
+  static market2 + #548, #0
+  static market2 + #549, #0
+  static market2 + #550, #0
+  static market2 + #551, #0
+  static market2 + #552, #0
+  static market2 + #553, #0
+  static market2 + #554, #0
+  static market2 + #555, #0
+  static market2 + #556, #0
+  static market2 + #557, #0
+  static market2 + #558, #0
+  static market2 + #559, #0
 
   ;Linha 14
-  static market2 + #560, #3967
-  static market2 + #561, #3967
-  static market2 + #562, #3344
-  static market2 + #563, #3967
+  static market2 + #560, #0
+  static market2 + #561, #0
+  static market2 + #562, #0
+  static market2 + #563, #0
   static market2 + #564, #1860
   static market2 + #565, #89
   static market2 + #566, #78
@@ -600,7 +600,7 @@ market2 : var #1200
   static market2 + #569, #73
   static market2 + #570, #84
   static market2 + #571, #69
-  static market2 + #572, #3967
+  static market2 + #572, #0
   static market2 + #573, #3455
   static market2 + #574, #127
   static market2 + #575, #2431
@@ -613,36 +613,36 @@ market2 : var #1200
   static market2 + #582, #2431
   static market2 + #583, #127
   static market2 + #584, #3455
-  static market2 + #585, #3967
+  static market2 + #585, #0
   static market2 + #586, #66
   static market2 + #587, #79
   static market2 + #588, #79
   static market2 + #589, #84
   static market2 + #590, #83
-  static market2 + #591, #3967
-  static market2 + #592, #3967
-  static market2 + #593, #3967
-  static market2 + #594, #3967
-  static market2 + #595, #3967
-  static market2 + #596, #3967
-  static market2 + #597, #3967
-  static market2 + #598, #3967
-  static market2 + #599, #3967
+  static market2 + #591, #0
+  static market2 + #592, #0
+  static market2 + #593, #0
+  static market2 + #594, #0
+  static market2 + #595, #0
+  static market2 + #596, #0
+  static market2 + #597, #0
+  static market2 + #598, #0
+  static market2 + #599, #0
 
   ;Linha 15
-  static market2 + #600, #3967
-  static market2 + #601, #3967
-  static market2 + #602, #3967
-  static market2 + #603, #3967
-  static market2 + #604, #3967
+  static market2 + #600, #0
+  static market2 + #601, #0
+  static market2 + #602, #0
+  static market2 + #603, #0
+  static market2 + #604, #0
   static market2 + #605, #2321
   static market2 + #606, #2852
-  static market2 + #607, #2873
-  static market2 + #608, #2873
-  static market2 + #609, #3967
-  static market2 + #610, #3967
-  static market2 + #611, #3967
-  static market2 + #612, #3967
+  static market2 + #607, #2872
+  static market2 + #608, #2864
+  static market2 + #609, #0
+  static market2 + #610, #0
+  static market2 + #611, #0
+  static market2 + #612, #0
   static market2 + #613, #3455
   static market2 + #614, #127
   static market2 + #615, #127
@@ -655,36 +655,36 @@ market2 : var #1200
   static market2 + #622, #127
   static market2 + #623, #127
   static market2 + #624, #3455
-  static market2 + #625, #3967
-  static market2 + #626, #3967
+  static market2 + #625, #0
+  static market2 + #626, #0
   static market2 + #627, #2899
-  static market2 + #628, #2873
-  static market2 + #629, #2873
-  static market2 + #630, #3967
-  static market2 + #631, #3967
-  static market2 + #632, #3967
-  static market2 + #633, #3967
-  static market2 + #634, #3967
-  static market2 + #635, #3967
-  static market2 + #636, #3967
-  static market2 + #637, #3967
-  static market2 + #638, #3967
-  static market2 + #639, #3967
+  static market2 + #628, #2868
+  static market2 + #629, #2864
+  static market2 + #630, #0
+  static market2 + #631, #0
+  static market2 + #632, #0
+  static market2 + #633, #0
+  static market2 + #634, #0
+  static market2 + #635, #0
+  static market2 + #636, #0
+  static market2 + #637, #0
+  static market2 + #638, #0
+  static market2 + #639, #0
 
   ;Linha 16
-  static market2 + #640, #3967
-  static market2 + #641, #3967
-  static market2 + #642, #3967
-  static market2 + #643, #3967
-  static market2 + #644, #3967
-  static market2 + #645, #3967
+  static market2 + #640, #0
+  static market2 + #641, #0
+  static market2 + #642, #0
+  static market2 + #643, #0
+  static market2 + #644, #0
+  static market2 + #645, #0
   static market2 + #646, #2344
-  static market2 + #647, #2353
+  static market2 + #647, #2355
   static market2 + #648, #2345
-  static market2 + #649, #3967
-  static market2 + #650, #3967
-  static market2 + #651, #3967
-  static market2 + #652, #3967
+  static market2 + #649, #0
+  static market2 + #650, #0
+  static market2 + #651, #0
+  static market2 + #652, #0
   static market2 + #653, #3455
   static market2 + #654, #127
   static market2 + #655, #127
@@ -697,36 +697,36 @@ market2 : var #1200
   static market2 + #662, #127
   static market2 + #663, #127
   static market2 + #664, #3455
-  static market2 + #665, #3967
-  static market2 + #666, #3967
+  static market2 + #665, #0
+  static market2 + #666, #0
   static market2 + #667, #2344
-  static market2 + #668, #2354
+  static market2 + #668, #2356
   static market2 + #669, #2345
-  static market2 + #670, #3967
-  static market2 + #671, #3967
-  static market2 + #672, #3967
-  static market2 + #673, #3967
-  static market2 + #674, #3967
-  static market2 + #675, #3967
-  static market2 + #676, #3967
-  static market2 + #677, #3967
-  static market2 + #678, #3967
-  static market2 + #679, #3967
+  static market2 + #670, #0
+  static market2 + #671, #0
+  static market2 + #672, #0
+  static market2 + #673, #0
+  static market2 + #674, #0
+  static market2 + #675, #0
+  static market2 + #676, #0
+  static market2 + #677, #0
+  static market2 + #678, #0
+  static market2 + #679, #0
 
   ;Linha 17
-  static market2 + #680, #3967
-  static market2 + #681, #3967
-  static market2 + #682, #3967
-  static market2 + #683, #3967
-  static market2 + #684, #3967
-  static market2 + #685, #3967
-  static market2 + #686, #3967
-  static market2 + #687, #3967
-  static market2 + #688, #3967
-  static market2 + #689, #3967
-  static market2 + #690, #3967
-  static market2 + #691, #3967
-  static market2 + #692, #3967
+  static market2 + #680, #0
+  static market2 + #681, #0
+  static market2 + #682, #0
+  static market2 + #683, #0
+  static market2 + #684, #0
+  static market2 + #685, #0
+  static market2 + #686, #0
+  static market2 + #687, #0
+  static market2 + #688, #0
+  static market2 + #689, #0
+  static market2 + #690, #0
+  static market2 + #691, #0
+  static market2 + #692, #0
   static market2 + #693, #3455
   static market2 + #694, #127
   static market2 + #695, #127
@@ -739,35 +739,35 @@ market2 : var #1200
   static market2 + #702, #127
   static market2 + #703, #127
   static market2 + #704, #3455
-  static market2 + #705, #3967
-  static market2 + #706, #3967
-  static market2 + #707, #3967
-  static market2 + #708, #3967
-  static market2 + #709, #3967
-  static market2 + #710, #3967
-  static market2 + #711, #3967
-  static market2 + #712, #3967
-  static market2 + #713, #3967
-  static market2 + #714, #3967
-  static market2 + #715, #3967
-  static market2 + #716, #3967
+  static market2 + #705, #0
+  static market2 + #706, #0
+  static market2 + #707, #0
+  static market2 + #708, #0
+  static market2 + #709, #0
+  static market2 + #710, #0
+  static market2 + #711, #0
+  static market2 + #712, #0
+  static market2 + #713, #0
+  static market2 + #714, #0
+  static market2 + #715, #0
+  static market2 + #716, #0
   static market2 + #717, #2347
-  static market2 + #718, #3967
-  static market2 + #719, #3967
+  static market2 + #718, #0
+  static market2 + #719, #0
 
   ;Linha 18
-  static market2 + #720, #3967
-  static market2 + #721, #3967
-  static market2 + #722, #3967
-  static market2 + #723, #3967
-  static market2 + #724, #3967
-  static market2 + #725, #3967
-  static market2 + #726, #3967
-  static market2 + #727, #3967
-  static market2 + #728, #3967
-  static market2 + #729, #3967
-  static market2 + #730, #3967
-  static market2 + #731, #3967
+  static market2 + #720, #0
+  static market2 + #721, #0
+  static market2 + #722, #0
+  static market2 + #723, #0
+  static market2 + #724, #0
+  static market2 + #725, #0
+  static market2 + #726, #0
+  static market2 + #727, #0
+  static market2 + #728, #0
+  static market2 + #729, #0
+  static market2 + #730, #0
+  static market2 + #731, #0
   static market2 + #732, #1300
   static market2 + #733, #3455
   static market2 + #734, #127
@@ -782,27 +782,27 @@ market2 : var #1200
   static market2 + #743, #127
   static market2 + #744, #3455
   static market2 + #745, #1300
-  static market2 + #746, #3967
-  static market2 + #747, #3967
-  static market2 + #748, #3967
-  static market2 + #749, #3967
-  static market2 + #750, #3967
-  static market2 + #751, #3967
-  static market2 + #752, #3967
-  static market2 + #753, #3967
-  static market2 + #754, #3967
-  static market2 + #755, #3967
-  static market2 + #756, #3967
-  static market2 + #757, #3967
-  static market2 + #758, #3967
-  static market2 + #759, #3967
+  static market2 + #746, #0
+  static market2 + #747, #0
+  static market2 + #748, #0
+  static market2 + #749, #0
+  static market2 + #750, #0
+  static market2 + #751, #0
+  static market2 + #752, #0
+  static market2 + #753, #0
+  static market2 + #754, #0
+  static market2 + #755, #0
+  static market2 + #756, #0
+  static market2 + #757, #0
+  static market2 + #758, #0
+  static market2 + #759, #0
 
   ;Linha 19
-  static market2 + #760, #3967
-  static market2 + #761, #3967
-  static market2 + #762, #3967
-  static market2 + #763, #3967
-  static market2 + #764, #3967
+  static market2 + #760, #0
+  static market2 + #761, #0
+  static market2 + #762, #0
+  static market2 + #763, #0
+  static market2 + #764, #0
   static market2 + #765, #127
   static market2 + #766, #127
   static market2 + #767, #127
@@ -832,18 +832,18 @@ market2 : var #1200
   static market2 + #791, #127
   static market2 + #792, #127
   static market2 + #793, #127
-  static market2 + #794, #3967
-  static market2 + #795, #3967
-  static market2 + #796, #3967
-  static market2 + #797, #3967
-  static market2 + #798, #3967
-  static market2 + #799, #3967
+  static market2 + #794, #0
+  static market2 + #795, #0
+  static market2 + #796, #0
+  static market2 + #797, #0
+  static market2 + #798, #0
+  static market2 + #799, #0
 
   ;Linha 20
-  static market2 + #800, #3967
-  static market2 + #801, #3967
-  static market2 + #802, #3967
-  static market2 + #803, #3967
+  static market2 + #800, #0
+  static market2 + #801, #0
+  static market2 + #802, #0
+  static market2 + #803, #0
   static market2 + #804, #127
   static market2 + #805, #127
   static market2 + #806, #127
@@ -875,18 +875,18 @@ market2 : var #1200
   static market2 + #832, #127
   static market2 + #833, #127
   static market2 + #834, #127
-  static market2 + #835, #3967
-  static market2 + #836, #3967
-  static market2 + #837, #3967
-  static market2 + #838, #3967
-  static market2 + #839, #3967
+  static market2 + #835, #0
+  static market2 + #836, #0
+  static market2 + #837, #0
+  static market2 + #838, #0
+  static market2 + #839, #0
 
   ;Linha 21
-  static market2 + #840, #3967
-  static market2 + #841, #3967
-  static market2 + #842, #3967
-  static market2 + #843, #3967
-  static market2 + #844, #3967
+  static market2 + #840, #0
+  static market2 + #841, #0
+  static market2 + #842, #0
+  static market2 + #843, #0
+  static market2 + #844, #0
   static market2 + #845, #1919
   static market2 + #846, #1919
   static market2 + #847, #1919
@@ -898,7 +898,7 @@ market2 : var #1200
   static market2 + #853, #383
   static market2 + #854, #383
   static market2 + #855, #383
-  static market2 + #856, #3967
+  static market2 + #856, #0
   static market2 + #857, #383
   static market2 + #858, #383
   static market2 + #859, #383
@@ -916,19 +916,19 @@ market2 : var #1200
   static market2 + #871, #1919
   static market2 + #872, #1919
   static market2 + #873, #1919
-  static market2 + #874, #3967
-  static market2 + #875, #3967
-  static market2 + #876, #3967
-  static market2 + #877, #3967
-  static market2 + #878, #3967
-  static market2 + #879, #3967
+  static market2 + #874, #0
+  static market2 + #875, #0
+  static market2 + #876, #0
+  static market2 + #877, #0
+  static market2 + #878, #0
+  static market2 + #879, #0
 
   ;Linha 22
-  static market2 + #880, #3967
-  static market2 + #881, #3967
-  static market2 + #882, #3967
-  static market2 + #883, #3967
-  static market2 + #884, #3967
+  static market2 + #880, #0
+  static market2 + #881, #0
+  static market2 + #882, #0
+  static market2 + #883, #0
+  static market2 + #884, #0
   static market2 + #885, #1919
   static market2 + #886, #1919
   static market2 + #887, #1919
@@ -958,18 +958,18 @@ market2 : var #1200
   static market2 + #911, #1919
   static market2 + #912, #1919
   static market2 + #913, #1919
-  static market2 + #914, #3967
-  static market2 + #915, #3967
-  static market2 + #916, #3967
-  static market2 + #917, #3967
-  static market2 + #918, #3967
-  static market2 + #919, #3967
+  static market2 + #914, #0
+  static market2 + #915, #0
+  static market2 + #916, #0
+  static market2 + #917, #0
+  static market2 + #918, #0
+  static market2 + #919, #0
 
   ;Linha 23
-  static market2 + #920, #3967
-  static market2 + #921, #3967
-  static market2 + #922, #3967
-  static market2 + #923, #3967
+  static market2 + #920, #0
+  static market2 + #921, #0
+  static market2 + #922, #0
+  static market2 + #923, #0
   static market2 + #924, #1919
   static market2 + #925, #1919
   static market2 + #926, #1919
@@ -981,7 +981,7 @@ market2 : var #1200
   static market2 + #932, #383
   static market2 + #933, #383
   static market2 + #934, #2431
-  static market2 + #935, #3967
+  static market2 + #935, #0
   static market2 + #936, #1407
   static market2 + #937, #1407
   static market2 + #938, #2431
@@ -1001,16 +1001,16 @@ market2 : var #1200
   static market2 + #952, #1919
   static market2 + #953, #1919
   static market2 + #954, #1919
-  static market2 + #955, #3967
-  static market2 + #956, #3967
-  static market2 + #957, #3967
-  static market2 + #958, #3967
-  static market2 + #959, #3967
+  static market2 + #955, #0
+  static market2 + #956, #0
+  static market2 + #957, #0
+  static market2 + #958, #0
+  static market2 + #959, #0
 
   ;Linha 24
-  static market2 + #960, #3967
-  static market2 + #961, #3967
-  static market2 + #962, #3967
+  static market2 + #960, #0
+  static market2 + #961, #0
+  static market2 + #962, #0
   static market2 + #963, #2068
   static market2 + #964, #1919
   static market2 + #965, #1919
@@ -1023,9 +1023,9 @@ market2 : var #1200
   static market2 + #972, #383
   static market2 + #973, #2431
   static market2 + #974, #1407
-  static market2 + #975, #3967
+  static market2 + #975, #0
   static market2 + #976, #1407
-  static market2 + #977, #3967
+  static market2 + #977, #0
   static market2 + #978, #1407
   static market2 + #979, #2431
   static market2 + #980, #2431
@@ -1044,15 +1044,15 @@ market2 : var #1200
   static market2 + #993, #1919
   static market2 + #994, #1919
   static market2 + #995, #2068
-  static market2 + #996, #3967
-  static market2 + #997, #3967
-  static market2 + #998, #3967
-  static market2 + #999, #3967
+  static market2 + #996, #0
+  static market2 + #997, #0
+  static market2 + #998, #0
+  static market2 + #999, #0
 
   ;Linha 25
-  static market2 + #1000, #3967
-  static market2 + #1001, #3967
-  static market2 + #1002, #3967
+  static market2 + #1000, #0
+  static market2 + #1001, #0
+  static market2 + #1002, #0
   static market2 + #1003, #1919
   static market2 + #1004, #1919
   static market2 + #1005, #1919
@@ -1065,9 +1065,9 @@ market2 : var #1200
   static market2 + #1012, #2431
   static market2 + #1013, #2431
   static market2 + #1014, #1407
-  static market2 + #1015, #3967
+  static market2 + #1015, #0
   static market2 + #1016, #1407
-  static market2 + #1017, #3967
+  static market2 + #1017, #0
   static market2 + #1018, #1407
   static market2 + #1019, #2431
   static market2 + #1020, #2431
@@ -1086,15 +1086,15 @@ market2 : var #1200
   static market2 + #1033, #1919
   static market2 + #1034, #1919
   static market2 + #1035, #1919
-  static market2 + #1036, #3967
-  static market2 + #1037, #3967
-  static market2 + #1038, #3967
-  static market2 + #1039, #3967
+  static market2 + #1036, #0
+  static market2 + #1037, #0
+  static market2 + #1038, #0
+  static market2 + #1039, #0
 
   ;Linha 26
-  static market2 + #1040, #3967
-  static market2 + #1041, #3967
-  static market2 + #1042, #3967
+  static market2 + #1040, #0
+  static market2 + #1041, #0
+  static market2 + #1042, #0
   static market2 + #1043, #1919
   static market2 + #1044, #1919
   static market2 + #1045, #1919
@@ -1107,9 +1107,9 @@ market2 : var #1200
   static market2 + #1052, #2431
   static market2 + #1053, #1407
   static market2 + #1054, #1407
-  static market2 + #1055, #3967
+  static market2 + #1055, #0
   static market2 + #1056, #1407
-  static market2 + #1057, #3967
+  static market2 + #1057, #0
   static market2 + #1058, #2431
   static market2 + #1059, #2431
   static market2 + #1060, #2431
@@ -1128,15 +1128,15 @@ market2 : var #1200
   static market2 + #1073, #1919
   static market2 + #1074, #1919
   static market2 + #1075, #1919
-  static market2 + #1076, #3967
-  static market2 + #1077, #3967
-  static market2 + #1078, #3967
-  static market2 + #1079, #3967
+  static market2 + #1076, #0
+  static market2 + #1077, #0
+  static market2 + #1078, #0
+  static market2 + #1079, #0
 
   ;Linha 27
-  static market2 + #1080, #3967
-  static market2 + #1081, #3967
-  static market2 + #1082, #3967
+  static market2 + #1080, #0
+  static market2 + #1081, #0
+  static market2 + #1082, #0
   static market2 + #1083, #1919
   static market2 + #1084, #1919
   static market2 + #1085, #1919
@@ -1148,9 +1148,9 @@ market2 : var #1200
   static market2 + #1091, #383
   static market2 + #1092, #2431
   static market2 + #1093, #1407
-  static market2 + #1094, #3967
+  static market2 + #1094, #0
   static market2 + #1095, #1407
-  static market2 + #1096, #3967
+  static market2 + #1096, #0
   static market2 + #1097, #1407
   static market2 + #1098, #2431
   static market2 + #1099, #2431
@@ -1170,14 +1170,14 @@ market2 : var #1200
   static market2 + #1113, #1919
   static market2 + #1114, #1919
   static market2 + #1115, #1919
-  static market2 + #1116, #3967
-  static market2 + #1117, #3967
-  static market2 + #1118, #3967
-  static market2 + #1119, #3967
+  static market2 + #1116, #0
+  static market2 + #1117, #0
+  static market2 + #1118, #0
+  static market2 + #1119, #0
 
   ;Linha 28
-  static market2 + #1120, #3967
-  static market2 + #1121, #3967
+  static market2 + #1120, #0
+  static market2 + #1121, #0
   static market2 + #1122, #2068
   static market2 + #1123, #1919
   static market2 + #1124, #1919
@@ -1192,7 +1192,7 @@ market2 : var #1200
   static market2 + #1133, #2431
   static market2 + #1134, #2431
   static market2 + #1135, #1407
-  static market2 + #1136, #3967
+  static market2 + #1136, #0
   static market2 + #1137, #2431
   static market2 + #1138, #2431
   static market2 + #1139, #2431
@@ -1213,9 +1213,9 @@ market2 : var #1200
   static market2 + #1154, #1919
   static market2 + #1155, #1919
   static market2 + #1156, #2068
-  static market2 + #1157, #3967
-  static market2 + #1158, #3967
-  static market2 + #1159, #3967
+  static market2 + #1157, #0
+  static market2 + #1158, #0
+  static market2 + #1159, #0
 
   ;Linha 29
   static market2 + #1160, #1300

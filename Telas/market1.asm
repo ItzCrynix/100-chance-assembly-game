@@ -974,7 +974,7 @@ market1 : var #1200
   static market1 + #925, #0
   static market1 + #926, #0
   static market1 + #927, #2852
-  static market1 + #928, #2869
+  static market1 + #928, #2865
   static market1 + #929, #2869
   static market1 + #930, #0
   static market1 + #931, #127
@@ -998,8 +998,8 @@ market1 : var #1200
   static market1 + #949, #127
   static market1 + #950, #0
   static market1 + #951, #2852
-  static market1 + #952, #2869
-  static market1 + #953, #2869
+  static market1 + #952, #2866
+  static market1 + #953, #2864
   static market1 + #954, #0
   static market1 + #955, #0
   static market1 + #956, #0
