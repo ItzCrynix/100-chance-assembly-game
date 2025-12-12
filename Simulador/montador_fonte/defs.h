@@ -101,6 +101,8 @@
 #define NOP_CODE                0
 #define INPUT_CODE              96
 #define OUTPUT_CODE             97
+#define MAX_CODE                98
+#define MIN_CODE                99
 
 /* Definicoes dos op codes (binarios em strings) */
 
@@ -137,6 +139,8 @@
 #define LNOT            "010101"
 #define SHIFT           "010000"
 #define CMP             "010110"
+#define MIN             "100111"
+#define MAX             "101000"
 
 /* FLOW CONTROL Instructions: */
 #define BRA             "000001"
@@ -204,6 +208,12 @@
 
 #define MUL_STR                 "MUL"
 #define DIV_STR                 "DIV"
+
+/* MIN */
+#define MIN_STR                 "MIN"
+
+/* MAX */
+#define MAX_STR                 "MAX"
 
 /* INC */
 #define INC_STR                 "INC"

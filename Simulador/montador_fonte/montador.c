@@ -217,6 +217,8 @@ void DetectarLabels(void)
 	    case MOV_CODE :
             case OUTCHAR_CODE :
             case CMP_CODE :
+            case MIN_CODE :
+            case MAX_CODE :
                 parser_SkipUntil(',');
                 parser_SkipUntilEnd();
                 end_cnt++;
@@ -1100,7 +1102,57 @@ void MontarInstrucoes(void)
                     parser_Write_Inst(str_msg,end_cnt);
                     end_cnt += 1;
                     break;
+            
+                /*  ==============
+                    MIN Rx, Ry
+                    ==============
+                */
+
+                case MIN_CODE:
+                    str_tmp1 = parser_GetItem_s;
+                    val1 = BuscaRegistrador(str_tmp1);
+                    free(str_tmp1);
                     
+                    parser_Match(',');
+                    str_tmp2 = parser_GetItem_s();
+                    val2 = BuscaRegistrador(str_tmp2);
+                    free(str_tmp2);
+                    
+                    str_tmp1 = ConverteRegistrador(val1);
+                    str_tmp2 = ConverteRegistrador(val2);
+                    
+                    sprintf(str_msg, "%s%s%s0000", MIN, str_tmp1, str_tmp2);
+                    free(str_tmp1);
+                    free(str_tmp2);
+                    parser_Write_Inst(str_msg, end_cnt);
+                    end_cnt += 1;
+                    break;
+
+                /*  ==============
+                    MAX  Rx, Ry
+                    ==============
+                */
+
+                case MAX_CODE:
+                    str_tmp1 = parser_GetItem_s;
+                    val1 = BuscaRegistrador(str_tmp1);
+                    free(str_tmp1);
+                    
+                    parser_Match(',');
+                    str_tmp2 = parser_GetItem_s();
+                    val2 = BuscaRegistrador(str_tmp2);
+                    free(str_tmp2);
+                    
+                    str_tmp1 = ConverteRegistrador(val1);
+                    str_tmp2 = ConverteRegistrador(val2);
+                    
+                    sprintf(str_msg, "%s%s%s0000", MAX, str_tmp1, str_tmp2);
+                    free(str_tmp1);
+                    free(str_tmp2);
+                    parser_Write_Inst(str_msg, end_cnt);
+                    end_cnt += 1;
+                    break;
+
                 /* ==============
                    Bra +/- T
                    ==============
@@ -2307,6 +2359,14 @@ int BuscaInstrucao(char * nome)
     else if (strcmp(str_tmp,CMP_STR) == 0)
     {
         return CMP_CODE;
+    }
+    else if (strcmp(str_tmp, MIN_STR) == 0)
+    {
+        return MIN_CODE;
+    }
+    else if (strcmp(str_tmp, MAX_STR) == 0)
+    {
+        return MAX_CODE;
     }
     else if (strcmp(str_tmp,BRA_STR) == 0)
     {
