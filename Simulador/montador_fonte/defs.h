@@ -101,8 +101,8 @@
 #define NOP_CODE                0
 #define INPUT_CODE              96
 #define OUTPUT_CODE             97
-#define MAX_CODE                98
-#define MIN_CODE                99
+#define MAX_CODE                99
+#define MIN_CODE                98
 
 /* Definicoes dos op codes (binarios em strings) */
 
