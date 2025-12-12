@@ -1109,7 +1109,7 @@ void MontarInstrucoes(void)
                 */
 
                 case MIN_CODE:
-                    str_tmp1 = parser_GetItem_s;
+                    str_tmp1 = parser_GetItem_s();
                     val1 = BuscaRegistrador(str_tmp1);
                     free(str_tmp1);
                     
@@ -1134,7 +1134,7 @@ void MontarInstrucoes(void)
                 */
 
                 case MAX_CODE:
-                    str_tmp1 = parser_GetItem_s;
+                    str_tmp1 = parser_GetItem_s();
                     val1 = BuscaRegistrador(str_tmp1);
                     free(str_tmp1);
                     
