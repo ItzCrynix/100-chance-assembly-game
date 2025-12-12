@@ -10141,10 +10141,10 @@ map: var #1200
 
 mapSpawn: var #5
     static mapSpawn + #0, #0
-    static mapSpawn + #1, #1037
-    static mapSpawn + #2, #82
-    static mapSpawn + #3, #556
-    static mapSpawn + #4, #579
+    static mapSpawn + #1, #82
+    static mapSpawn + #2, #997
+    static mapSpawn + #3, #562
+    static mapSpawn + #4, #517
 
 mapList : var #5
     static mapList + #0, #deathScreen
@@ -10156,6 +10156,9 @@ mapList : var #5
 
 mapListIndex: var #1
 	static mapListIndex, #1
+
+levelIndexPos: var #1
+    static levelIndexPos, #1140
 
 ;
 ; Strings
@@ -10209,7 +10212,7 @@ initial_screen:
     loadn r2, #1
     store mapListIndex, r2
 
-    loadn r3, #mapSpawn
+    loadn r3, #mapSpawn 
     add r3, r3, r2
     loadi r3, r3
     store playerPos, r3
@@ -10252,6 +10255,7 @@ main:
         call printStepCount
         call printScore
         call printMoney
+        call printLevel
 		call printPlayer
 
 		; calculation functions
@@ -10923,6 +10927,19 @@ printMoney:
 
     load r0, moneyPos
     load r1, money
+
+    call printNumber
+
+    pop r1
+    pop r0
+    rts
+
+printLevel:
+    push r0
+    push r1
+
+    load r0, levelIndexPos
+    load r1, mapListIndex
 
     call printNumber
 
