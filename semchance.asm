@@ -7573,6 +7573,1270 @@ baseScreen : var #1200
   static baseScreen + #1198, #0
   static baseScreen + #1199, #2
 
+; Markets
+
+market1 : var #1200
+  ;Linha 0
+  static market1 + #0, #383
+  static market1 + #1, #383
+  static market1 + #2, #383
+  static market1 + #3, #383
+  static market1 + #4, #383
+  static market1 + #5, #383
+  static market1 + #6, #383
+  static market1 + #7, #383
+  static market1 + #8, #383
+  static market1 + #9, #383
+  static market1 + #10, #0
+  static market1 + #11, #95
+  static market1 + #12, #95
+  static market1 + #13, #95
+  static market1 + #14, #95
+  static market1 + #15, #95
+  static market1 + #16, #95
+  static market1 + #17, #95
+  static market1 + #18, #95
+  static market1 + #19, #95
+  static market1 + #20, #95
+  static market1 + #21, #95
+  static market1 + #22, #95
+  static market1 + #23, #95
+  static market1 + #24, #95
+  static market1 + #25, #95
+  static market1 + #26, #95
+  static market1 + #27, #95
+  static market1 + #28, #95
+  static market1 + #29, #0
+  static market1 + #30, #383
+  static market1 + #31, #383
+  static market1 + #32, #383
+  static market1 + #33, #383
+  static market1 + #34, #383
+  static market1 + #35, #383
+  static market1 + #36, #383
+  static market1 + #37, #383
+  static market1 + #38, #383
+  static market1 + #39, #383
+
+  ;Linha 1
+  static market1 + #40, #0
+  static market1 + #41, #126
+  static market1 + #42, #0
+  static market1 + #43, #126
+  static market1 + #44, #0
+  static market1 + #45, #126
+  static market1 + #46, #0
+  static market1 + #47, #126
+  static market1 + #48, #0
+  static market1 + #49, #0
+  static market1 + #50, #124
+  static market1 + #51, #0
+  static market1 + #52, #0
+  static market1 + #53, #0
+  static market1 + #54, #0
+  static market1 + #55, #0
+  static market1 + #56, #0
+  static market1 + #57, #0
+  static market1 + #58, #0
+  static market1 + #59, #0
+  static market1 + #60, #0
+  static market1 + #61, #0
+  static market1 + #62, #0
+  static market1 + #63, #0
+  static market1 + #64, #0
+  static market1 + #65, #0
+  static market1 + #66, #0
+  static market1 + #67, #0
+  static market1 + #68, #0
+  static market1 + #69, #124
+  static market1 + #70, #0
+  static market1 + #71, #0
+  static market1 + #72, #126
+  static market1 + #73, #0
+  static market1 + #74, #126
+  static market1 + #75, #0
+  static market1 + #76, #126
+  static market1 + #77, #0
+  static market1 + #78, #126
+  static market1 + #79, #0
+
+  ;Linha 2
+  static market1 + #80, #0
+  static market1 + #81, #126
+  static market1 + #82, #0
+  static market1 + #83, #126
+  static market1 + #84, #0
+  static market1 + #85, #126
+  static market1 + #86, #0
+  static market1 + #87, #126
+  static market1 + #88, #0
+  static market1 + #89, #0
+  static market1 + #90, #124
+  static market1 + #91, #0
+  static market1 + #92, #87
+  static market1 + #93, #72
+  static market1 + #94, #65
+  static market1 + #95, #84
+  static market1 + #96, #0
+  static market1 + #97, #65
+  static market1 + #98, #82
+  static market1 + #99, #69
+  static market1 + #100, #0
+  static market1 + #101, #89
+  static market1 + #102, #79
+  static market1 + #103, #85
+  static market1 + #104, #0
+  static market1 + #105, #0
+  static market1 + #106, #0
+  static market1 + #107, #0
+  static market1 + #108, #0
+  static market1 + #109, #124
+  static market1 + #110, #0
+  static market1 + #111, #0
+  static market1 + #112, #126
+  static market1 + #113, #0
+  static market1 + #114, #126
+  static market1 + #115, #0
+  static market1 + #116, #126
+  static market1 + #117, #0
+  static market1 + #118, #126
+  static market1 + #119, #0
+
+  ;Linha 3
+  static market1 + #120, #0
+  static market1 + #121, #126
+  static market1 + #122, #23
+  static market1 + #123, #126
+  static market1 + #124, #0
+  static market1 + #125, #126
+  static market1 + #126, #0
+  static market1 + #127, #126
+  static market1 + #128, #0
+  static market1 + #129, #0
+  static market1 + #130, #124
+  static market1 + #131, #0
+  static market1 + #132, #0
+  static market1 + #133, #0
+  static market1 + #134, #0
+  static market1 + #135, #0
+  static market1 + #136, #0
+  static market1 + #137, #0
+  static market1 + #138, #0
+  static market1 + #139, #0
+  static market1 + #140, #0
+  static market1 + #141, #0
+  static market1 + #142, #0
+  static market1 + #143, #0
+  static market1 + #144, #0
+  static market1 + #145, #0
+  static market1 + #146, #0
+  static market1 + #147, #0
+  static market1 + #148, #0
+  static market1 + #149, #124
+  static market1 + #150, #0
+  static market1 + #151, #0
+  static market1 + #152, #126
+  static market1 + #153, #0
+  static market1 + #154, #126
+  static market1 + #155, #0
+  static market1 + #156, #126
+  static market1 + #157, #0
+  static market1 + #158, #126
+  static market1 + #159, #0
+
+  ;Linha 4
+  static market1 + #160, #0
+  static market1 + #161, #126
+  static market1 + #162, #0
+  static market1 + #163, #126
+  static market1 + #164, #0
+  static market1 + #165, #3091
+  static market1 + #166, #0
+  static market1 + #167, #126
+  static market1 + #168, #0
+  static market1 + #169, #0
+  static market1 + #170, #124
+  static market1 + #171, #0
+  static market1 + #172, #0
+  static market1 + #173, #0
+  static market1 + #174, #66
+  static market1 + #175, #85
+  static market1 + #176, #89
+  static market1 + #177, #73
+  static market1 + #178, #78
+  static market1 + #179, #71
+  static market1 + #180, #63
+  static market1 + #181, #0
+  static market1 + #182, #0
+  static market1 + #183, #0
+  static market1 + #184, #0
+  static market1 + #185, #0
+  static market1 + #186, #0
+  static market1 + #187, #0
+  static market1 + #188, #0
+  static market1 + #189, #124
+  static market1 + #190, #0
+  static market1 + #191, #0
+  static market1 + #192, #126
+  static market1 + #193, #0
+  static market1 + #194, #126
+  static market1 + #195, #0
+  static market1 + #196, #126
+  static market1 + #197, #0
+  static market1 + #198, #126
+  static market1 + #199, #0
+
+  ;Linha 5
+  static market1 + #200, #0
+  static market1 + #201, #2323
+  static market1 + #202, #0
+  static market1 + #203, #126
+  static market1 + #204, #0
+  static market1 + #205, #0
+  static market1 + #206, #0
+  static market1 + #207, #126
+  static market1 + #208, #0
+  static market1 + #209, #0
+  static market1 + #210, #124
+  static market1 + #211, #0
+  static market1 + #212, #0
+  static market1 + #213, #0
+  static market1 + #214, #0
+  static market1 + #215, #0
+  static market1 + #216, #0
+  static market1 + #217, #0
+  static market1 + #218, #0
+  static market1 + #219, #0
+  static market1 + #220, #0
+  static market1 + #221, #0
+  static market1 + #222, #0
+  static market1 + #223, #0
+  static market1 + #224, #0
+  static market1 + #225, #0
+  static market1 + #226, #0
+  static market1 + #227, #0
+  static market1 + #228, #0
+  static market1 + #229, #124
+  static market1 + #230, #0
+  static market1 + #231, #0
+  static market1 + #232, #126
+  static market1 + #233, #0
+  static market1 + #234, #126
+  static market1 + #235, #0
+  static market1 + #236, #1555
+  static market1 + #237, #0
+  static market1 + #238, #126
+  static market1 + #239, #0
+
+  ;Linha 6
+  static market1 + #240, #0
+  static market1 + #241, #0
+  static market1 + #242, #0
+  static market1 + #243, #126
+  static market1 + #244, #0
+  static market1 + #245, #0
+  static market1 + #246, #0
+  static market1 + #247, #126
+  static market1 + #248, #0
+  static market1 + #249, #0
+  static market1 + #250, #124
+  static market1 + #251, #95
+  static market1 + #252, #95
+  static market1 + #253, #95
+  static market1 + #254, #95
+  static market1 + #255, #95
+  static market1 + #256, #95
+  static market1 + #257, #95
+  static market1 + #258, #95
+  static market1 + #259, #95
+  static market1 + #260, #95
+  static market1 + #261, #95
+  static market1 + #262, #95
+  static market1 + #263, #95
+  static market1 + #264, #95
+  static market1 + #265, #95
+  static market1 + #266, #95
+  static market1 + #267, #95
+  static market1 + #268, #95
+  static market1 + #269, #124
+  static market1 + #270, #0
+  static market1 + #271, #0
+  static market1 + #272, #126
+  static market1 + #273, #0
+  static market1 + #274, #1299
+  static market1 + #275, #0
+  static market1 + #276, #0
+  static market1 + #277, #0
+  static market1 + #278, #126
+  static market1 + #279, #0
+
+  ;Linha 7
+  static market1 + #280, #0
+  static market1 + #281, #0
+  static market1 + #282, #0
+  static market1 + #283, #531
+  static market1 + #284, #0
+  static market1 + #285, #0
+  static market1 + #286, #0
+  static market1 + #287, #126
+  static market1 + #288, #0
+  static market1 + #289, #0
+  static market1 + #290, #0
+  static market1 + #291, #0
+  static market1 + #292, #0
+  static market1 + #293, #0
+  static market1 + #294, #0
+  static market1 + #295, #0
+  static market1 + #296, #0
+  static market1 + #297, #0
+  static market1 + #298, #0
+  static market1 + #299, #0
+  static market1 + #300, #0
+  static market1 + #301, #92
+  static market1 + #302, #0
+  static market1 + #303, #0
+  static market1 + #304, #47
+  static market1 + #305, #0
+  static market1 + #306, #0
+  static market1 + #307, #0
+  static market1 + #308, #0
+  static market1 + #309, #0
+  static market1 + #310, #0
+  static market1 + #311, #0
+  static market1 + #312, #126
+  static market1 + #313, #0
+  static market1 + #314, #0
+  static market1 + #315, #0
+  static market1 + #316, #0
+  static market1 + #317, #0
+  static market1 + #318, #126
+  static market1 + #319, #0
+
+  ;Linha 8
+  static market1 + #320, #0
+  static market1 + #321, #0
+  static market1 + #322, #0
+  static market1 + #323, #0
+  static market1 + #324, #0
+  static market1 + #325, #0
+  static market1 + #326, #0
+  static market1 + #327, #126
+  static market1 + #328, #0
+  static market1 + #329, #0
+  static market1 + #330, #0
+  static market1 + #331, #0
+  static market1 + #332, #0
+  static market1 + #333, #0
+  static market1 + #334, #0
+  static market1 + #335, #0
+  static market1 + #336, #127
+  static market1 + #337, #0
+  static market1 + #338, #0
+  static market1 + #339, #0
+  static market1 + #340, #0
+  static market1 + #341, #0
+  static market1 + #342, #92
+  static market1 + #343, #47
+  static market1 + #344, #127
+  static market1 + #345, #0
+  static market1 + #346, #0
+  static market1 + #347, #0
+  static market1 + #348, #0
+  static market1 + #349, #0
+  static market1 + #350, #0
+  static market1 + #351, #0
+  static market1 + #352, #3347
+  static market1 + #353, #0
+  static market1 + #354, #0
+  static market1 + #355, #0
+  static market1 + #356, #0
+  static market1 + #357, #0
+  static market1 + #358, #2579
+  static market1 + #359, #0
+
+  ;Linha 9
+  static market1 + #360, #0
+  static market1 + #361, #0
+  static market1 + #362, #0
+  static market1 + #363, #0
+  static market1 + #364, #0
+  static market1 + #365, #0
+  static market1 + #366, #0
+  static market1 + #367, #2835
+  static market1 + #368, #0
+  static market1 + #369, #0
+  static market1 + #370, #0
+  static market1 + #371, #0
+  static market1 + #372, #0
+  static market1 + #373, #0
+  static market1 + #374, #0
+  static market1 + #375, #127
+  static market1 + #376, #3455
+  static market1 + #377, #127
+  static market1 + #378, #0
+  static market1 + #379, #0
+  static market1 + #380, #0
+  static market1 + #381, #0
+  static market1 + #382, #0
+  static market1 + #383, #127
+  static market1 + #384, #3455
+  static market1 + #385, #127
+  static market1 + #386, #0
+  static market1 + #387, #0
+  static market1 + #388, #0
+  static market1 + #389, #0
+  static market1 + #390, #0
+  static market1 + #391, #0
+  static market1 + #392, #0
+  static market1 + #393, #0
+  static market1 + #394, #0
+  static market1 + #395, #0
+  static market1 + #396, #0
+  static market1 + #397, #0
+  static market1 + #398, #0
+  static market1 + #399, #0
+
+  ;Linha 10
+  static market1 + #400, #0
+  static market1 + #401, #0
+  static market1 + #402, #0
+  static market1 + #403, #0
+  static market1 + #404, #0
+  static market1 + #405, #0
+  static market1 + #406, #0
+  static market1 + #407, #0
+  static market1 + #408, #0
+  static market1 + #409, #0
+  static market1 + #410, #0
+  static market1 + #411, #0
+  static market1 + #412, #0
+  static market1 + #413, #0
+  static market1 + #414, #0
+  static market1 + #415, #127
+  static market1 + #416, #3455
+  static market1 + #417, #127
+  static market1 + #418, #0
+  static market1 + #419, #0
+  static market1 + #420, #0
+  static market1 + #421, #0
+  static market1 + #422, #0
+  static market1 + #423, #127
+  static market1 + #424, #3455
+  static market1 + #425, #127
+  static market1 + #426, #0
+  static market1 + #427, #0
+  static market1 + #428, #0
+  static market1 + #429, #0
+  static market1 + #430, #0
+  static market1 + #431, #0
+  static market1 + #432, #0
+  static market1 + #433, #0
+  static market1 + #434, #0
+  static market1 + #435, #0
+  static market1 + #436, #0
+  static market1 + #437, #0
+  static market1 + #438, #0
+  static market1 + #439, #0
+
+  ;Linha 11
+  static market1 + #440, #0
+  static market1 + #441, #0
+  static market1 + #442, #0
+  static market1 + #443, #0
+  static market1 + #444, #0
+  static market1 + #445, #0
+  static market1 + #446, #0
+  static market1 + #447, #0
+  static market1 + #448, #0
+  static market1 + #449, #0
+  static market1 + #450, #0
+  static market1 + #451, #0
+  static market1 + #452, #0
+  static market1 + #453, #0
+  static market1 + #454, #0
+  static market1 + #455, #127
+  static market1 + #456, #3455
+  static market1 + #457, #127
+  static market1 + #458, #0
+  static market1 + #459, #0
+  static market1 + #460, #0
+  static market1 + #461, #0
+  static market1 + #462, #0
+  static market1 + #463, #127
+  static market1 + #464, #3455
+  static market1 + #465, #127
+  static market1 + #466, #0
+  static market1 + #467, #0
+  static market1 + #468, #0
+  static market1 + #469, #0
+  static market1 + #470, #0
+  static market1 + #471, #0
+  static market1 + #472, #0
+  static market1 + #473, #0
+  static market1 + #474, #0
+  static market1 + #475, #0
+  static market1 + #476, #0
+  static market1 + #477, #0
+  static market1 + #478, #0
+  static market1 + #479, #0
+
+  ;Linha 12
+  static market1 + #480, #77
+  static market1 + #481, #111
+  static market1 + #482, #110
+  static market1 + #483, #101
+  static market1 + #484, #121
+  static market1 + #485, #58
+  static market1 + #486, #2852
+  static market1 + #487, #0
+  static market1 + #488, #0
+  static market1 + #489, #0
+  static market1 + #490, #0
+  static market1 + #491, #0
+  static market1 + #492, #0
+  static market1 + #493, #0
+  static market1 + #494, #0
+  static market1 + #495, #127
+  static market1 + #496, #3455
+  static market1 + #497, #127
+  static market1 + #498, #0
+  static market1 + #499, #0
+  static market1 + #500, #0
+  static market1 + #501, #0
+  static market1 + #502, #0
+  static market1 + #503, #127
+  static market1 + #504, #3455
+  static market1 + #505, #127
+  static market1 + #506, #0
+  static market1 + #507, #0
+  static market1 + #508, #0
+  static market1 + #509, #0
+  static market1 + #510, #0
+  static market1 + #511, #0
+  static market1 + #512, #0
+  static market1 + #513, #0
+  static market1 + #514, #0
+  static market1 + #515, #0
+  static market1 + #516, #0
+  static market1 + #517, #0
+  static market1 + #518, #0
+  static market1 + #519, #0
+
+  ;Linha 13
+  static market1 + #520, #0
+  static market1 + #521, #0
+  static market1 + #522, #0
+  static market1 + #523, #0
+  static market1 + #524, #0
+  static market1 + #525, #0
+  static market1 + #526, #0
+  static market1 + #527, #0
+  static market1 + #528, #0
+  static market1 + #529, #0
+  static market1 + #530, #0
+  static market1 + #531, #0
+  static market1 + #532, #0
+  static market1 + #533, #0
+  static market1 + #534, #127
+  static market1 + #535, #127
+  static market1 + #536, #127
+  static market1 + #537, #127
+  static market1 + #538, #127
+  static market1 + #539, #127
+  static market1 + #540, #127
+  static market1 + #541, #127
+  static market1 + #542, #127
+  static market1 + #543, #127
+  static market1 + #544, #127
+  static market1 + #545, #127
+  static market1 + #546, #127
+  static market1 + #547, #0
+  static market1 + #548, #0
+  static market1 + #549, #0
+  static market1 + #550, #0
+  static market1 + #551, #0
+  static market1 + #552, #0
+  static market1 + #553, #0
+  static market1 + #554, #0
+  static market1 + #555, #0
+  static market1 + #556, #0
+  static market1 + #557, #0
+  static market1 + #558, #0
+  static market1 + #559, #0
+
+  ;Linha 14
+  static market1 + #560, #0
+  static market1 + #561, #0
+  static market1 + #562, #0
+  static market1 + #563, #0
+  static market1 + #564, #0
+  static market1 + #565, #0
+  static market1 + #566, #0
+  static market1 + #567, #0
+  static market1 + #568, #0
+  static market1 + #569, #0
+  static market1 + #570, #0
+  static market1 + #571, #0
+  static market1 + #572, #0
+  static market1 + #573, #127
+  static market1 + #574, #127
+  static market1 + #575, #0
+  static market1 + #576, #0
+  static market1 + #577, #0
+  static market1 + #578, #0
+  static market1 + #579, #0
+  static market1 + #580, #0
+  static market1 + #581, #0
+  static market1 + #582, #0
+  static market1 + #583, #0
+  static market1 + #584, #0
+  static market1 + #585, #0
+  static market1 + #586, #127
+  static market1 + #587, #127
+  static market1 + #588, #0
+  static market1 + #589, #0
+  static market1 + #590, #0
+  static market1 + #591, #0
+  static market1 + #592, #0
+  static market1 + #593, #0
+  static market1 + #594, #0
+  static market1 + #595, #0
+  static market1 + #596, #0
+  static market1 + #597, #0
+  static market1 + #598, #0
+  static market1 + #599, #0
+
+  ;Linha 15
+  static market1 + #600, #0
+  static market1 + #601, #0
+  static market1 + #602, #0
+  static market1 + #603, #0
+  static market1 + #604, #0
+  static market1 + #605, #0
+  static market1 + #606, #0
+  static market1 + #607, #0
+  static market1 + #608, #0
+  static market1 + #609, #0
+  static market1 + #610, #0
+  static market1 + #611, #0
+  static market1 + #612, #0
+  static market1 + #613, #127
+  static market1 + #614, #0
+  static market1 + #615, #0
+  static market1 + #616, #0
+  static market1 + #617, #0
+  static market1 + #618, #0
+  static market1 + #619, #0
+  static market1 + #620, #0
+  static market1 + #621, #0
+  static market1 + #622, #0
+  static market1 + #623, #0
+  static market1 + #624, #0
+  static market1 + #625, #0
+  static market1 + #626, #0
+  static market1 + #627, #127
+  static market1 + #628, #0
+  static market1 + #629, #0
+  static market1 + #630, #0
+  static market1 + #631, #0
+  static market1 + #632, #0
+  static market1 + #633, #0
+  static market1 + #634, #0
+  static market1 + #635, #0
+  static market1 + #636, #0
+  static market1 + #637, #0
+  static market1 + #638, #0
+  static market1 + #639, #0
+
+  ;Linha 16
+  static market1 + #640, #0
+  static market1 + #641, #0
+  static market1 + #642, #0
+  static market1 + #643, #0
+  static market1 + #644, #0
+  static market1 + #645, #67
+  static market1 + #646, #111
+  static market1 + #647, #117
+  static market1 + #648, #110
+  static market1 + #649, #116
+  static market1 + #650, #101
+  static market1 + #651, #114
+  static market1 + #652, #0
+  static market1 + #653, #127
+  static market1 + #654, #0
+  static market1 + #655, #0
+  static market1 + #656, #0
+  static market1 + #657, #127
+  static market1 + #658, #0
+  static market1 + #659, #0
+  static market1 + #660, #0
+  static market1 + #661, #0
+  static market1 + #662, #0
+  static market1 + #663, #127
+  static market1 + #664, #0
+  static market1 + #665, #0
+  static market1 + #666, #0
+  static market1 + #667, #127
+  static market1 + #668, #0
+  static market1 + #669, #0
+  static market1 + #670, #71
+  static market1 + #671, #79
+  static market1 + #672, #76
+  static market1 + #673, #68
+  static market1 + #674, #0
+  static market1 + #675, #0
+  static market1 + #676, #0
+  static market1 + #677, #0
+  static market1 + #678, #0
+  static market1 + #679, #0
+
+  ;Linha 17
+  static market1 + #680, #0
+  static market1 + #681, #0
+  static market1 + #682, #0
+  static market1 + #683, #0
+  static market1 + #684, #0
+  static market1 + #685, #0
+  static market1 + #686, #0
+  static market1 + #687, #0
+  static market1 + #688, #124
+  static market1 + #689, #0
+  static market1 + #690, #0
+  static market1 + #691, #0
+  static market1 + #692, #0
+  static market1 + #693, #127
+  static market1 + #694, #0
+  static market1 + #695, #0
+  static market1 + #696, #0
+  static market1 + #697, #127
+  static market1 + #698, #0
+  static market1 + #699, #0
+  static market1 + #700, #0
+  static market1 + #701, #0
+  static market1 + #702, #0
+  static market1 + #703, #127
+  static market1 + #704, #0
+  static market1 + #705, #0
+  static market1 + #706, #0
+  static market1 + #707, #127
+  static market1 + #708, #0
+  static market1 + #709, #0
+  static market1 + #710, #0
+  static market1 + #711, #0
+  static market1 + #712, #124
+  static market1 + #713, #0
+  static market1 + #714, #0
+  static market1 + #715, #0
+  static market1 + #716, #0
+  static market1 + #717, #0
+  static market1 + #718, #0
+  static market1 + #719, #0
+
+  ;Linha 18
+  static market1 + #720, #0
+  static market1 + #721, #0
+  static market1 + #722, #0
+  static market1 + #723, #0
+  static market1 + #724, #0
+  static market1 + #725, #0
+  static market1 + #726, #1812
+  static market1 + #727, #1812
+  static market1 + #728, #1812
+  static market1 + #729, #1812
+  static market1 + #730, #1812
+  static market1 + #731, #0
+  static market1 + #732, #0
+  static market1 + #733, #127
+  static market1 + #734, #0
+  static market1 + #735, #0
+  static market1 + #736, #0
+  static market1 + #737, #127
+  static market1 + #738, #0
+  static market1 + #739, #0
+  static market1 + #740, #0
+  static market1 + #741, #0
+  static market1 + #742, #0
+  static market1 + #743, #127
+  static market1 + #744, #0
+  static market1 + #745, #0
+  static market1 + #746, #0
+  static market1 + #747, #127
+  static market1 + #748, #0
+  static market1 + #749, #0
+  static market1 + #750, #2836
+  static market1 + #751, #2836
+  static market1 + #752, #2836
+  static market1 + #753, #2836
+  static market1 + #754, #2836
+  static market1 + #755, #0
+  static market1 + #756, #0
+  static market1 + #757, #0
+  static market1 + #758, #0
+  static market1 + #759, #0
+
+  ;Linha 19
+  static market1 + #760, #0
+  static market1 + #761, #0
+  static market1 + #762, #0
+  static market1 + #763, #0
+  static market1 + #764, #0
+  static market1 + #765, #0
+  static market1 + #766, #1919
+  static market1 + #767, #48
+  static market1 + #768, #48
+  static market1 + #769, #48
+  static market1 + #770, #1919
+  static market1 + #771, #0
+  static market1 + #772, #0
+  static market1 + #773, #127
+  static market1 + #774, #0
+  static market1 + #775, #0
+  static market1 + #776, #0
+  static market1 + #777, #0
+  static market1 + #778, #0
+  static market1 + #779, #0
+  static market1 + #780, #0
+  static market1 + #781, #0
+  static market1 + #782, #0
+  static market1 + #783, #0
+  static market1 + #784, #0
+  static market1 + #785, #0
+  static market1 + #786, #0
+  static market1 + #787, #127
+  static market1 + #788, #0
+  static market1 + #789, #0
+  static market1 + #790, #2943
+  static market1 + #791, #2943
+  static market1 + #792, #2943
+  static market1 + #793, #2943
+  static market1 + #794, #2943
+  static market1 + #795, #0
+  static market1 + #796, #0
+  static market1 + #797, #0
+  static market1 + #798, #0
+  static market1 + #799, #0
+
+  ;Linha 20
+  static market1 + #800, #0
+  static market1 + #801, #0
+  static market1 + #802, #0
+  static market1 + #803, #0
+  static market1 + #804, #0
+  static market1 + #805, #0
+  static market1 + #806, #1808
+  static market1 + #807, #1808
+  static market1 + #808, #1808
+  static market1 + #809, #1808
+  static market1 + #810, #1808
+  static market1 + #811, #0
+  static market1 + #812, #0
+  static market1 + #813, #127
+  static market1 + #814, #0
+  static market1 + #815, #0
+  static market1 + #816, #0
+  static market1 + #817, #0
+  static market1 + #818, #0
+  static market1 + #819, #127
+  static market1 + #820, #127
+  static market1 + #821, #127
+  static market1 + #822, #0
+  static market1 + #823, #0
+  static market1 + #824, #0
+  static market1 + #825, #0
+  static market1 + #826, #0
+  static market1 + #827, #127
+  static market1 + #828, #0
+  static market1 + #829, #0
+  static market1 + #830, #2832
+  static market1 + #831, #2832
+  static market1 + #832, #2832
+  static market1 + #833, #2832
+  static market1 + #834, #2832
+  static market1 + #835, #0
+  static market1 + #836, #0
+  static market1 + #837, #0
+  static market1 + #838, #0
+  static market1 + #839, #0
+
+  ;Linha 21
+  static market1 + #840, #0
+  static market1 + #841, #0
+  static market1 + #842, #0
+  static market1 + #843, #0
+  static market1 + #844, #0
+  static market1 + #845, #0
+  static market1 + #846, #0
+  static market1 + #847, #0
+  static market1 + #848, #0
+  static market1 + #849, #0
+  static market1 + #850, #0
+  static market1 + #851, #0
+  static market1 + #852, #0
+  static market1 + #853, #127
+  static market1 + #854, #0
+  static market1 + #855, #0
+  static market1 + #856, #0
+  static market1 + #857, #0
+  static market1 + #858, #127
+  static market1 + #859, #127
+  static market1 + #860, #0
+  static market1 + #861, #127
+  static market1 + #862, #127
+  static market1 + #863, #0
+  static market1 + #864, #0
+  static market1 + #865, #0
+  static market1 + #866, #0
+  static market1 + #867, #127
+  static market1 + #868, #0
+  static market1 + #869, #0
+  static market1 + #870, #0
+  static market1 + #871, #0
+  static market1 + #872, #0
+  static market1 + #873, #0
+  static market1 + #874, #0
+  static market1 + #875, #0
+  static market1 + #876, #0
+  static market1 + #877, #0
+  static market1 + #878, #0
+  static market1 + #879, #0
+
+  ;Linha 22
+  static market1 + #880, #0
+  static market1 + #881, #0
+  static market1 + #882, #0
+  static market1 + #883, #0
+  static market1 + #884, #0
+  static market1 + #885, #0
+  static market1 + #886, #0
+  static market1 + #887, #2344
+  static market1 + #888, #2353
+  static market1 + #889, #2345
+  static market1 + #890, #0
+  static market1 + #891, #0
+  static market1 + #892, #127
+  static market1 + #893, #127
+  static market1 + #894, #0
+  static market1 + #895, #0
+  static market1 + #896, #0
+  static market1 + #897, #0
+  static market1 + #898, #0
+  static market1 + #899, #0
+  static market1 + #900, #0
+  static market1 + #901, #0
+  static market1 + #902, #0
+  static market1 + #903, #0
+  static market1 + #904, #0
+  static market1 + #905, #0
+  static market1 + #906, #0
+  static market1 + #907, #127
+  static market1 + #908, #127
+  static market1 + #909, #0
+  static market1 + #910, #0
+  static market1 + #911, #2344
+  static market1 + #912, #2354
+  static market1 + #913, #2345
+  static market1 + #914, #0
+  static market1 + #915, #0
+  static market1 + #916, #0
+  static market1 + #917, #0
+  static market1 + #918, #0
+  static market1 + #919, #0
+
+  ;Linha 23
+  static market1 + #920, #0
+  static market1 + #921, #0
+  static market1 + #922, #0
+  static market1 + #923, #0
+  static market1 + #924, #0
+  static market1 + #925, #0
+  static market1 + #926, #0
+  static market1 + #927, #2852
+  static market1 + #928, #2869
+  static market1 + #929, #2869
+  static market1 + #930, #0
+  static market1 + #931, #127
+  static market1 + #932, #127
+  static market1 + #933, #127
+  static market1 + #934, #0
+  static market1 + #935, #0
+  static market1 + #936, #0
+  static market1 + #937, #0
+  static market1 + #938, #0
+  static market1 + #939, #0
+  static market1 + #940, #0
+  static market1 + #941, #0
+  static market1 + #942, #0
+  static market1 + #943, #0
+  static market1 + #944, #0
+  static market1 + #945, #0
+  static market1 + #946, #0
+  static market1 + #947, #127
+  static market1 + #948, #127
+  static market1 + #949, #127
+  static market1 + #950, #0
+  static market1 + #951, #2852
+  static market1 + #952, #2869
+  static market1 + #953, #2869
+  static market1 + #954, #0
+  static market1 + #955, #0
+  static market1 + #956, #0
+  static market1 + #957, #0
+  static market1 + #958, #0
+  static market1 + #959, #0
+
+  ;Linha 24
+  static market1 + #960, #0
+  static market1 + #961, #0
+  static market1 + #962, #0
+  static market1 + #963, #0
+  static market1 + #964, #0
+  static market1 + #965, #383
+  static market1 + #966, #383
+  static market1 + #967, #383
+  static market1 + #968, #383
+  static market1 + #969, #383
+  static market1 + #970, #383
+  static market1 + #971, #383
+  static market1 + #972, #383
+  static market1 + #973, #383
+  static market1 + #974, #383
+  static market1 + #975, #383
+  static market1 + #976, #383
+  static market1 + #977, #383
+  static market1 + #978, #383
+  static market1 + #979, #383
+  static market1 + #980, #383
+  static market1 + #981, #383
+  static market1 + #982, #383
+  static market1 + #983, #383
+  static market1 + #984, #383
+  static market1 + #985, #383
+  static market1 + #986, #383
+  static market1 + #987, #383
+  static market1 + #988, #383
+  static market1 + #989, #383
+  static market1 + #990, #383
+  static market1 + #991, #383
+  static market1 + #992, #383
+  static market1 + #993, #383
+  static market1 + #994, #383
+  static market1 + #995, #383
+  static market1 + #996, #0
+  static market1 + #997, #0
+  static market1 + #998, #0
+  static market1 + #999, #0
+
+  ;Linha 25
+  static market1 + #1000, #0
+  static market1 + #1001, #0
+  static market1 + #1002, #0
+  static market1 + #1003, #0
+  static market1 + #1004, #0
+  static market1 + #1005, #383
+  static market1 + #1006, #383
+  static market1 + #1007, #383
+  static market1 + #1008, #383
+  static market1 + #1009, #383
+  static market1 + #1010, #383
+  static market1 + #1011, #383
+  static market1 + #1012, #383
+  static market1 + #1013, #383
+  static market1 + #1014, #383
+  static market1 + #1015, #383
+  static market1 + #1016, #383
+  static market1 + #1017, #383
+  static market1 + #1018, #383
+  static market1 + #1019, #383
+  static market1 + #1020, #383
+  static market1 + #1021, #383
+  static market1 + #1022, #383
+  static market1 + #1023, #383
+  static market1 + #1024, #383
+  static market1 + #1025, #383
+  static market1 + #1026, #383
+  static market1 + #1027, #383
+  static market1 + #1028, #383
+  static market1 + #1029, #383
+  static market1 + #1030, #383
+  static market1 + #1031, #383
+  static market1 + #1032, #383
+  static market1 + #1033, #383
+  static market1 + #1034, #383
+  static market1 + #1035, #383
+  static market1 + #1036, #0
+  static market1 + #1037, #0
+  static market1 + #1038, #0
+  static market1 + #1039, #0
+
+  ;Linha 26
+  static market1 + #1040, #80
+  static market1 + #1041, #114
+  static market1 + #1042, #101
+  static market1 + #1043, #115
+  static market1 + #1044, #115
+  static market1 + #1045, #383
+  static market1 + #1046, #383
+  static market1 + #1047, #383
+  static market1 + #1048, #383
+  static market1 + #1049, #383
+  static market1 + #1050, #383
+  static market1 + #1051, #383
+  static market1 + #1052, #383
+  static market1 + #1053, #383
+  static market1 + #1054, #383
+  static market1 + #1055, #383
+  static market1 + #1056, #383
+  static market1 + #1057, #383
+  static market1 + #1058, #383
+  static market1 + #1059, #383
+  static market1 + #1060, #383
+  static market1 + #1061, #383
+  static market1 + #1062, #383
+  static market1 + #1063, #383
+  static market1 + #1064, #383
+  static market1 + #1065, #383
+  static market1 + #1066, #383
+  static market1 + #1067, #383
+  static market1 + #1068, #383
+  static market1 + #1069, #383
+  static market1 + #1070, #383
+  static market1 + #1071, #383
+  static market1 + #1072, #383
+  static market1 + #1073, #383
+  static market1 + #1074, #383
+  static market1 + #1075, #383
+  static market1 + #1076, #0
+  static market1 + #1077, #0
+  static market1 + #1078, #0
+  static market1 + #1079, #0
+
+  ;Linha 27
+  static market1 + #1080, #2352
+  static market1 + #1081, #0
+  static market1 + #1082, #0
+  static market1 + #1083, #0
+  static market1 + #1084, #0
+  static market1 + #1085, #383
+  static market1 + #1086, #383
+  static market1 + #1087, #383
+  static market1 + #1088, #383
+  static market1 + #1089, #383
+  static market1 + #1090, #383
+  static market1 + #1091, #383
+  static market1 + #1092, #383
+  static market1 + #1093, #383
+  static market1 + #1094, #383
+  static market1 + #1095, #383
+  static market1 + #1096, #383
+  static market1 + #1097, #383
+  static market1 + #1098, #383
+  static market1 + #1099, #383
+  static market1 + #1100, #383
+  static market1 + #1101, #383
+  static market1 + #1102, #383
+  static market1 + #1103, #383
+  static market1 + #1104, #383
+  static market1 + #1105, #383
+  static market1 + #1106, #383
+  static market1 + #1107, #383
+  static market1 + #1108, #383
+  static market1 + #1109, #383
+  static market1 + #1110, #383
+  static market1 + #1111, #383
+  static market1 + #1112, #383
+  static market1 + #1113, #383
+  static market1 + #1114, #383
+  static market1 + #1115, #383
+  static market1 + #1116, #0
+  static market1 + #1117, #0
+  static market1 + #1118, #0
+  static market1 + #1119, #0
+
+  ;Linha 28
+  static market1 + #1120, #116
+  static market1 + #1121, #111
+  static market1 + #1122, #0
+  static market1 + #1123, #0
+  static market1 + #1124, #0
+  static market1 + #1125, #383
+  static market1 + #1126, #383
+  static market1 + #1127, #383
+  static market1 + #1128, #383
+  static market1 + #1129, #383
+  static market1 + #1130, #383
+  static market1 + #1131, #383
+  static market1 + #1132, #383
+  static market1 + #1133, #383
+  static market1 + #1134, #383
+  static market1 + #1135, #383
+  static market1 + #1136, #383
+  static market1 + #1137, #383
+  static market1 + #1138, #383
+  static market1 + #1139, #383
+  static market1 + #1140, #383
+  static market1 + #1141, #383
+  static market1 + #1142, #383
+  static market1 + #1143, #383
+  static market1 + #1144, #383
+  static market1 + #1145, #383
+  static market1 + #1146, #383
+  static market1 + #1147, #383
+  static market1 + #1148, #383
+  static market1 + #1149, #383
+  static market1 + #1150, #383
+  static market1 + #1151, #383
+  static market1 + #1152, #383
+  static market1 + #1153, #383
+  static market1 + #1154, #383
+  static market1 + #1155, #383
+  static market1 + #1156, #0
+  static market1 + #1157, #0
+  static market1 + #1158, #0
+  static market1 + #1159, #0
+
+  ;Linha 29
+  static market1 + #1160, #101
+  static market1 + #1161, #120
+  static market1 + #1162, #105
+  static market1 + #1163, #116
+  static market1 + #1164, #0
+  static market1 + #1165, #383
+  static market1 + #1166, #383
+  static market1 + #1167, #383
+  static market1 + #1168, #383
+  static market1 + #1169, #383
+  static market1 + #1170, #383
+  static market1 + #1171, #383
+  static market1 + #1172, #383
+  static market1 + #1173, #383
+  static market1 + #1174, #383
+  static market1 + #1175, #383
+  static market1 + #1176, #383
+  static market1 + #1177, #383
+  static market1 + #1178, #383
+  static market1 + #1179, #383
+  static market1 + #1180, #383
+  static market1 + #1181, #383
+  static market1 + #1182, #383
+  static market1 + #1183, #383
+  static market1 + #1184, #383
+  static market1 + #1185, #383
+  static market1 + #1186, #383
+  static market1 + #1187, #383
+  static market1 + #1188, #383
+  static market1 + #1189, #383
+  static market1 + #1190, #383
+  static market1 + #1191, #383
+  static market1 + #1192, #383
+  static market1 + #1193, #383
+  static market1 + #1194, #383
+  static market1 + #1195, #383
+  static market1 + #1196, #0
+  static market1 + #1197, #0
+  static market1 + #1198, #0
+  static market1 + #1199, #0
+
+
 ;
 ; Start and Ending screens
 ;
@@ -10139,6 +11403,24 @@ mapList : var #5
     static mapList + #3, #lab3
     static mapList + #4, #lab4
 
+; stores each market
+marketList : var #2
+    static marketList + #0, #market1
+    static marketList + #1, #0
+
+; store state for market items (whether player bought it or not)
+marketItems : var #4
+    static marketItems + #0, #0 ; counter   -> lowers score decrease
+    static marketItems + #1, #0 ; gold      -> more money 
+    static marketItems + #2, #0 ; dynamite  -> ?
+    static marketItems + #3, #0 ; boots     -> more max steps
+
+; price for each item in marketItems
+marketItemsPrice : var #4
+  static marketItemsPrice + #0, #15 ; counter
+  static marketItemsPrice + #1, #20  ; gold
+  static marketItemsPrice + #2, #80  ; dynamite
+  static marketItemsPrice + #3, #40 ; boots
 
 mapListIndex: var #1
 	static mapListIndex, #1
@@ -10149,13 +11431,11 @@ levelIndexPos: var #1
 winScorePos: var #1
     static winScorePos, #73
 
-;
-; Strings
-;
+market1Pos: var #1
+    static market1Pos, #486
 
-winStr: string "You win!"
-winPos: var #1
-	static winPos, #576
+market2Pos: var #1
+    static market2Pos, #0
 
 ;
 ; Flags
@@ -10173,6 +11453,9 @@ leverPulled: var #1
 stairClimbed: var #1
     static stairClimbed, #0
     
+marketEntered: var #1
+    static marketEntered, #0
+
 ;
 ; Others
 ;
@@ -10275,7 +11558,87 @@ main:
             cmp r1, r2
             jeq main_setMap
 
+            load r1, marketEntered
+            loadn r2, #1
+            cmp r1, r2
+            jeg main_inMarket
+
             rts
+
+    main_inMarket:
+        ; gets the current market
+        loadn r1, #marketList
+        load r2, marketEntered
+        dec r2
+        add r1, r1, r2
+        loadi r1, r1
+
+        call printScreen
+
+        main_inMarket_await_command:
+            inchar r1
+            loadn r2, #255
+            cmp r1, r2
+            jeq main_inMarket_await_command
+
+            loadn r2, #'0'
+            cmp r1, r2
+            jeq main_inMarket_Leave
+
+            loadn r2, #'4'
+            cmp r1, r2
+            jgr main_inMarket_await_command
+
+            call activate_item
+            jmp main_inMarket_await_command
+            
+        main_inMarket_Leave:
+            jmp main_reset_flags
+        
+        activate_item:
+            ; transforms into a index
+            loadn r2, #'0'
+            sub r1, r1, r2
+            dec r1
+            
+            jmp activate_item_check_price
+
+            activate_item_index:
+                ; subtracts the player's balance
+                sub r3, r3, r2
+                store money, r3
+                
+                ; activates the specified item
+                loadn r2, #marketItems
+                add r2, r2, r1
+                loadn r1, #1
+                storei r2, r1
+
+                rts
+
+            activate_item_check_price:
+                ; checks if the item's already sold out
+                loadn r2, #marketItems
+                add r2, r2, r1
+                loadi r2, r2
+                loadn r3, #1
+                cmp r2, r3
+                jeq activate_item_check_price_leave
+                
+                ; gets the item's price
+                loadn r2, #marketItemsPrice
+                add r2, r2, r1
+                loadi r2, r2
+
+                ; gets the player's balance
+                load r3, money
+
+                ; checks if their balance is greater than or equal to the item's price
+                cmp r3, r2
+                jeg activate_item_index
+                
+                activate_item_check_price_leave:
+                    rts
 
     main_restart:
         loadn r1, #end1
@@ -10331,6 +11694,7 @@ main:
         loadn r1, #0
         store leverPulled, r1
         store stairClimbed, r1
+        store marketEntered, r1
         jmp main
 
     main_reset:
@@ -10546,12 +11910,24 @@ move:
             cmp r1, r2
             jeq move_checkCollision_Ladder
 
-            ; checking if it's 15, which is the value for the eye
-            loadn r2, #15
+            ; checking if it's 20-22 and 124, which are the values for characters the market uses
+            loadn r2, #20
             cmp r1, r2
-            jeq move_checkCollision_Eye
+            jle move_checkCollision_Not_Market
+            loadn r2, #22
+            cmp r1, r2
+            jel move_checkCollision_Market
+            loadn r2, #124
+            cmp r1, r2
+            jeq move_checkCollision_Market
 
-            rts
+            move_checkCollision_Not_Market:
+                ; checking if it's 15, which is the value for the eye
+                loadn r2, #15
+                cmp r1, r2
+                jeq move_checkCollision_Eye
+
+                rts
     
         move_checkCollision_Wall:
             ; moves the player position back
@@ -10585,6 +11961,31 @@ move:
             move_checkCollision_Ladder_Exit:
                 rts
 
+        move_checkCollision_Market:
+            load r2, mapListIndex
+            loadn r3, #1
+            cmp r2, r3
+            ceq set_market_1
+
+            load r2, mapListIndex
+            loadn r3, #3
+            cmp r2, r3
+            ceq set_market_2
+            
+            load r0, tempPlayerPos
+            
+            rts
+
+            set_market_1:
+                loadn r2, #1
+                store marketEntered, r2
+                rts
+
+            set_market_2:
+                loadn r2, #2
+                store marketEntered, r2
+                rts
+
         move_checkCollision_Eye:
             loadn r2, #1
             store gameRestart, r2
@@ -10592,7 +11993,8 @@ move:
 
         move_checkCollision_Money:
             load r2, money
-            inc r2
+            loadn r3, #3
+            add r2, r2, r3
             store money, r2
 
             loadn r3, #map
@@ -10907,13 +12309,30 @@ printScore:
 
     call printNumber
 
-    loadn r2, #25
+    loadn r4, #marketItems
+    loadi r4, r4
+
+    loadn r3, #1
+    cmp r4, r3
+    ceq set_lower_penalty
+    loadn r3, #0
+    cmp r4, r3
+    ceq set_higher_penalty
+    
     sub r1, r1, r2
     store score, r1
 
     pop r1
     pop r0
     rts
+    
+    set_higher_penalty:
+        loadn r2, #25
+        rts
+
+    set_lower_penalty:
+        loadn r2, #10
+        rts
 
 printMoney:
     push r0
