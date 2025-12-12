@@ -10140,14 +10140,14 @@ currentSteps: var #1
 map: var #1200
 
 mapSpawn: var #5
-    static mapSpawn + #0, #0
+    static mapSpawn + #0, #0 ; not utilizing
     static mapSpawn + #1, #82
     static mapSpawn + #2, #997
     static mapSpawn + #3, #562
     static mapSpawn + #4, #517
 
 mapList : var #5
-    static mapList + #0, #deathScreen
+    static mapList + #0, #deathScreen ; not utilizing
     static mapList + #1, #lab1
     static mapList + #2, #lab2
     static mapList + #3, #lab3
@@ -10351,7 +10351,8 @@ main:
         loadn r2, #0
         store mapListIndex, r2
         
-        call printCurrentScreen
+        loadn r1, #deathScreen
+        call printScreen
 
         main_reset_loop:
             ; wait for '0' input
@@ -10603,8 +10604,12 @@ move:
             inc r2
             store money, r2
 
-            load r2, mapListIndex
-            loadn r3, #mapList
+            loadn r3, #map
+            add r4, r3, r0
+
+            loadn r3, #0
+
+            storei r4, r3
             rts
 
         ; r0 = lever/player position, r1 = lever char value, r3 = lever color
@@ -10662,8 +10667,6 @@ move:
                 loadn r1, #0
                 storei r6, r1
                 rts
-                
-
                 
 
 checkSteps:
