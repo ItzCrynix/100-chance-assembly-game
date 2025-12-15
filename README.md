@@ -88,8 +88,9 @@ Caso você queira criar uma tela customizada para o nosso jogo, utilize esta apl
     </ul>
 </div>
 
-## Link para o Youtube:
+## Link para o vídeo no Youtube:
 <div style="display:inline-block; padding:1rem;">
-    <p>https://youtu.be/QwbRO11aPC0</p>
+    <h3>Explicação completa do código no vídeo abaixo:</h3>
+    <p>https://youtu.be/7zAztq7IJTw</p>
     </ul>
 </div>
